@@ -6,6 +6,7 @@ Description
 The Open Ephys acquisition board provides a convenient USB interface between up to four headstages and a computer. It features 8 channels of digital input, to sync acquisition with external devices, and 8 channels of digital output, to trigger optogenetic stimulation or behavioral feedback. 
 
 Cost of raw materials: $883.39
+
 Time to build: 3 hours
 
 View on [Open Ephys](http://open-ephys.com/acquisition-board/).
@@ -42,17 +43,16 @@ Known issues
 
 File types
 ------------
-File types:
-.ai = Adobe Illustrator files; contain images of hardware
-.brd = EAGLE board files; describe the physical layout of the printed circuit board
-.sch = EAGLE schematic files; describe the electrical connections of the printed circuit board
-.cam = EAGLE export files; contain instructions for translating between the .brd file and Gerber files
-BOM.txt = Bill of Materials; contains part numbers for all components (from DigiKey unless otherwise specified)
-.md = Markdown files; most likely a README file; can be viewed with any text edtior
-"gerber" files (.top, .bsk, .oln, etc.) = contain machine-readable instructions for creating the printed circuit board; these are sent to a fab house (such as Sunstone Circuits) for PCB production
-.SLDPRT files = SolidWorks part files; contain CAD models of 3D components
-.STL files = stereolithography files; can be sent to a rapid prototyping service (such as Shapeways) to create 3D objects
-.eps file = encapsulated postscript files; describe the shape of laser-cut parts (Ponoko only). Can be edited in Adobe Illustrator.
+- .ai = Adobe Illustrator files; contain images of hardware
+- .brd = EAGLE board files; describe the physical layout of the printed circuit board
+- .sch = EAGLE schematic files; describe the electrical connections of the printed circuit board
+- .cam = EAGLE export files; contain instructions for translating between the .brd file and Gerber files
+- BOM.txt = Bill of Materials; contains part numbers for all components (from DigiKey unless otherwise specified)
+- .md = Markdown files; most likely a README file; can be viewed with any text edtior
+- "gerber" files (.top, .bsk, .oln, etc.) = contain machine-readable instructions for creating the printed circuit board; these are sent to a fab house (such as Sunstone Circuits) for PCB production
+- .SLDPRT files = SolidWorks part files; contain CAD models of 3D components
+- .STL files = stereolithography files; can be sent to a rapid prototyping service (such as Shapeways) to create 3D objects
+- .eps file = encapsulated postscript files; describe the shape of laser-cut parts (Ponoko only). Can be edited in Adobe Illustrator.
 
 DISCLAIMER: We don't recommend using any of the tools from Open Ephys for actual experiments until they've been tested more thoroughly. If you'd like to know which tests we've run or plan to run, please get in touch with us via the Open Ephys [contact](http://open-ephys.com/contact/) page.
 
