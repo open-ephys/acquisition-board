@@ -3757,6 +3757,41 @@ LETTER landscape</description>
 <wire x1="0.508" y1="-0.762" x2="0.508" y2="0.762" width="0.127" layer="25"/>
 <wire x1="-0.508" y1="0.762" x2="-0.508" y2="-0.762" width="0.127" layer="25"/>
 </package>
+<package name="BNC_RIGHT_ANGLE">
+<wire x1="-2.54" y1="-6.35" x2="12.7" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-6.35" x2="12.7" y2="5.08" width="0.127" layer="21"/>
+<wire x1="12.7" y1="5.08" x2="10.16" y2="5.08" width="0.127" layer="21"/>
+<wire x1="10.16" y1="5.08" x2="0" y2="5.08" width="0.127" layer="21"/>
+<wire x1="0" y1="5.08" x2="-2.54" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="0" y1="5.08" x2="0" y2="11.43" width="0.127" layer="21"/>
+<wire x1="0" y1="11.43" x2="1.27" y2="11.43" width="0.127" layer="21"/>
+<wire x1="1.27" y1="11.43" x2="8.89" y2="11.43" width="0.127" layer="21"/>
+<wire x1="8.89" y1="11.43" x2="10.16" y2="11.43" width="0.127" layer="21"/>
+<wire x1="10.16" y1="11.43" x2="10.16" y2="5.08" width="0.127" layer="21"/>
+<wire x1="1.27" y1="11.43" x2="1.27" y2="19.812" width="0.127" layer="21"/>
+<wire x1="1.27" y1="19.812" x2="1.27" y2="20.828" width="0.127" layer="21"/>
+<wire x1="1.27" y1="20.828" x2="1.27" y2="21.59" width="0.127" layer="21"/>
+<wire x1="1.27" y1="21.59" x2="8.89" y2="21.59" width="0.127" layer="21"/>
+<wire x1="8.89" y1="21.59" x2="8.89" y2="20.828" width="0.127" layer="21"/>
+<wire x1="8.89" y1="20.828" x2="8.89" y2="19.812" width="0.127" layer="21"/>
+<wire x1="8.89" y1="19.812" x2="8.89" y2="11.43" width="0.127" layer="21"/>
+<wire x1="8.89" y1="20.828" x2="9.398" y2="20.828" width="0.254" layer="21"/>
+<wire x1="9.398" y1="20.828" x2="9.398" y2="19.812" width="0.254" layer="21"/>
+<wire x1="9.398" y1="19.812" x2="8.89" y2="19.812" width="0.254" layer="21"/>
+<wire x1="1.27" y1="20.828" x2="0.762" y2="20.828" width="0.254" layer="21"/>
+<wire x1="0.762" y1="20.828" x2="0.762" y2="19.812" width="0.254" layer="21"/>
+<wire x1="0.762" y1="19.812" x2="1.27" y2="19.812" width="0.254" layer="21"/>
+<pad name="P$1" x="0" y="0" drill="2.2"/>
+<pad name="P$2" x="10.16" y="0" drill="2.2"/>
+<pad name="P$SIG" x="5.08" y="-5.08" drill="1"/>
+<pad name="P$GND" x="2.54" y="-5.08" drill="1"/>
+<text x="5.08" y="-8.89" size="2.54" layer="25" font="vector" align="center">&gt;NAME</text>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-6.35" width="0.127" layer="25"/>
+<wire x1="-2.54" y1="-6.35" x2="12.7" y2="-6.35" width="0.127" layer="25"/>
+<wire x1="12.7" y1="-6.35" x2="12.7" y2="5.08" width="0.127" layer="25"/>
+<wire x1="12.7" y1="5.08" x2="-2.54" y2="5.08" width="0.127" layer="25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="HDMI">
@@ -3907,6 +3942,43 @@ LETTER landscape</description>
 <pin name="+5V_T" x="0" y="0" length="middle" direction="sup"/>
 <wire x1="2.54" y1="1.27" x2="5.08" y2="0" width="0.254" layer="94"/>
 <wire x1="5.08" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+</symbol>
+<symbol name="BNC_RIGHT_ANGLE">
+<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="2.54" x2="-16.51" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-16.51" y1="2.54" x2="-17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="2.54" x2="-17.78" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-2.54" x2="-16.51" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-16.51" y1="-2.54" x2="-15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-16.51" y1="-2.54" x2="-16.51" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-16.51" y1="-3.302" x2="-15.24" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-3.302" x2="-15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="2.54" x2="-15.24" y2="3.302" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="3.302" x2="-16.51" y2="3.302" width="0.254" layer="94"/>
+<wire x1="-16.51" y1="3.302" x2="-16.51" y2="2.54" width="0.254" layer="94"/>
+<pin name="GND" x="5.08" y="-2.54" length="middle" rot="R180"/>
+<pin name="SIG" x="5.08" y="0" length="middle" rot="R180"/>
+</symbol>
+<symbol name="SN74LVC1T45">
+<pin name="VCCA" x="-10.16" y="2.54" length="middle"/>
+<pin name="GND" x="-10.16" y="0" length="middle"/>
+<pin name="A" x="-10.16" y="-2.54" length="middle"/>
+<pin name="VCCB" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="DIR" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="B" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<text x="-5.08" y="-10.16" size="2.54" layer="94">&gt;NAME</text>
+<text x="-5.08" y="-15.24" size="2.54" layer="94">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4138,6 +4210,42 @@ LETTER landscape</description>
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BNC_RIGHT_ANGLE">
+<gates>
+<gate name="G$1" symbol="BNC_RIGHT_ANGLE" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="BNC_RIGHT_ANGLE">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$GND"/>
+<connect gate="G$1" pin="SIG" pad="P$SIG"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SINGLE-BIT_BUS_TRANSCEIVER">
+<gates>
+<gate name="G$1" symbol="SN74LVC1T45" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-6">
+<connects>
+<connect gate="G$1" pin="A" pad="3"/>
+<connect gate="G$1" pin="B" pad="4"/>
+<connect gate="G$1" pin="DIR" pad="5"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VCCA" pad="1"/>
+<connect gate="G$1" pin="VCCB" pad="6"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4617,6 +4725,11 @@ LETTER landscape</description>
 <part name="U$69" library="open-ephys" deviceset="+5VDAC" device=""/>
 <part name="U$70" library="open-ephys" deviceset="+5VDAC" device=""/>
 <part name="U$71" library="open-ephys" deviceset="+5VDAC" device=""/>
+<part name="U$72" library="open-ephys" deviceset="BNC_RIGHT_ANGLE" device=""/>
+<part name="U$73" library="open-ephys" deviceset="SINGLE-BIT_BUS_TRANSCEIVER" device=""/>
+<part name="GND110" library="supply1" deviceset="GND" device=""/>
+<part name="GND111" library="supply1" deviceset="GND" device=""/>
+<part name="U$74" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7751,6 +7864,11 @@ LETTER landscape</description>
 <instance part="GND109" gate="1" x="231.14" y="139.7"/>
 <instance part="U$32" gate="G$1" x="236.22" y="162.56"/>
 <instance part="U$33" gate="G$1" x="152.4" y="165.1"/>
+<instance part="U$72" gate="G$1" x="35.56" y="109.22" rot="R270"/>
+<instance part="U$73" gate="G$1" x="60.96" y="101.6"/>
+<instance part="GND110" gate="1" x="33.02" y="91.44"/>
+<instance part="GND111" gate="1" x="45.72" y="101.6" rot="R270"/>
+<instance part="U$74" gate="G$1" x="48.26" y="111.76"/>
 </instances>
 <busses>
 </busses>
@@ -7909,6 +8027,16 @@ LETTER landscape</description>
 <wire x1="231.14" y1="152.4" x2="231.14" y2="144.78" width="0.1524" layer="91"/>
 <junction x="231.14" y="144.78"/>
 <pinref part="GND109" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$72" gate="G$1" pin="GND"/>
+<wire x1="33.02" y1="104.14" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="GND110" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$73" gate="G$1" pin="GND"/>
+<wire x1="50.8" y1="101.6" x2="48.26" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="GND111" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="DAC1_OUT" class="0">
@@ -8344,6 +8472,34 @@ LETTER landscape</description>
 <junction x="152.4" y="162.56"/>
 <pinref part="R86" gate="R" pin="2"/>
 <pinref part="U$33" gate="G$1" pin="+5V_T"/>
+</segment>
+<segment>
+<pinref part="U$73" gate="G$1" pin="VCCA"/>
+<wire x1="50.8" y1="104.14" x2="48.26" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="104.14" x2="48.26" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="U$74" gate="G$1" pin="+5V_T"/>
+</segment>
+</net>
+<net name="N$95" class="0">
+<segment>
+<pinref part="U$73" gate="G$1" pin="B"/>
+<wire x1="76.2" y1="99.06" x2="83.82" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="99.06" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="93.98" x2="88.9" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$96" class="0">
+<segment>
+<pinref part="U$73" gate="G$1" pin="VCCB"/>
+<wire x1="76.2" y1="106.68" x2="86.36" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$99" class="0">
+<segment>
+<pinref part="U$72" gate="G$1" pin="SIG"/>
+<wire x1="35.56" y1="104.14" x2="35.56" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="U$73" gate="G$1" pin="A"/>
+<wire x1="35.56" y1="99.06" x2="50.8" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
