@@ -1,0 +1,21 @@
+Case (3D printing):
+
+Shapeways (www.shapeways.com)
+Material: Strong, black, and flexible
+Price:
+Advantages: Cheaper, matte finish
+Disadvantages: Very difficult to clean, scratches easily
+
+Case (CNC machining):
+
+FirstCut (www.firstcut.com)
+Material: Black ABS
+Price:
+Advantages: More professional look
+Disadvantages: Linear streaks from cutting path 
+
+Cover (Laser cutting):
+
+Ponoko (www.ponoko.com)
+Material: Acrylic, Opal, 3 mm
+Price: 
