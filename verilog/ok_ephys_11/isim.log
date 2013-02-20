@@ -1,0 +1,35 @@
+ISim log file
+Running: C:\Users\jvoigts\ok_ephys_09\status_led_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/jvoigts/ok_ephys_09/status_led_tb_isim_beh.wdb 
+ISim O.40d (signature 0x79f3f3a8)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 4000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+Stopped at time : 67937762500 ps : File "C:/Users/jvoigts/ok_ephys_09/led_status01.v" Line 29
+ISim O.40d (signature 0x79f3f3a8)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+Stopped at time : 64944950 ns : File "C:/Users/jvoigts/ok_ephys_09/status_led_tb.v" Line 54
+ISim O.40d (signature 0x79f3f3a8)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+Stopped at time : 370865812500 ps : File "C:/Users/jvoigts/ok_ephys_09/status_led_tb.v" Line 54

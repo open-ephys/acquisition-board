@@ -1,0 +1,6 @@
+verilog work "ipcore_dir/big_fifo.v"
+verilog work "okLibrary.v"
+verilog work "AD7980_controller.v"
+verilog work "PipeTest.v"
+verilog work "PipeTest_tb.v"
+verilog work "C:/Xilinx/13.1/ISE_DS/ISE//verilog/src/glbl.v"
