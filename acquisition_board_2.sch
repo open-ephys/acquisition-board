@@ -3818,8 +3818,8 @@ LETTER landscape</description>
 <wire x1="0" y1="-27.94" x2="-17.78" y2="-27.94" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="-27.94" x2="-17.78" y2="22.86" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="22.86" x2="0" y2="22.86" width="0.254" layer="94"/>
-<text x="-10.16" y="-33.02" size="2.54" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-38.1" size="2.54" layer="95">&gt;VALUE</text>
+<text x="-17.78" y="25.4" size="2.54" layer="95">&gt;NAME</text>
+<text x="-17.78" y="-33.02" size="2.54" layer="95">&gt;VALUE</text>
 </symbol>
 <symbol name="SN74LVC4245A">
 <pin name="A1" x="-15.24" y="15.24" length="middle"/>
@@ -3850,8 +3850,8 @@ LETTER landscape</description>
 <wire x1="-10.16" y1="-25.4" x2="5.08" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-25.4" x2="5.08" y2="17.78" width="0.254" layer="94"/>
 <wire x1="5.08" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
-<text x="-10.16" y="-30.48" size="2.54" layer="94">&gt;NAME</text>
-<text x="-10.16" y="-35.56" size="2.54" layer="94">&gt;VALUE</text>
+<text x="-10.16" y="20.32" size="2.54" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-30.48" size="2.54" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="OPEN_EPHYS_LOGO">
 <text x="0" y="0" size="2.54" layer="95" font="vector">open ephys</text>
@@ -3890,8 +3890,8 @@ LETTER landscape</description>
 <wire x1="-7.62" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-5.08" x2="10.16" y2="22.86" width="0.254" layer="94"/>
 <wire x1="10.16" y1="22.86" x2="-7.62" y2="22.86" width="0.254" layer="94"/>
-<text x="-7.62" y="-10.16" size="2.54" layer="94">&gt;NAME</text>
-<text x="-7.62" y="-15.24" size="2.54" layer="94">&gt;VALUE</text>
+<text x="-7.62" y="25.4" size="2.54" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="2.54" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="LTC3426">
 <pin name="SW" x="7.62" y="12.7" length="middle" rot="R270"/>
@@ -3904,8 +3904,8 @@ LETTER landscape</description>
 <wire x1="-2.54" y1="-7.62" x2="17.78" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-7.62" x2="17.78" y2="7.62" width="0.254" layer="94"/>
 <wire x1="17.78" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
-<text x="-2.54" y="10.16" size="1.27" layer="94">&gt;NAME</text>
-<text x="-2.54" y="-10.16" size="1.27" layer="94">&gt;VALUE</text>
+<text x="-2.54" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-10.16" size="1.27" layer="95">&gt;VALUE</text>
 </symbol>
 <symbol name="MBRA210LT3-D">
 <pin name="POS" x="-2.54" y="0" visible="off" length="short"/>
@@ -3915,6 +3915,7 @@ LETTER landscape</description>
 <wire x1="0.762" y1="0" x2="-1.016" y2="1.27" width="0.254" layer="94"/>
 <wire x1="2.54" y1="0" x2="0.762" y2="0" width="0.1778" layer="94"/>
 <wire x1="0.762" y1="1.27" x2="0.762" y2="-1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.016" layer="95">Schottky</text>
 </symbol>
 <symbol name="+5V5">
 <pin name="+5V5" x="-5.08" y="0" length="middle" direction="sup"/>
@@ -3976,13 +3977,14 @@ LETTER landscape</description>
 <wire x1="-5.08" y1="7.62" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-5.08" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<text x="-5.08" y="-10.16" size="2.54" layer="94">&gt;NAME</text>
-<text x="-5.08" y="-15.24" size="2.54" layer="94">&gt;VALUE</text>
+<wire x1="10.16" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="95"/>
+<text x="-5.08" y="10.16" size="2.54" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-10.16" size="2.54" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="HDMI">
+<description>Horizonal HDMI type "A" jack</description>
 <gates>
 <gate name="G$1" symbol="HDMI" x="7.62" y="5.08"/>
 </gates>
@@ -4016,6 +4018,7 @@ LETTER landscape</description>
 </devices>
 </deviceset>
 <deviceset name="OCTAL_BUS_TRANSCEIVER">
+<description>Texas Instruments 8-bit, dual-supply bus transceiver</description>
 <gates>
 <gate name="G$1" symbol="SN74LVC4245A" x="2.54" y="2.54"/>
 </gates>
@@ -4054,6 +4057,7 @@ LETTER landscape</description>
 </devices>
 </deviceset>
 <deviceset name="OPEN_EPHYS_LOGO">
+<description>Open Ephys logo</description>
 <gates>
 <gate name="G$1" symbol="OPEN_EPHYS_LOGO" x="-10.16" y="0"/>
 </gates>
@@ -4066,6 +4070,7 @@ LETTER landscape</description>
 </devices>
 </deviceset>
 <deviceset name="RGB_LED_SMD">
+<description>RGB LED (surface-mount)</description>
 <gates>
 <gate name="G$1" symbol="RGB_LED_SMD" x="-5.08" y="0"/>
 </gates>
@@ -4086,6 +4091,7 @@ LETTER landscape</description>
 </devices>
 </deviceset>
 <deviceset name="SHIFT_REG">
+<description>Texas instruments serial-in, parallel-out shift register</description>
 <gates>
 <gate name="G$1" symbol="SN54HC595" x="-2.54" y="-10.16"/>
 </gates>
@@ -4116,6 +4122,7 @@ LETTER landscape</description>
 </devices>
 </deviceset>
 <deviceset name="LTC3426">
+<description>Boost converter</description>
 <gates>
 <gate name="G$1" symbol="LTC3426" x="-7.62" y="-2.54"/>
 </gates>
@@ -4136,6 +4143,7 @@ LETTER landscape</description>
 </devices>
 </deviceset>
 <deviceset name="MBRA210LT3-D">
+<description>Schottky diode</description>
 <gates>
 <gate name="G$1" symbol="MBRA210LT3-D" x="0" y="0"/>
 </gates>
@@ -4217,6 +4225,7 @@ LETTER landscape</description>
 </devices>
 </deviceset>
 <deviceset name="BNC_RIGHT_ANGLE">
+<description>BNC plug, through-hole, right-angle</description>
 <gates>
 <gate name="G$1" symbol="BNC_RIGHT_ANGLE" x="5.08" y="0"/>
 </gates>
@@ -4233,6 +4242,7 @@ LETTER landscape</description>
 </devices>
 </deviceset>
 <deviceset name="SINGLE-BIT_BUS_TRANSCEIVER">
+<description>Texas Instruments single-bit, dual supply bus transceiver</description>
 <gates>
 <gate name="G$1" symbol="SN74LVC1T45" x="-2.54" y="0"/>
 </gates>
@@ -5620,7 +5630,7 @@ LETTER landscape</description>
 <sheet>
 <plain>
 <text x="132.08" y="177.8" size="2.54" layer="91">+5V regulator for ADCs</text>
-<text x="43.18" y="177.8" size="2.54" layer="91">Eval board ADCs</text>
+<text x="55.88" y="177.8" size="2.54" layer="91">ADCs</text>
 <text x="195.58" y="68.58" size="2.54" layer="91">Digital input bus</text>
 <text x="157.48" y="142.24" size="2.54" layer="91">future expansion FPGA I/O</text>
 <text x="27.94" y="5.08" size="2.54" layer="91">bypass caps for ADCs</text>
