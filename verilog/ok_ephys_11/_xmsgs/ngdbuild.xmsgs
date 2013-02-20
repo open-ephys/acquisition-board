@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">okHostClk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_okHostClk</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM_SP</arg> instance <arg fmt="%s" index="5">okHI/hi_dcm</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM_SP</arg> output(s): 
+<arg fmt="%s" index="7">CLK0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_okHI_dcm_clk0 = PERIOD &quot;okHI_dcm_clk0&quot; TS_okHostClk HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="NgdBuild" num="1222" delta="old" >Setting <arg fmt="%s" index="1">CLKIN_PERIOD</arg> attribute associated with <arg fmt="%s" index="2">DCM</arg> instance <arg fmt="%s" index="3">okHI/hi_dcm</arg> to <arg fmt="%s" index="4">20.830000</arg> ns based on the period specification (<arg fmt="%s" index="5">&lt;TIMESPEC &quot;TS_okHostClk&quot; = PERIOD &quot;okHostClk&quot; 20.83 ns HIGH 50%;&gt; [xem6010.ucf(49)]</arg>).
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">okHI/core0/core0/a0/pc0/read_strobe_flop</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">okHI/core0/core0/a0/pc0/k_write_strobe_flop</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">okHI/core0/core0/a0/pc0/interrupt_ack_flop</arg>&apos; has unconnected output pin
+</msg>
+
+</messages>
+

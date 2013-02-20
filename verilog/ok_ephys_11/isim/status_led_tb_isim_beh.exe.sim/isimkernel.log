@@ -1,0 +1,10 @@
+Command line:
+   status_led_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49182
+
+Sat May 14 13:21:49 2011
+
+
+ Elaboration Time: 0.040057 sec

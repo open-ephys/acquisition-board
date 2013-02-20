@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\jvoigts\ok_ephys_11\PipeTest.ncd
+OUTFILE=C:\Users\jvoigts\ok_ephys_11\PipeTest.bit
+FAMILY=Spartan6
+PART=xc6slx45-2fgg484
+WORKINGDIR=C:\Users\jvoigts\ok_ephys_11
+LICENSE=WebPack
+USER_INFO=206146299_0_0_353

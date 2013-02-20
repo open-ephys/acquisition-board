@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">ok1&lt;29&gt;</arg> has no load.
+</msg>
+
+<msg type="info" file="LIT" num="395" delta="old" >The above <arg fmt="%s" index="1">info</arg> message is repeated <arg fmt="%d" index="2">39</arg> more times for the following (max. 5 shown):
+<arg fmt="%s" index="3">led_status&lt;3&gt;,
+led_A&lt;3&gt;,
+led_B&lt;3&gt;,
+led_C&lt;3&gt;,
+led_D&lt;3&gt;</arg>
+To see the details of these <arg fmt="%s" index="4">info</arg> messages, please use the -detail switch.
+</msg>
+
+<msg type="info" file="MapLib" num="562" delta="old" >No environment variables are currently set.
+</msg>
+
+<msg type="info" file="Pack" num="1716" delta="old" >Initializing temperature to <arg fmt="%0.3f" index="1">85.000</arg> Celsius. (default - Range: <arg fmt="%0.3f" index="2">0.000</arg> to <arg fmt="%0.3f" index="3">85.000</arg> Celsius)
+</msg>
+
+<msg type="info" file="Pack" num="1720" delta="old" >Initializing voltage to <arg fmt="%0.3f" index="1">1.140</arg> Volts. (default - Range: <arg fmt="%0.3f" index="2">1.140</arg> to <arg fmt="%0.3f" index="3">1.260</arg> Volts)
+</msg>
+
+<msg type="warning" file="Timing" num="3175" delta="old" ><arg fmt="%s" index="1">hi_in&lt;0&gt;</arg> does not clock data <arg fmt="%s" index="2">to</arg> <arg fmt="%s" index="3">hi_out&lt;1&gt;</arg></msg>
+
+<msg type="warning" file="Timing" num="3225" delta="old" >Timing constraint <arg fmt="%s" index="1">COMP &quot;hi_out&lt;1&gt;&quot; OFFSET = OUT 11.93 ns AFTER COMP &quot;hi_in&lt;0&gt;&quot; &quot;RISING&quot;</arg> ignored during timing analysis</msg>
+
+<msg type="info" file="Map" num="215" delta="old" >The Interim Design Summary has been generated in the MAP Report (.mrp).
+</msg>
+
+<msg type="info" file="Pack" num="1650" delta="old" >Map created a placed design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">sample_clk_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">okHI/core0/core0/a0/cb0/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM1_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">okHI/core0/core0/a0/cb0/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM2_RAMD_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+</messages>
+

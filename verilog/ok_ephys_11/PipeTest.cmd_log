@@ -1,0 +1,985 @@
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_01/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_01/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_01/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_01/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_01/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_01/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_01/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_01/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_03/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_03/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_04/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_04/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_04/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_04/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_04/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_04/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_04/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_04/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_04/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_04/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_05/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_05/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_05/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_05/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_06/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_06/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_07/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_07/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_09/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_09/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_10/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_10/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_11/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_11/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
+xst -intstyle ise -ifn "C:/Users/jvoigts/ok_ephys_11/PipeTest.xst" -ofn "C:/Users/jvoigts/ok_ephys_11/PipeTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc xem6010.ucf -p xc6slx45-fgg484-2 PipeTest.ngc PipeTest.ngd  
+map -intstyle ise -p xc6slx45-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PipeTest_map.ncd PipeTest.ngd PipeTest.pcf 
+par -w -intstyle ise -ol high -mt off PipeTest_map.ncd PipeTest.ncd PipeTest.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PipeTest.twx PipeTest.ncd -o PipeTest.twr PipeTest.pcf -ucf xem6010.ucf 
+bitgen -intstyle ise -f PipeTest.ut PipeTest.ncd 
