@@ -1157,8 +1157,7 @@ LETTER landscape</description>
 <symbol name="+3V3">
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+<pin name="+3V3" x="0" y="-2.54" length="short" direction="sup" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3644,6 +3643,23 @@ LETTER landscape</description>
 <wire x1="5.2" y1="-1.1" x2="5.2" y2="-0.5" width="0.127" layer="21"/>
 <circle x="1.8" y="3.9" radius="0.282840625" width="0.127" layer="21"/>
 </package>
+<package name="DCU">
+<smd name="P1" x="0" y="0" dx="0.25" dy="0.75" layer="1"/>
+<smd name="P2" x="0.5" y="0" dx="0.25" dy="0.75" layer="1"/>
+<smd name="P3" x="1" y="0" dx="0.25" dy="0.75" layer="1"/>
+<smd name="P4" x="1.5" y="0" dx="0.25" dy="0.75" layer="1"/>
+<smd name="P8" x="0" y="3.1" dx="0.25" dy="0.75" layer="1"/>
+<smd name="P7" x="0.5" y="3.1" dx="0.25" dy="0.75" layer="1"/>
+<smd name="P6" x="1" y="3.1" dx="0.25" dy="0.75" layer="1"/>
+<smd name="P5" x="1.5" y="3.1" dx="0.25" dy="0.75" layer="1"/>
+<wire x1="-0.5" y1="3" x2="-0.75" y2="3" width="0.127" layer="21"/>
+<wire x1="-0.75" y1="3" x2="-0.75" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.75" y1="0" x2="-0.5" y2="0" width="0.127" layer="21"/>
+<wire x1="2" y1="0" x2="2.25" y2="0" width="0.127" layer="21"/>
+<wire x1="2.25" y1="0" x2="2.25" y2="3" width="0.127" layer="21"/>
+<wire x1="2.25" y1="3" x2="2" y2="3" width="0.127" layer="21"/>
+<circle x="0" y="1" radius="0.25" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="HDMI">
@@ -3835,6 +3851,22 @@ LETTER landscape</description>
 <wire x1="7.62" y1="-5.08" x2="7.62" y2="12.7" width="0.254" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
 <text x="-5.08" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="TCA9406">
+<pin name="SDA_A" x="-12.7" y="0" length="middle"/>
+<pin name="VCCA" x="-12.7" y="2.54" length="middle"/>
+<pin name="GND" x="-12.7" y="5.08" length="middle"/>
+<pin name="SDA_B" x="-12.7" y="7.62" length="middle"/>
+<pin name="SCL_B" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="VCCB" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="OE" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="SCL_A" x="17.78" y="0" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-2.54" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<text x="-7.62" y="-5.08" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4121,6 +4153,28 @@ LETTER landscape</description>
 <connect gate="G$1" pin="TP1" pad="P1"/>
 <connect gate="G$1" pin="TP2" pad="P5"/>
 <connect gate="G$1" pin="VS" pad="P2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TCA9406">
+<gates>
+<gate name="G$1" symbol="TCA9406" x="-2.54" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="DCU">
+<connects>
+<connect gate="G$1" pin="GND" pad="P2"/>
+<connect gate="G$1" pin="OE" pad="P6"/>
+<connect gate="G$1" pin="SCL_A" pad="P5"/>
+<connect gate="G$1" pin="SCL_B" pad="P8"/>
+<connect gate="G$1" pin="SDA_A" pad="P4"/>
+<connect gate="G$1" pin="SDA_B" pad="P1"/>
+<connect gate="G$1" pin="VCCA" pad="P3"/>
+<connect gate="G$1" pin="VCCB" pad="P7"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4652,10 +4706,11 @@ LETTER landscape</description>
 <part name="C61" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
 <part name="C62" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
 <part name="GND125" library="supply1" deviceset="GND" device=""/>
-<part name="R49" library="RHD2000_eval_board" deviceset="R" device="_0603" value="4.7k"/>
-<part name="R50" library="RHD2000_eval_board" deviceset="R" device="_0603" value="4.7k"/>
-<part name="+3V28" library="RHD2000_eval_board" deviceset="+3V3" device=""/>
-<part name="+3V29" library="RHD2000_eval_board" deviceset="+3V3" device=""/>
+<part name="U$75" library="open-ephys" deviceset="TCA9406" device=""/>
+<part name="U$83" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
+<part name="+3V30" library="RHD2000_eval_board" deviceset="+3V3" device=""/>
+<part name="GND126" library="supply1" deviceset="GND" device=""/>
+<part name="+3V31" library="RHD2000_eval_board" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5669,10 +5724,6 @@ LETTER landscape</description>
 <instance part="C61" gate="C" x="91.44" y="53.34"/>
 <instance part="C62" gate="C" x="134.62" y="53.34"/>
 <instance part="GND125" gate="1" x="139.7" y="40.64"/>
-<instance part="R49" gate="R" x="193.04" y="180.34" rot="R180"/>
-<instance part="R50" gate="R" x="187.96" y="175.26" rot="R180"/>
-<instance part="+3V28" gate="G$1" x="180.34" y="180.34" rot="R90"/>
-<instance part="+3V29" gate="G$1" x="177.8" y="175.26" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -6277,34 +6328,12 @@ LETTER landscape</description>
 <wire x1="152.4" y1="88.9" x2="160.02" y2="88.9" width="0.1524" layer="91"/>
 <label x="154.94" y="88.9" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="BRD1" gate="JP2_ODD" pin="G16-L9P_1"/>
-<wire x1="195.58" y1="157.48" x2="198.12" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="I2C_DATA" gate="TP$1" pin="1"/>
-<wire x1="198.12" y1="157.48" x2="223.52" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="157.48" x2="198.12" y2="175.26" width="0.1524" layer="91"/>
-<junction x="198.12" y="157.48"/>
-<label x="195.58" y="172.72" size="1.778" layer="95"/>
-<pinref part="R50" gate="R" pin="1"/>
-<wire x1="193.04" y1="175.26" x2="198.12" y2="175.26" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="I2C_CLOCK" class="0">
 <segment>
 <pinref part="TTL_IN" gate="G$1" pin="SCL"/>
 <wire x1="152.4" y1="86.36" x2="160.02" y2="86.36" width="0.1524" layer="91"/>
 <label x="154.94" y="86.36" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="BRD1" gate="JP2_ODD" pin="G17-L9N_1"/>
-<pinref part="I2C_CLOCK" gate="TP$1" pin="1"/>
-<wire x1="198.12" y1="154.94" x2="200.66" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="154.94" x2="223.52" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="154.94" x2="200.66" y2="180.34" width="0.1524" layer="91"/>
-<junction x="200.66" y="154.94"/>
-<label x="198.12" y="177.8" size="1.778" layer="95"/>
-<pinref part="R49" gate="R" pin="1"/>
-<wire x1="200.66" y1="180.34" x2="198.12" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="1">
@@ -6327,16 +6356,6 @@ LETTER landscape</description>
 <pinref part="LS_IN1" gate="G$1" pin="3V3_B"/>
 <pinref part="+3V25" gate="G$1" pin="+3V3"/>
 <wire x1="119.38" y1="106.68" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R49" gate="R" pin="2"/>
-<wire x1="187.96" y1="180.34" x2="182.88" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="+3V28" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="R50" gate="R" pin="2"/>
-<wire x1="182.88" y1="175.26" x2="180.34" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="+3V29" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="+5V_T" class="0">
@@ -6588,6 +6607,28 @@ LETTER landscape</description>
 <wire x1="165.1" y1="167.64" x2="165.1" y2="170.18" width="0.1524" layer="91"/>
 <junction x="165.1" y="170.18"/>
 <label x="175.26" y="170.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I2C_DATA_FPGA" class="0">
+<segment>
+<pinref part="BRD1" gate="JP2_ODD" pin="G16-L9P_1"/>
+<wire x1="195.58" y1="157.48" x2="198.12" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="I2C_DATA" gate="TP$1" pin="1"/>
+<wire x1="198.12" y1="157.48" x2="223.52" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="157.48" x2="198.12" y2="175.26" width="0.1524" layer="91"/>
+<junction x="198.12" y="157.48"/>
+<label x="195.58" y="172.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I2C_CLOCK_FPGA" class="0">
+<segment>
+<pinref part="BRD1" gate="JP2_ODD" pin="G17-L9N_1"/>
+<pinref part="I2C_CLOCK" gate="TP$1" pin="1"/>
+<wire x1="198.12" y1="154.94" x2="200.66" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="154.94" x2="223.52" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="154.94" x2="200.66" y2="180.34" width="0.1524" layer="91"/>
+<junction x="200.66" y="154.94"/>
+<label x="198.12" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -8048,6 +8089,7 @@ LETTER landscape</description>
 <text x="99.06" y="170.18" size="2.54" layer="91">+5V regulator for level shifters</text>
 <text x="154.94" y="86.36" size="2.54" layer="91">boost raw power supply input to +5.5V</text>
 <text x="104.14" y="30.48" size="1.778" layer="91">DIR to GND for B &gt; A transmission</text>
+<text x="63.5" y="12.7" size="1.778" layer="91">LOGIC LEVEL SHIFTER (TTL OUT)</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -9427,6 +9469,9 @@ LETTER landscape</description>
 </sheet>
 <sheet>
 <plain>
+<text x="60.96" y="111.76" size="1.778" layer="91">LOGIC LEVEL SHIFTER (MISC)</text>
+<text x="149.86" y="129.54" size="1.778" layer="91">LOGIC LEVEL SHIFTER (I2C BUS)</text>
+<text x="144.78" y="124.46" size="1.778" layer="91">(includes internal pullup resistors on all lines)</text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0"/>
@@ -9439,6 +9484,11 @@ LETTER landscape</description>
 <instance part="+3V27" gate="G$1" x="101.6" y="137.16" rot="R270"/>
 <instance part="U$74" gate="G$1" x="99.06" y="142.24"/>
 <instance part="U$81" gate="G$1" x="73.66" y="58.42"/>
+<instance part="U$75" gate="G$1" x="165.1" y="144.78"/>
+<instance part="U$83" gate="G$1" x="190.5" y="149.86"/>
+<instance part="+3V30" gate="G$1" x="137.16" y="147.32" rot="R90"/>
+<instance part="GND126" gate="1" x="132.08" y="142.24"/>
+<instance part="+3V31" gate="G$1" x="208.28" y="147.32" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -9482,35 +9532,35 @@ LETTER landscape</description>
 <segment>
 <pinref part="U$73" gate="G$1" pin="A1"/>
 <wire x1="66.04" y1="165.1" x2="48.26" y2="165.1" width="0.1524" layer="91"/>
-<label x="48.26" y="165.1" size="1.778" layer="95"/>
+<label x="43.18" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADC_SCLK_5V" class="0">
 <segment>
 <pinref part="U$73" gate="G$1" pin="A2"/>
 <wire x1="66.04" y1="162.56" x2="48.26" y2="162.56" width="0.1524" layer="91"/>
-<label x="48.26" y="162.56" size="1.778" layer="95"/>
+<label x="43.18" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DAC_SCLK_5V" class="0">
 <segment>
 <pinref part="U$73" gate="G$1" pin="A3"/>
 <wire x1="66.04" y1="160.02" x2="48.26" y2="160.02" width="0.1524" layer="91"/>
-<label x="48.26" y="160.02" size="1.778" layer="95"/>
+<label x="43.18" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DAC_!SYNC!_5V" class="0">
 <segment>
 <pinref part="U$73" gate="G$1" pin="A4"/>
 <wire x1="66.04" y1="157.48" x2="48.26" y2="157.48" width="0.1524" layer="91"/>
-<label x="48.26" y="157.48" size="1.778" layer="95"/>
+<label x="43.18" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CLOCK_5V" class="0">
 <segment>
 <pinref part="U$73" gate="G$1" pin="A5"/>
 <wire x1="66.04" y1="154.94" x2="48.26" y2="154.94" width="0.1524" layer="91"/>
-<label x="48.26" y="154.94" size="1.778" layer="95"/>
+<label x="43.18" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2C_CLOCK" class="0">
@@ -9519,12 +9569,24 @@ LETTER landscape</description>
 <wire x1="60.96" y1="63.5" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
 <label x="66.04" y="63.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$75" gate="G$1" pin="SCL_B"/>
+<wire x1="182.88" y1="152.4" x2="187.96" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="152.4" x2="187.96" y2="157.48" width="0.1524" layer="91"/>
+<label x="180.34" y="157.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="I2C_DATA" class="0">
 <segment>
 <pinref part="ADC_IN" gate="G$1" pin="SDA"/>
 <wire x1="60.96" y1="66.04" x2="68.58" y2="66.04" width="0.1524" layer="91"/>
 <label x="66.04" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$75" gate="G$1" pin="SDA_B"/>
+<wire x1="152.4" y1="152.4" x2="147.32" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="152.4" x2="147.32" y2="157.48" width="0.1524" layer="91"/>
+<label x="142.24" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$162" class="0">
@@ -9622,12 +9684,23 @@ LETTER landscape</description>
 <junction x="68.58" y="53.34"/>
 <pinref part="GND123" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U$75" gate="G$1" pin="GND"/>
+<wire x1="152.4" y1="149.86" x2="132.08" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="149.86" x2="132.08" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="GND126" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+5V_T" class="0">
 <segment>
 <pinref part="U$73" gate="G$1" pin="5V"/>
 <wire x1="91.44" y1="142.24" x2="99.06" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="U$74" gate="G$1" pin="+5V_T"/>
+</segment>
+<segment>
+<pinref part="U$75" gate="G$1" pin="VCCB"/>
+<pinref part="U$83" gate="G$1" pin="+5V_T"/>
+<wire x1="190.5" y1="149.86" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="1">
@@ -9641,12 +9714,38 @@ LETTER landscape</description>
 <junction x="96.52" y="137.16"/>
 <pinref part="+3V27" gate="G$1" pin="+3V3"/>
 </segment>
+<segment>
+<pinref part="U$75" gate="G$1" pin="VCCA"/>
+<pinref part="+3V30" gate="G$1" pin="+3V3"/>
+<wire x1="139.7" y1="147.32" x2="152.4" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$75" gate="G$1" pin="OE"/>
+<wire x1="182.88" y1="147.32" x2="205.74" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="+3V31" gate="G$1" pin="+3V3"/>
+</segment>
 </net>
 <net name="+5VADC" class="1">
 <segment>
 <pinref part="ADC_IN" gate="G$1" pin="VCC"/>
 <wire x1="60.96" y1="58.42" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="U$81" gate="G$1" pin="+5VADC"/>
+</segment>
+</net>
+<net name="I2C_CLOCK_FPGA" class="0">
+<segment>
+<pinref part="U$75" gate="G$1" pin="SCL_A"/>
+<wire x1="182.88" y1="144.78" x2="187.96" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="144.78" x2="187.96" y2="139.7" width="0.1524" layer="91"/>
+<label x="177.8" y="137.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I2C_DATA_FPGA" class="0">
+<segment>
+<pinref part="U$75" gate="G$1" pin="SDA_A"/>
+<wire x1="152.4" y1="144.78" x2="147.32" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="144.78" x2="147.32" y2="137.16" width="0.1524" layer="91"/>
+<label x="139.7" y="134.62" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
