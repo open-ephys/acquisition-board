@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9224,6 +9224,7 @@ LETTER landscape</description>
 <junction x="180.34" y="114.3"/>
 <junction x="180.34" y="132.08"/>
 <junction x="180.34" y="149.86"/>
+<pinref part="LED_C" gate="G$1" pin="B_GND"/>
 </segment>
 </net>
 <net name="N$157" class="0">
