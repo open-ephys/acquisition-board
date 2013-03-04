@@ -9096,7 +9096,7 @@ LETTER landscape</description>
 <segment>
 <pinref part="COLOR" gate="G$1" pin="QA"/>
 <pinref part="R79" gate="R" pin="2"/>
-<wire x1="208.28" y1="124.46" x2="205.74" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="124.46" x2="208.28" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$93" class="0">
@@ -9150,13 +9150,6 @@ LETTER landscape</description>
 <junction x="182.88" y="152.4"/>
 </segment>
 </net>
-<net name="N$106" class="0">
-<segment>
-<pinref part="R78" gate="R" pin="1"/>
-<wire x1="190.5" y1="121.92" x2="180.34" y2="121.92" width="0.1524" layer="91"/>
-<junction x="180.34" y="121.92"/>
-</segment>
-</net>
 <net name="N$107" class="0">
 <segment>
 <pinref part="R80" gate="R" pin="1"/>
@@ -9201,7 +9194,8 @@ LETTER landscape</description>
 <wire x1="180.34" y1="167.64" x2="180.34" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="LED_H" gate="G$1" pin="B_GND"/>
 <wire x1="180.34" y1="149.86" x2="180.34" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="132.08" x2="180.34" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="132.08" x2="180.34" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="121.92" x2="180.34" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="114.3" x2="180.34" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="96.52" x2="180.34" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="78.74" x2="180.34" y2="60.96" width="0.1524" layer="91"/>
@@ -9225,6 +9219,9 @@ LETTER landscape</description>
 <junction x="180.34" y="132.08"/>
 <junction x="180.34" y="149.86"/>
 <pinref part="LED_C" gate="G$1" pin="B_GND"/>
+<pinref part="R78" gate="R" pin="1"/>
+<wire x1="180.34" y1="121.92" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
+<junction x="180.34" y="121.92"/>
 </segment>
 </net>
 <net name="N$157" class="0">
