@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4909,7 +4909,7 @@ LETTER landscape</description>
 <instance part="GND34" gate="1" x="78.74" y="160.02"/>
 <instance part="P+4" gate="1" x="63.5" y="175.26" rot="MR270"/>
 <instance part="C4" gate="C" x="106.68" y="160.02" rot="MR0"/>
-<instance part="GND83" gate="1" x="106.68" y="152.4"/>
+<instance part="GND83" gate="1" x="106.68" y="147.32"/>
 <instance part="C3" gate="C" x="71.12" y="170.18"/>
 <instance part="GND84" gate="1" x="71.12" y="162.56"/>
 <instance part="GND85" gate="1" x="137.16" y="162.56"/>
@@ -4918,7 +4918,7 @@ LETTER landscape</description>
 <instance part="R2" gate="R" x="121.92" y="167.64" rot="R90"/>
 <instance part="R1" gate="R" x="121.92" y="149.86" rot="R90"/>
 <instance part="C2" gate="C" x="127" y="167.64"/>
-<instance part="GND86" gate="1" x="121.92" y="142.24"/>
+<instance part="GND86" gate="1" x="121.92" y="137.16"/>
 <instance part="C6" gate="C" x="86.36" y="20.32"/>
 <instance part="GND87" gate="1" x="86.36" y="12.7"/>
 <instance part="+3V13" gate="G$1" x="86.36" y="22.86"/>
@@ -4965,7 +4965,7 @@ LETTER landscape</description>
 <instance part="GND36" gate="1" x="53.34" y="15.24"/>
 <instance part="P+10" gate="1" x="53.34" y="27.94"/>
 <instance part="GND_3" gate="TP$1" x="142.24" y="144.78"/>
-<instance part="GND101" gate="1" x="142.24" y="134.62"/>
+<instance part="GND101" gate="1" x="142.24" y="132.08"/>
 </instances>
 <busses>
 </busses>
@@ -5306,7 +5306,7 @@ LETTER landscape</description>
 <pinref part="PORT_D" gate="A" pin="MISO2-"/>
 </segment>
 </net>
-<net name="GND" class="1">
+<net name="GND" class="0">
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="DGND_55"/>
@@ -5380,6 +5380,7 @@ LETTER landscape</description>
 <segment>
 <pinref part="C4" gate="C" pin="2"/>
 <pinref part="GND83" gate="1" pin="GND"/>
+<wire x1="106.68" y1="149.86" x2="106.68" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C3" gate="C" pin="2"/>
@@ -5388,10 +5389,6 @@ LETTER landscape</description>
 <segment>
 <pinref part="GND85" gate="1" pin="GND"/>
 <pinref part="C5" gate="C" pin="2"/>
-</segment>
-<segment>
-<pinref part="R1" gate="R" pin="1"/>
-<pinref part="GND86" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C6" gate="C" pin="2"/>
@@ -5424,6 +5421,12 @@ LETTER landscape</description>
 <segment>
 <pinref part="GND_3" gate="TP$1" pin="1"/>
 <pinref part="GND101" gate="1" pin="GND"/>
+<wire x1="142.24" y1="134.62" x2="142.24" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R1" gate="R" pin="1"/>
+<pinref part="GND86" gate="1" pin="GND"/>
+<wire x1="121.92" y1="139.7" x2="121.92" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="1">
@@ -5879,7 +5882,7 @@ LETTER landscape</description>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="1">
+<net name="GND" class="0">
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
 <pinref part="BRD1" gate="JP2_ODD" pin="DGND_13"/>
@@ -7018,7 +7021,7 @@ LETTER landscape</description>
 <wire x1="195.58" y1="119.38" x2="187.96" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GND" class="1">
+<net name="GND" class="0">
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
 <pinref part="BRD1" gate="JP2_EVEN" pin="DGND_78"/>
@@ -8404,7 +8407,7 @@ LETTER landscape</description>
 <wire x1="53.34" y1="154.94" x2="60.96" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GND" class="1">
+<net name="GND" class="0">
 <segment>
 <pinref part="R39" gate="R" pin="1"/>
 <pinref part="GND76" gate="1" pin="GND"/>
@@ -9674,7 +9677,7 @@ LETTER landscape</description>
 <pinref part="OPAMP_IN_2" gate="D" pin="-IN"/>
 </segment>
 </net>
-<net name="GND" class="1">
+<net name="GND" class="0">
 <segment>
 <pinref part="LS_CLK" gate="G$1" pin="OE"/>
 <wire x1="53.34" y1="139.7" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
