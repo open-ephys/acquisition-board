@@ -505,86 +505,6 @@ LETTER landscape</description>
 <wire x1="0.9525" y1="-0.3302" x2="0.9525" y2="-0.4445" width="0.1524" layer="21"/>
 <wire x1="-2.2225" y1="2.2098" x2="2.2225" y2="2.2098" width="0.1524" layer="21"/>
 </package>
-<package name="TERMINAL_BLOCK_3.5MM_2_3.3V">
-<text x="0.42" y="-5.45" size="1.27" layer="21" font="vector" ratio="10">3.3V</text>
-<pad name="1" x="-1.75" y="0" drill="1.2" shape="long" rot="R90"/>
-<pad name="2" x="1.75" y="0" drill="1.2" shape="long" rot="R90"/>
-<wire x1="-3.5" y1="2.7" x2="3.5" y2="2.7" width="0.1524" layer="21"/>
-<wire x1="3.5" y1="2.7" x2="3.5" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="3.5" y1="-3.8" x2="2.63" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="2.63" y1="-3.8" x2="0.88" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="0.88" y1="-3.8" x2="-0.88" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="-0.88" y1="-3.8" x2="-2.63" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="-2.63" y1="-3.8" x2="-3.5" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="-3.5" y1="-3.8" x2="-3.5" y2="2.7" width="0.1524" layer="21"/>
-<wire x1="-2.63" y1="-3.8" x2="-2.63" y2="-2.625" width="0.1524" layer="21"/>
-<wire x1="-2.63" y1="-2.625" x2="-0.88" y2="-2.625" width="0.1524" layer="21"/>
-<wire x1="-0.88" y1="-2.625" x2="-0.88" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="0.88" y1="-3.8" x2="0.88" y2="-2.625" width="0.1524" layer="21"/>
-<wire x1="0.88" y1="-2.625" x2="2.63" y2="-2.625" width="0.1524" layer="21"/>
-<wire x1="2.63" y1="-2.625" x2="2.63" y2="-3.8" width="0.1524" layer="21"/>
-<text x="-3.955" y="-5.45" size="1.27" layer="21" font="vector" ratio="10">GND</text>
-</package>
-<package name="TERMINAL_BLOCK_3.5MM_2_3.5V">
-<text x="0.42" y="-5.45" size="1.27" layer="21" font="vector" ratio="10">3.5V</text>
-<pad name="1" x="-1.75" y="0" drill="1.2" shape="long" rot="R90"/>
-<pad name="2" x="1.75" y="0" drill="1.2" shape="long" rot="R90"/>
-<wire x1="-3.5" y1="2.7" x2="3.5" y2="2.7" width="0.1524" layer="21"/>
-<wire x1="3.5" y1="2.7" x2="3.5" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="3.5" y1="-3.8" x2="2.63" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="2.63" y1="-3.8" x2="0.88" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="0.88" y1="-3.8" x2="-0.88" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="-0.88" y1="-3.8" x2="-2.63" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="-2.63" y1="-3.8" x2="-3.5" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="-3.5" y1="-3.8" x2="-3.5" y2="2.7" width="0.1524" layer="21"/>
-<wire x1="-2.63" y1="-3.8" x2="-2.63" y2="-2.625" width="0.1524" layer="21"/>
-<wire x1="-2.63" y1="-2.625" x2="-0.88" y2="-2.625" width="0.1524" layer="21"/>
-<wire x1="-0.88" y1="-2.625" x2="-0.88" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="0.88" y1="-3.8" x2="0.88" y2="-2.625" width="0.1524" layer="21"/>
-<wire x1="0.88" y1="-2.625" x2="2.63" y2="-2.625" width="0.1524" layer="21"/>
-<wire x1="2.63" y1="-2.625" x2="2.63" y2="-3.8" width="0.1524" layer="21"/>
-<text x="-3.955" y="-5.45" size="1.27" layer="21" font="vector" ratio="10">GND</text>
-</package>
-<package name="TERMINAL_BLOCK_3.5MM_2_5V">
-<text x="0.42" y="-5.45" size="1.27" layer="21" font="vector" ratio="10">5.0V</text>
-<pad name="1" x="-1.75" y="0" drill="1.2" shape="long" rot="R90"/>
-<pad name="2" x="1.75" y="0" drill="1.2" shape="long" rot="R90"/>
-<wire x1="-3.5" y1="2.7" x2="3.5" y2="2.7" width="0.1524" layer="21"/>
-<wire x1="3.5" y1="2.7" x2="3.5" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="3.5" y1="-3.8" x2="2.63" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="2.63" y1="-3.8" x2="0.88" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="0.88" y1="-3.8" x2="-0.88" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="-0.88" y1="-3.8" x2="-2.63" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="-2.63" y1="-3.8" x2="-3.5" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="-3.5" y1="-3.8" x2="-3.5" y2="2.7" width="0.1524" layer="21"/>
-<wire x1="-2.63" y1="-3.8" x2="-2.63" y2="-2.625" width="0.1524" layer="21"/>
-<wire x1="-2.63" y1="-2.625" x2="-0.88" y2="-2.625" width="0.1524" layer="21"/>
-<wire x1="-0.88" y1="-2.625" x2="-0.88" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="0.88" y1="-3.8" x2="0.88" y2="-2.625" width="0.1524" layer="21"/>
-<wire x1="0.88" y1="-2.625" x2="2.63" y2="-2.625" width="0.1524" layer="21"/>
-<wire x1="2.63" y1="-2.625" x2="2.63" y2="-3.8" width="0.1524" layer="21"/>
-<text x="-3.955" y="-5.45" size="1.27" layer="21" font="vector" ratio="10">GND</text>
-</package>
-<package name="TERMINAL_BLOCK_3.5MM_2_GND">
-<text x="0.42" y="-5.45" size="1.27" layer="21" font="vector" ratio="10">GND</text>
-<pad name="1" x="-1.75" y="0" drill="1.2" shape="long" rot="R90"/>
-<pad name="2" x="1.75" y="0" drill="1.2" shape="long" rot="R90"/>
-<wire x1="-3.5" y1="2.7" x2="3.5" y2="2.7" width="0.1524" layer="21"/>
-<wire x1="3.5" y1="2.7" x2="3.5" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="3.5" y1="-3.8" x2="2.63" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="2.63" y1="-3.8" x2="0.88" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="0.88" y1="-3.8" x2="-0.88" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="-0.88" y1="-3.8" x2="-2.63" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="-2.63" y1="-3.8" x2="-3.5" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="-3.5" y1="-3.8" x2="-3.5" y2="2.7" width="0.1524" layer="21"/>
-<wire x1="-2.63" y1="-3.8" x2="-2.63" y2="-2.625" width="0.1524" layer="21"/>
-<wire x1="-2.63" y1="-2.625" x2="-0.88" y2="-2.625" width="0.1524" layer="21"/>
-<wire x1="-0.88" y1="-2.625" x2="-0.88" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="0.88" y1="-3.8" x2="0.88" y2="-2.625" width="0.1524" layer="21"/>
-<wire x1="0.88" y1="-2.625" x2="2.63" y2="-2.625" width="0.1524" layer="21"/>
-<wire x1="2.63" y1="-2.625" x2="2.63" y2="-3.8" width="0.1524" layer="21"/>
-<text x="-3.955" y="-5.45" size="1.27" layer="21" font="vector" ratio="10">GND</text>
-</package>
 <package name="0805">
 <wire x1="-0.9652" y1="0.635" x2="0.9652" y2="0.635" width="0.1016" layer="51"/>
 <wire x1="0.9652" y1="-0.635" x2="-0.9652" y2="-0.635" width="0.1016" layer="51"/>
@@ -598,31 +518,6 @@ LETTER landscape</description>
 <text x="-2.032" y="-2.286" size="1.016" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-1.016" y1="-0.635" x2="-0.6096" y2="0.635" layer="51"/>
 <rectangle x1="0.6096" y1="-0.635" x2="1.016" y2="0.635" layer="51"/>
-</package>
-<package name="TERMINAL_BLOCK_3.5MM_3">
-<text x="2.1" y="-5.45" size="1.27" layer="21" font="vector" ratio="10">+3.3V</text>
-<pad name="-" x="-3.5" y="0" drill="1.2" shape="long" rot="R90"/>
-<pad name="GND" x="0" y="0" drill="1.2" shape="long" rot="R90"/>
-<wire x1="-5.25" y1="2.7" x2="5.25" y2="2.7" width="0.1524" layer="21"/>
-<wire x1="5.25" y1="2.7" x2="5.25" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="5.25" y1="-3.8" x2="0.88" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="0.88" y1="-3.8" x2="-0.87" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="-0.87" y1="-3.8" x2="-2.63" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="-2.63" y1="-3.8" x2="-4.38" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="-4.38" y1="-3.8" x2="-5.25" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="-5.25" y1="-3.8" x2="-5.25" y2="2.7" width="0.1524" layer="21"/>
-<wire x1="-4.38" y1="-3.8" x2="-4.38" y2="-2.625" width="0.1524" layer="21"/>
-<wire x1="-4.38" y1="-2.625" x2="-2.63" y2="-2.625" width="0.1524" layer="21"/>
-<wire x1="-2.63" y1="-2.625" x2="-2.63" y2="-3.8" width="0.1524" layer="21"/>
-<wire x1="-0.87" y1="-3.8" x2="-0.87" y2="-2.625" width="0.1524" layer="21"/>
-<wire x1="-0.87" y1="-2.625" x2="0.88" y2="-2.625" width="0.1524" layer="21"/>
-<wire x1="0.88" y1="-2.625" x2="0.88" y2="-3.8" width="0.1524" layer="21"/>
-<text x="-1.7" y="-5.45" size="1.27" layer="21" font="vector" ratio="10">GND</text>
-<pad name="+" x="3.5" y="0" drill="1.2" shape="long" rot="R90"/>
-<wire x1="2.63" y1="-3.8" x2="2.63" y2="-2.625" width="0.1524" layer="21"/>
-<wire x1="2.63" y1="-2.625" x2="4.38" y2="-2.625" width="0.1524" layer="21"/>
-<wire x1="4.38" y1="-2.625" x2="4.38" y2="-3.8" width="0.1524" layer="21"/>
-<text x="-7.4" y="-5.45" size="1.27" layer="21" font="vector" ratio="10">-3.3V</text>
 </package>
 <package name="SOT-23-5">
 <wire x1="-1.5" y1="0.7" x2="1.5" y2="0.7" width="0.1524" layer="21"/>
@@ -1004,17 +899,6 @@ LETTER landscape</description>
 <pin name="!CS!+" x="-17.78" y="7.62" length="short" rot="R270"/>
 <pin name="SCLK-" x="-12.7" y="7.62" length="short" rot="R270"/>
 </symbol>
-<symbol name="TERMINAL_BLOCK_2">
-<wire x1="5.08" y1="3.81" x2="5.08" y2="-1.27" width="0.4064" layer="94"/>
-<wire x1="0" y1="1.27" x2="0" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="-1.27" x2="5.08" y2="-1.27" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="3.81" x2="-2.54" y2="3.81" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="3.81" width="0.4064" layer="94"/>
-<text x="0.635" y="-2.54" size="1.778" layer="94" rot="R180">0</text>
-<pin name="0" x="0" y="7.62" visible="pad" length="middle" direction="pas" rot="R270"/>
-<pin name="1" x="2.54" y="7.62" visible="pad" length="middle" direction="pas" rot="R270"/>
-</symbol>
 <symbol name="R">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
 <wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
@@ -1029,34 +913,6 @@ LETTER landscape</description>
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-<symbol name="TERMINAL_BLOCK_3">
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-3.81" width="0.4064" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="0" width="0.6096" layer="94"/>
-<wire x1="0" y1="-1.27" x2="0" y2="0" width="0.6096" layer="94"/>
-<wire x1="-5.08" y1="-3.81" x2="5.08" y2="-3.81" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="1.27" x2="-5.08" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="-3.81" x2="-5.08" y2="1.27" width="0.4064" layer="94"/>
-<text x="-2.032" y="-5.08" size="1.778" layer="94" rot="R180">V-</text>
-<pin name="-" x="-2.54" y="5.08" visible="pad" length="middle" direction="pas" rot="R270"/>
-<pin name="GND" x="0" y="5.08" visible="pad" length="middle" direction="pas" rot="R270"/>
-<pin name="+" x="2.54" y="5.08" visible="pad" length="middle" direction="pas" rot="R270"/>
-<text x="5.08" y="-5.08" size="1.778" layer="94" rot="R180">V+</text>
-<text x="-6.35" y="-2.54" size="1.778" layer="95" font="vector" rot="R90">&gt;NAME</text>
-<text x="0.635" y="-5.08" size="1.778" layer="94" rot="R180">0</text>
-</symbol>
-<symbol name="+3V3DAC">
-<wire x1="1.27" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-1.27" y2="0.635" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+3V3DAC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
-<symbol name="-3V3DAC">
-<wire x1="1.27" y1="-0.635" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="-0.635" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="-3V3DAC" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 <symbol name="+3V5">
 <wire x1="1.27" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
@@ -1438,50 +1294,6 @@ LETTER landscape</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TERMINAL_BLOCK_2" prefix="S">
-<description>2-point terminal block</description>
-<gates>
-<gate name="A" symbol="TERMINAL_BLOCK_2" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="-3.5MM-3.3V" package="TERMINAL_BLOCK_3.5MM_2_3.3V">
-<connects>
-<connect gate="A" pin="0" pad="1"/>
-<connect gate="A" pin="1" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-3.5MM-3.5V" package="TERMINAL_BLOCK_3.5MM_2_3.5V">
-<connects>
-<connect gate="A" pin="0" pad="1"/>
-<connect gate="A" pin="1" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-3.5MM-5V" package="TERMINAL_BLOCK_3.5MM_2_5V">
-<connects>
-<connect gate="A" pin="0" pad="1"/>
-<connect gate="A" pin="1" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-3.5MM-GND" package="TERMINAL_BLOCK_3.5MM_2_GND">
-<connects>
-<connect gate="A" pin="0" pad="1"/>
-<connect gate="A" pin="1" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="R" prefix="R" uservalue="yes">
 <description>Resistor</description>
 <gates>
@@ -1529,50 +1341,6 @@ LETTER landscape</description>
 <connect gate="R" pin="1" pad="1"/>
 <connect gate="R" pin="2" pad="2"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TERMINAL_BLOCK_3" prefix="S">
-<description>3-point terminal block</description>
-<gates>
-<gate name="A" symbol="TERMINAL_BLOCK_3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_+/-3.3V" package="TERMINAL_BLOCK_3.5MM_3">
-<connects>
-<connect gate="A" pin="+" pad="+"/>
-<connect gate="A" pin="-" pad="-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="+3V3DAC" prefix="+3V3DAC">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="+3V3DAC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="-3V3DAC" prefix="-3V3DAC">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="-3V3DAC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4330,10 +4098,7 @@ LETTER landscape</description>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="GND45" library="supply1" deviceset="GND" device=""/>
-<part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
-<part name="GND48" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
@@ -4360,20 +4125,10 @@ LETTER landscape</description>
 <part name="PORT_B" library="RHD2000_eval_board" deviceset="RHD2000-CABLE-DAQ-SIDE" device=""/>
 <part name="PORT_C" library="RHD2000_eval_board" deviceset="RHD2000-CABLE-DAQ-SIDE" device=""/>
 <part name="PORT_D" library="RHD2000_eval_board" deviceset="RHD2000-CABLE-DAQ-SIDE" device=""/>
-<part name="S8" library="RHD2000_eval_board" deviceset="TERMINAL_BLOCK_2" device="-3.5MM-GND"/>
-<part name="S9" library="RHD2000_eval_board" deviceset="TERMINAL_BLOCK_2" device="-3.5MM-5V"/>
-<part name="S10" library="RHD2000_eval_board" deviceset="TERMINAL_BLOCK_2" device="-3.5MM-3.5V"/>
-<part name="S6" library="RHD2000_eval_board" deviceset="TERMINAL_BLOCK_2" device="-3.5MM-3.3V"/>
-<part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="R3" library="RHD2000_eval_board" deviceset="R" device="_0603" value="5.6K"/>
-<part name="S1" library="RHD2000_eval_board" deviceset="TERMINAL_BLOCK_3" device="_+/-3.3V"/>
 <part name="GND51" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME4" library="frames" deviceset="LETTER_L" device=""/>
-<part name="+3V3DAC1" library="RHD2000_eval_board" deviceset="+3V3DAC" device=""/>
-<part name="-3V3DAC1" library="RHD2000_eval_board" deviceset="-3V3DAC" device=""/>
-<part name="+3V3DAC18" library="RHD2000_eval_board" deviceset="+3V3DAC" device=""/>
 <part name="+3V7" library="RHD2000_eval_board" deviceset="+3V5" device=""/>
-<part name="+3V8" library="RHD2000_eval_board" deviceset="+3V5" device=""/>
 <part name="+3V9" library="RHD2000_eval_board" deviceset="+3V5" device=""/>
 <part name="+3V10" library="RHD2000_eval_board" deviceset="+3V5" device=""/>
 <part name="+3V11" library="RHD2000_eval_board" deviceset="+3V5" device=""/>
@@ -4561,7 +4316,6 @@ LETTER landscape</description>
 <part name="DAC_!SYNC!" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
 <part name="+1.8V_FPGA" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
 <part name="+1.2V_FPGA" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
-<part name="S2" library="RHD2000_eval_board" deviceset="TERMINAL_BLOCK_2" device="-3.5MM-3.3V"/>
 <part name="GND100" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="RHD2000_eval_board" deviceset="C" device="_1206" value="22u"/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
@@ -4852,10 +4606,30 @@ LETTER landscape</description>
 <part name="GND141" library="supply1" deviceset="GND" device=""/>
 <part name="GND142" library="supply1" deviceset="GND" device=""/>
 <part name="GND143" library="supply1" deviceset="GND" device=""/>
-<part name="C76" library="RHD2000_eval_board" deviceset="C" device="_0603" value="1n"/>
+<part name="C76" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
 <part name="C77" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
 <part name="+3V32" library="RHD2000_eval_board" deviceset="+3V3" device=""/>
 <part name="U$90" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
+<part name="+3V5_1" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="+3V33" library="RHD2000_eval_board" deviceset="+3V5" device=""/>
+<part name="GND_ADC" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="+5V_ADC" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="+5V_DAC" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="-5V_DAC" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="GND_DAC" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="U$91" library="open-ephys" deviceset="+5VDAC" device=""/>
+<part name="U$93" library="open-ephys" deviceset="-5VDAC" device=""/>
+<part name="C73" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
+<part name="+5V_LS" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="GND_LS" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="U$94" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
+<part name="GND35" library="supply1" deviceset="GND" device=""/>
+<part name="+5.5V" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="GND_5" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="U$99" library="open-ephys" deviceset="+5V5" device=""/>
+<part name="GND45" library="supply1" deviceset="GND" device=""/>
+<part name="+5V_RAW" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="GND_7" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4886,7 +4660,6 @@ LETTER landscape</description>
 <instance part="P+2" gate="1" x="38.1" y="175.26" rot="R270"/>
 <instance part="P+3" gate="1" x="33.02" y="177.8" rot="R270"/>
 <instance part="GND47" gate="1" x="68.58" y="15.24"/>
-<instance part="GND48" gate="1" x="154.94" y="170.18"/>
 <instance part="P+5" gate="1" x="66.04" y="10.16" rot="MR180"/>
 <instance part="GND49" gate="1" x="27.94" y="20.32" rot="R90"/>
 <instance part="GND50" gate="1" x="27.94" y="22.86" rot="R90"/>
@@ -4898,10 +4671,7 @@ LETTER landscape</description>
 <instance part="PORT_B" gate="A" x="99.06" y="48.26"/>
 <instance part="PORT_C" gate="A" x="154.94" y="48.26"/>
 <instance part="PORT_D" gate="A" x="210.82" y="48.26"/>
-<instance part="S9" gate="A" x="68.58" y="25.4" rot="R180"/>
-<instance part="S10" gate="A" x="154.94" y="180.34" rot="R180"/>
 <instance part="+3V7" gate="G$1" x="142.24" y="175.26" rot="R270"/>
-<instance part="+3V8" gate="G$1" x="152.4" y="167.64" rot="MR180"/>
 <instance part="+3V9" gate="G$1" x="63.5" y="60.96" rot="MR0"/>
 <instance part="+3V10" gate="G$1" x="119.38" y="60.96" rot="MR0"/>
 <instance part="+3V11" gate="G$1" x="175.26" y="60.96" rot="MR0"/>
@@ -4966,6 +4736,10 @@ LETTER landscape</description>
 <instance part="P+10" gate="1" x="53.34" y="27.94"/>
 <instance part="GND_3" gate="TP$1" x="142.24" y="144.78"/>
 <instance part="GND101" gate="1" x="142.24" y="132.08"/>
+<instance part="+3V5_1" gate="TP$1" x="134.62" y="144.78"/>
+<instance part="+3V33" gate="G$1" x="134.62" y="132.08" rot="R180"/>
+<instance part="+5V_RAW" gate="TP$1" x="66.04" y="27.94"/>
+<instance part="GND_7" gate="TP$1" x="68.58" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -5364,14 +5138,6 @@ LETTER landscape</description>
 <pinref part="PORT_D" gate="A" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND47" gate="1" pin="GND"/>
-<pinref part="S9" gate="A" pin="0"/>
-</segment>
-<segment>
-<pinref part="GND48" gate="1" pin="GND"/>
-<pinref part="S10" gate="A" pin="0"/>
-</segment>
-<segment>
 <wire x1="81.28" y1="165.1" x2="78.74" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="GND34" gate="1" pin="GND"/>
 <wire x1="78.74" y1="165.1" x2="78.74" y2="162.56" width="0.1524" layer="91"/>
@@ -5428,6 +5194,11 @@ LETTER landscape</description>
 <pinref part="GND86" gate="1" pin="GND"/>
 <wire x1="121.92" y1="139.7" x2="121.92" y2="144.78" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND47" gate="1" pin="GND"/>
+<pinref part="GND_7" gate="TP$1" pin="1"/>
+<wire x1="68.58" y1="22.86" x2="68.58" y2="17.78" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+3V3" class="1">
 <segment>
@@ -5472,8 +5243,8 @@ LETTER landscape</description>
 </segment>
 <segment>
 <pinref part="P+5" gate="1" pin="+5V"/>
-<wire x1="66.04" y1="12.7" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="S9" gate="A" pin="1"/>
+<wire x1="66.04" y1="12.7" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="+5V_RAW" gate="TP$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="P+6" gate="1" pin="+5V"/>
@@ -5500,11 +5271,6 @@ LETTER landscape</description>
 </segment>
 </net>
 <net name="+3V5" class="1">
-<segment>
-<wire x1="152.4" y1="167.64" x2="152.4" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="S10" gate="A" pin="1"/>
-<pinref part="+3V8" gate="G$1" pin="+3V5"/>
-</segment>
 <segment>
 <pinref part="PORT_A" gate="A" pin="VDD"/>
 <pinref part="+3V9" gate="G$1" pin="+3V5"/>
@@ -5557,6 +5323,11 @@ LETTER landscape</description>
 <segment>
 <pinref part="C9" gate="C" pin="1"/>
 <pinref part="+3V16" gate="G$1" pin="+3V5"/>
+</segment>
+<segment>
+<pinref part="+3V5_1" gate="TP$1" pin="1"/>
+<pinref part="+3V33" gate="G$1" pin="+3V5"/>
+<wire x1="134.62" y1="132.08" x2="134.62" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$143" class="0">
@@ -5805,7 +5576,6 @@ LETTER landscape</description>
 <instance part="J17-L36P" gate="TP$1" x="203.2" y="142.24" rot="R90"/>
 <instance part="ADC_!CS!" gate="TP$1" x="73.66" y="180.34"/>
 <instance part="ADC_SCLK" gate="TP$1" x="73.66" y="154.94" rot="MR180"/>
-<instance part="S2" gate="A" x="99.06" y="30.48" rot="R180"/>
 <instance part="GND100" gate="1" x="99.06" y="17.78" rot="MR0"/>
 <instance part="LS_IN" gate="G$1" x="175.26" y="99.06"/>
 <instance part="TTL_IN" gate="G$1" x="147.32" y="93.98"/>
@@ -5878,6 +5648,8 @@ LETTER landscape</description>
 <instance part="GND137" gate="1" x="93.98" y="71.12"/>
 <instance part="U$7" gate="G$1" x="172.72" y="58.42" rot="R90"/>
 <instance part="U$88" gate="G$1" x="93.98" y="81.28" rot="R90"/>
+<instance part="GND_ADC" gate="TP$1" x="99.06" y="35.56" rot="MR0"/>
+<instance part="+5V_ADC" gate="TP$1" x="96.52" y="30.48" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -5958,9 +5730,9 @@ LETTER landscape</description>
 <pinref part="GND55" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="S2" gate="A" pin="0"/>
 <pinref part="GND100" gate="1" pin="GND"/>
-<wire x1="99.06" y1="22.86" x2="99.06" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="27.94" x2="99.06" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="GND_ADC" gate="TP$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="C23" gate="C" pin="2"/>
@@ -6451,9 +6223,9 @@ LETTER landscape</description>
 <pinref part="U$27" gate="G$1" pin="+5VADC"/>
 </segment>
 <segment>
-<pinref part="S2" gate="A" pin="1"/>
 <wire x1="96.52" y1="15.24" x2="96.52" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="U$28" gate="G$1" pin="+5VADC"/>
+<pinref part="+5V_ADC" gate="TP$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="ADC_REF" gate="G$1" pin="OUTPUT"/>
@@ -6827,8 +6599,6 @@ LETTER landscape</description>
 <instance part="GND24" gate="1" x="134.62" y="68.58" rot="R90"/>
 <instance part="GND25" gate="1" x="134.62" y="48.26" rot="R90"/>
 <instance part="GND26" gate="1" x="134.62" y="27.94" rot="R90"/>
-<instance part="GND45" gate="1" x="210.82" y="50.8" rot="MR0"/>
-<instance part="GND46" gate="1" x="208.28" y="50.8" rot="MR0"/>
 <instance part="BRD1" gate="JP2_EVEN" x="233.68" y="124.46" rot="MR0"/>
 <instance part="DAC1" gate="A" x="119.38" y="165.1" rot="R270"/>
 <instance part="DAC2" gate="A" x="119.38" y="144.78" rot="R270"/>
@@ -6838,15 +6608,8 @@ LETTER landscape</description>
 <instance part="DAC6" gate="A" x="119.38" y="63.5" rot="R270"/>
 <instance part="DAC7" gate="A" x="119.38" y="43.18" rot="R270"/>
 <instance part="DAC8" gate="A" x="119.38" y="22.86" rot="R270"/>
-<instance part="S8" gate="A" x="210.82" y="60.96" rot="R180"/>
-<instance part="S6" gate="A" x="226.06" y="60.96" rot="R180"/>
-<instance part="GND35" gate="1" x="226.06" y="50.8" rot="MR0"/>
 <instance part="R3" gate="R" x="96.52" y="162.56"/>
-<instance part="S1" gate="A" x="193.04" y="58.42" rot="R180"/>
 <instance part="GND51" gate="1" x="193.04" y="48.26" rot="MR0"/>
-<instance part="+3V3DAC1" gate="G$1" x="190.5" y="43.18" rot="MR180"/>
-<instance part="-3V3DAC1" gate="G$1" x="195.58" y="43.18" rot="MR0"/>
-<instance part="+3V3DAC18" gate="G$1" x="223.52" y="45.72" rot="MR180"/>
 <instance part="C37" gate="C" x="88.9" y="157.48" rot="MR0"/>
 <instance part="GND56" gate="1" x="88.9" y="149.86"/>
 <instance part="OPAMP_A" gate="A" x="68.58" y="160.02" rot="MR0"/>
@@ -6990,6 +6753,19 @@ LETTER landscape</description>
 <instance part="C72" gate="C" x="170.18" y="91.44" rot="MR0"/>
 <instance part="GND138" gate="1" x="170.18" y="83.82"/>
 <instance part="U$87" gate="G$1" x="170.18" y="93.98" rot="R90"/>
+<instance part="+5V_DAC" gate="TP$1" x="190.5" y="63.5"/>
+<instance part="-5V_DAC" gate="TP$1" x="195.58" y="68.58"/>
+<instance part="GND_DAC" gate="TP$1" x="193.04" y="66.04"/>
+<instance part="U$91" gate="G$1" x="190.5" y="48.26" rot="R270"/>
+<instance part="U$93" gate="G$1" x="195.58" y="55.88" rot="R270"/>
+<instance part="+5V_LS" gate="TP$1" x="218.44" y="63.5"/>
+<instance part="GND_LS" gate="TP$1" x="215.9" y="60.96"/>
+<instance part="U$94" gate="G$1" x="218.44" y="48.26" rot="R270"/>
+<instance part="GND35" gate="1" x="215.9" y="43.18"/>
+<instance part="+5.5V" gate="TP$1" x="238.76" y="63.5"/>
+<instance part="GND_5" gate="TP$1" x="236.22" y="60.96"/>
+<instance part="U$99" gate="G$1" x="238.76" y="45.72" rot="R270"/>
+<instance part="GND45" gate="1" x="236.22" y="43.18"/>
 </instances>
 <busses>
 </busses>
@@ -7080,21 +6856,9 @@ LETTER landscape</description>
 <pinref part="DAC8" gate="A" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND45" gate="1" pin="GND"/>
-<pinref part="S8" gate="A" pin="0"/>
-</segment>
-<segment>
-<pinref part="GND46" gate="1" pin="GND"/>
-<pinref part="S8" gate="A" pin="1"/>
-</segment>
-<segment>
-<pinref part="S6" gate="A" pin="0"/>
-<pinref part="GND35" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="S1" gate="A" pin="GND"/>
 <pinref part="GND51" gate="1" pin="GND"/>
-<wire x1="193.04" y1="50.8" x2="193.04" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="50.8" x2="193.04" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="GND_DAC" gate="TP$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="C37" gate="C" pin="2"/>
@@ -7225,6 +6989,16 @@ LETTER landscape</description>
 <segment>
 <pinref part="C72" gate="C" pin="2"/>
 <pinref part="GND138" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND_LS" gate="TP$1" pin="1"/>
+<pinref part="GND35" gate="1" pin="GND"/>
+<wire x1="215.9" y1="45.72" x2="215.9" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND_5" gate="TP$1" pin="1"/>
+<pinref part="GND45" gate="1" pin="GND"/>
+<wire x1="236.22" y1="45.72" x2="236.22" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DAC_!SYNC!_5V" class="0">
@@ -7506,25 +7280,6 @@ LETTER landscape</description>
 <wire x1="203.2" y1="119.38" x2="223.52" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP2_EVEN" pin="U22-L51N_1"/>
 <label x="203.2" y="119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="-3V3DAC" class="1">
-<segment>
-<pinref part="S1" gate="A" pin="-"/>
-<pinref part="-3V3DAC1" gate="G$1" pin="-3V3DAC"/>
-<wire x1="195.58" y1="43.18" x2="195.58" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="+3V3DAC" class="1">
-<segment>
-<pinref part="S1" gate="A" pin="+"/>
-<pinref part="+3V3DAC1" gate="G$1" pin="+3V3DAC"/>
-<wire x1="190.5" y1="43.18" x2="190.5" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="S6" gate="A" pin="1"/>
-<pinref part="+3V3DAC18" gate="G$1" pin="+3V3DAC"/>
-<wire x1="223.52" y1="45.72" x2="223.52" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$67" class="0">
@@ -7954,6 +7709,11 @@ LETTER landscape</description>
 <pinref part="OPAMP_A" gate="P" pin="V-"/>
 <pinref part="U$39" gate="G$1" pin="-5VDAC"/>
 </segment>
+<segment>
+<wire x1="195.58" y1="55.88" x2="195.58" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="-5V_DAC" gate="TP$1" pin="1"/>
+<pinref part="U$93" gate="G$1" pin="-5VDAC"/>
+</segment>
 </net>
 <net name="+5VDAC" class="0">
 <segment>
@@ -8113,6 +7873,11 @@ LETTER landscape</description>
 <pinref part="R13" gate="R" pin="2"/>
 <wire x1="43.18" y1="147.32" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="190.5" y1="48.26" x2="190.5" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="+5V_DAC" gate="TP$1" pin="1"/>
+<pinref part="U$91" gate="G$1" pin="+5VDAC"/>
+</segment>
 </net>
 <net name="I2C_CLOCK" class="0">
 <segment>
@@ -8256,6 +8021,18 @@ LETTER landscape</description>
 <pinref part="C72" gate="C" pin="1"/>
 <pinref part="U$87" gate="G$1" pin="+5V_T"/>
 </segment>
+<segment>
+<pinref part="+5V_LS" gate="TP$1" pin="1"/>
+<pinref part="U$94" gate="G$1" pin="+5V_T"/>
+<wire x1="218.44" y1="48.26" x2="218.44" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+5V5" class="0">
+<segment>
+<pinref part="+5.5V" gate="TP$1" pin="1"/>
+<pinref part="U$99" gate="G$1" pin="+5V5"/>
+<wire x1="238.76" y1="50.8" x2="238.76" y2="55.88" width="0.1524" layer="91"/>
+</segment>
 </net>
 </nets>
 </sheet>
@@ -8363,6 +8140,7 @@ LETTER landscape</description>
 <instance part="R_CLOCK_OUT" gate="R" x="50.8" y="99.06"/>
 <instance part="U$73" gate="G$1" x="116.84" y="22.86" rot="R90"/>
 <instance part="GND139" gate="1" x="116.84" y="12.7"/>
+<instance part="C73" gate="C" x="116.84" y="20.32"/>
 </instances>
 <busses>
 </busses>
@@ -8572,6 +8350,10 @@ LETTER landscape</description>
 <wire x1="93.98" y1="30.48" x2="101.6" y2="30.48" width="0.1524" layer="91"/>
 <junction x="101.6" y="30.48"/>
 <pinref part="GND118" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND139" gate="1" pin="GND"/>
+<pinref part="C73" gate="C" pin="2"/>
 </segment>
 </net>
 <net name="DAC1_OUT" class="0">
@@ -9018,6 +8800,10 @@ LETTER landscape</description>
 <pinref part="LS_OUT" gate="G$1" pin="5V"/>
 <wire x1="93.98" y1="45.72" x2="104.14" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="U$78" gate="G$1" pin="+5V_T"/>
+</segment>
+<segment>
+<pinref part="U$73" gate="G$1" pin="+5V_T"/>
+<pinref part="C73" gate="C" pin="1"/>
 </segment>
 </net>
 <net name="N$99" class="0">
