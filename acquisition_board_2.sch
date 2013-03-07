@@ -551,7 +551,7 @@ LETTER landscape</description>
 <smd name="8" x="3.81" y="2.7" dx="0.6" dy="1.55" layer="1"/>
 <smd name="13" x="-2.54" y="2.7" dx="0.6" dy="1.55" layer="1"/>
 <smd name="14" x="-3.81" y="2.7" dx="0.6" dy="1.55" layer="1"/>
-<text x="-4.572" y="-1.778" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="25" font="vector" align="center">&gt;VALUE</text>
 <circle x="-5.08" y="-2.794" radius="0.4572" width="0.1524" layer="21"/>
 </package>
 <package name="SJ-3523">
@@ -1753,7 +1753,7 @@ LETTER landscape</description>
 <wire x1="3.85" y1="-5.8" x2="4.85" y2="-5.8" width="0.127" layer="21"/>
 <wire x1="3.85" y1="-5.05" x2="4.85" y2="-5.05" width="0.127" layer="21"/>
 <wire x1="3.7" y1="-2.55" x2="5" y2="-2.55" width="0.127" layer="21"/>
-<text x="-7.62" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.27" layer="25" font="vector" align="center">&gt;NAME</text>
 </package>
 <package name="TSSOP-24">
 <smd name="P1" x="0" y="0" dx="0.45" dy="1.05" layer="1"/>
