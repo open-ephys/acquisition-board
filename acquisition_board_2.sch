@@ -4266,8 +4266,8 @@ LETTER landscape</description>
 <part name="GND93" library="supply1" deviceset="GND" device=""/>
 <part name="-5V_REG" library="RHD2000_eval_board" deviceset="TPS72301" device=""/>
 <part name="GND94" library="supply1" deviceset="GND" device=""/>
-<part name="R11" library="RHD2000_eval_board" deviceset="R" device="_0603" value="76.3K"/>
-<part name="R12" library="RHD2000_eval_board" deviceset="R" device="_0603" value="23.7K"/>
+<part name="R11" library="RHD2000_eval_board" deviceset="R" device="_0603" value="82K"/>
+<part name="R12" library="RHD2000_eval_board" deviceset="R" device="_0603" value="21.5K"/>
 <part name="GND95" library="supply1" deviceset="GND" device=""/>
 <part name="C28" library="RHD2000_eval_board" deviceset="C" device="_1206" value="22u"/>
 <part name="GND96" library="supply1" deviceset="GND" device=""/>
@@ -4522,7 +4522,7 @@ LETTER landscape</description>
 <part name="ADC_REF" library="open-ephys" deviceset="REF195" device=""/>
 <part name="GND124" library="supply1" deviceset="GND" device=""/>
 <part name="U$82" library="open-ephys" deviceset="+5VADC" device=""/>
-<part name="C60" library="RHD2000_eval_board" deviceset="C" device="_1206" value="1uT"/>
+<part name="C60" library="RHD2000_eval_board" deviceset="C" device="_1206" value="10uF(T)"/>
 <part name="C61" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
 <part name="C62" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
 <part name="GND125" library="supply1" deviceset="GND" device=""/>
