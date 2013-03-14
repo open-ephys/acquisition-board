@@ -4121,10 +4121,10 @@ LETTER landscape</description>
 <part name="DAC7" library="RHD2000_eval_board" deviceset="AD5662" device="-SOT-23"/>
 <part name="DAC8" library="RHD2000_eval_board" deviceset="AD5662" device="-SOT-23"/>
 <part name="J2" library="RHD2000_eval_board" deviceset="DC_POWER_JACK" device="-PJ-102AH"/>
-<part name="PORT_A" library="RHD2000_eval_board" deviceset="RHD2000-CABLE-DAQ-SIDE" device=""/>
-<part name="PORT_B" library="RHD2000_eval_board" deviceset="RHD2000-CABLE-DAQ-SIDE" device=""/>
-<part name="PORT_C" library="RHD2000_eval_board" deviceset="RHD2000-CABLE-DAQ-SIDE" device=""/>
-<part name="PORT_D" library="RHD2000_eval_board" deviceset="RHD2000-CABLE-DAQ-SIDE" device=""/>
+<part name="A" library="RHD2000_eval_board" deviceset="RHD2000-CABLE-DAQ-SIDE" device=""/>
+<part name="B" library="RHD2000_eval_board" deviceset="RHD2000-CABLE-DAQ-SIDE" device=""/>
+<part name="C" library="RHD2000_eval_board" deviceset="RHD2000-CABLE-DAQ-SIDE" device=""/>
+<part name="D" library="RHD2000_eval_board" deviceset="RHD2000-CABLE-DAQ-SIDE" device=""/>
 <part name="R3" library="RHD2000_eval_board" deviceset="R" device="_0603" value="5.6K"/>
 <part name="GND51" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME4" library="frames" deviceset="LETTER_L" device=""/>
@@ -4245,7 +4245,7 @@ LETTER landscape</description>
 <part name="R1" library="RHD2000_eval_board" deviceset="R" device="_0603" value="30.1K"/>
 <part name="C2" library="RHD2000_eval_board" deviceset="C" device="_0603" value="15p"/>
 <part name="GND86" library="supply1" deviceset="GND" device=""/>
-<part name="C6" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
+<part name="C9" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
 <part name="GND87" library="supply1" deviceset="GND" device=""/>
 <part name="+3V13" library="RHD2000_eval_board" deviceset="+3V5" device=""/>
 <part name="C7" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
@@ -4254,7 +4254,7 @@ LETTER landscape</description>
 <part name="C8" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
 <part name="GND89" library="supply1" deviceset="GND" device=""/>
 <part name="+3V15" library="RHD2000_eval_board" deviceset="+3V5" device=""/>
-<part name="C9" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
+<part name="C6" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
 <part name="GND90" library="supply1" deviceset="GND" device=""/>
 <part name="+3V16" library="RHD2000_eval_board" deviceset="+3V5" device=""/>
 <part name="INVERTER" library="RHD2000_eval_board" deviceset="TPS60403" device=""/>
@@ -4639,7 +4639,7 @@ LETTER landscape</description>
 <text x="88.9" y="33.02" size="2.54" layer="91">RHD2000 SPI ports (Port A - Port D)</text>
 <text x="170.18" y="147.32" size="2.54" layer="91">future expansion FPGA I/O</text>
 <text x="5.08" y="10.16" size="2.54" layer="91">optional 5V power jack</text>
-<text x="83.82" y="5.08" size="2.54" layer="91">bypass caps for SPI ports</text>
+<text x="86.36" y="5.08" size="2.54" layer="91">bypass caps for SPI ports</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -4668,10 +4668,10 @@ LETTER landscape</description>
 <instance part="BRD1" gate="JP3_ODD" x="12.7" y="129.54"/>
 <instance part="BRD1" gate="JP3_EVEN" x="236.22" y="129.54" rot="MR0"/>
 <instance part="J2" gate="A" x="15.24" y="22.86"/>
-<instance part="PORT_A" gate="A" x="43.18" y="48.26"/>
-<instance part="PORT_B" gate="A" x="99.06" y="48.26"/>
-<instance part="PORT_C" gate="A" x="154.94" y="48.26"/>
-<instance part="PORT_D" gate="A" x="210.82" y="48.26"/>
+<instance part="A" gate="A" x="43.18" y="48.26"/>
+<instance part="B" gate="A" x="99.06" y="48.26"/>
+<instance part="C" gate="A" x="154.94" y="48.26"/>
+<instance part="D" gate="A" x="210.82" y="48.26"/>
 <instance part="+3V7" gate="G$1" x="142.24" y="175.26" rot="R270"/>
 <instance part="+3V9" gate="G$1" x="63.5" y="60.96" rot="MR0"/>
 <instance part="+3V10" gate="G$1" x="119.38" y="60.96" rot="MR0"/>
@@ -4690,18 +4690,18 @@ LETTER landscape</description>
 <instance part="R1" gate="R" x="121.92" y="149.86" rot="R90"/>
 <instance part="C2" gate="C" x="127" y="167.64"/>
 <instance part="GND86" gate="1" x="121.92" y="137.16"/>
-<instance part="C6" gate="C" x="86.36" y="20.32"/>
-<instance part="GND87" gate="1" x="86.36" y="12.7"/>
-<instance part="+3V13" gate="G$1" x="86.36" y="22.86"/>
+<instance part="C9" gate="C" x="124.46" y="20.32"/>
+<instance part="GND87" gate="1" x="124.46" y="12.7"/>
+<instance part="+3V13" gate="G$1" x="124.46" y="22.86"/>
 <instance part="C7" gate="C" x="99.06" y="20.32"/>
 <instance part="GND88" gate="1" x="99.06" y="12.7"/>
 <instance part="+3V14" gate="G$1" x="99.06" y="22.86"/>
 <instance part="C8" gate="C" x="111.76" y="20.32"/>
 <instance part="GND89" gate="1" x="111.76" y="12.7"/>
 <instance part="+3V15" gate="G$1" x="111.76" y="22.86"/>
-<instance part="C9" gate="C" x="124.46" y="20.32"/>
-<instance part="GND90" gate="1" x="124.46" y="12.7"/>
-<instance part="+3V16" gate="G$1" x="124.46" y="22.86"/>
+<instance part="C6" gate="C" x="86.36" y="20.32"/>
+<instance part="GND90" gate="1" x="86.36" y="12.7"/>
+<instance part="+3V16" gate="G$1" x="86.36" y="22.86"/>
 <instance part="D9-L7P" gate="TP$1" x="172.72" y="139.7" rot="R90"/>
 <instance part="C8-L7P" gate="TP$1" x="175.26" y="137.16" rot="R90"/>
 <instance part="D10-L33P" gate="TP$1" x="177.8" y="132.08" rot="R90"/>
@@ -4750,7 +4750,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="160.02" x2="48.26" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="160.02" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="W20-L60P_1"/>
-<pinref part="PORT_A" gate="A" pin="MISO1+"/>
+<pinref part="A" gate="A" pin="MISO1+"/>
 </segment>
 </net>
 <net name="RHD_A_MISO1-" class="0">
@@ -4758,7 +4758,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="157.48" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="157.48" x2="45.72" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="W22-L60N_1"/>
-<pinref part="PORT_A" gate="A" pin="MISO1-"/>
+<pinref part="A" gate="A" pin="MISO1-"/>
 </segment>
 </net>
 <net name="RHD_A_MISO2+" class="0">
@@ -4766,7 +4766,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="154.94" x2="55.88" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="154.94" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="U19-L70P_1"/>
-<pinref part="PORT_A" gate="A" pin="MISO2+"/>
+<pinref part="A" gate="A" pin="MISO2+"/>
 </segment>
 </net>
 <net name="RHD_A_MISO2-" class="0">
@@ -4774,7 +4774,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="152.4" x2="53.34" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="152.4" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="V20-L70N_1"/>
-<pinref part="PORT_A" gate="A" pin="MISO2-"/>
+<pinref part="A" gate="A" pin="MISO2-"/>
 </segment>
 </net>
 <net name="RHD_A_CS+" class="0">
@@ -4784,7 +4784,7 @@ LETTER landscape</description>
 <wire x1="30.48" y1="73.66" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="73.66" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="C5-L2P_0"/>
-<pinref part="PORT_A" gate="A" pin="!CS!+"/>
+<pinref part="A" gate="A" pin="!CS!+"/>
 </segment>
 </net>
 <net name="RHD_A_CS-" class="0">
@@ -4794,7 +4794,7 @@ LETTER landscape</description>
 <wire x1="33.02" y1="71.12" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="71.12" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="A5-L2N_0"/>
-<pinref part="PORT_A" gate="A" pin="!CS!-"/>
+<pinref part="A" gate="A" pin="!CS!-"/>
 </segment>
 </net>
 <net name="RHD_A_SCLK+" class="0">
@@ -4804,7 +4804,7 @@ LETTER landscape</description>
 <wire x1="38.1" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="63.5" x2="33.02" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="D14-L49P_0"/>
-<pinref part="PORT_A" gate="A" pin="SCLK+"/>
+<pinref part="A" gate="A" pin="SCLK+"/>
 </segment>
 </net>
 <net name="RHD_A_SCLK-" class="0">
@@ -4814,7 +4814,7 @@ LETTER landscape</description>
 <wire x1="35.56" y1="66.04" x2="35.56" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="142.24" x2="22.86" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="C14-L49N_0"/>
-<pinref part="PORT_A" gate="A" pin="SCLK-"/>
+<pinref part="A" gate="A" pin="SCLK-"/>
 </segment>
 </net>
 <net name="RHD_A_MOSI+" class="0">
@@ -4824,7 +4824,7 @@ LETTER landscape</description>
 <wire x1="43.18" y1="58.42" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="58.42" x2="40.64" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="E16-L66P_0"/>
-<pinref part="PORT_A" gate="A" pin="MOSI+"/>
+<pinref part="A" gate="A" pin="MOSI+"/>
 </segment>
 </net>
 <net name="RHD_A_MOSI-" class="0">
@@ -4834,7 +4834,7 @@ LETTER landscape</description>
 <wire x1="40.64" y1="60.96" x2="40.64" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="137.16" x2="22.86" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="D17-L66N_0"/>
-<pinref part="PORT_A" gate="A" pin="MOSI-"/>
+<pinref part="A" gate="A" pin="MOSI-"/>
 </segment>
 </net>
 <net name="RHD_B_MISO1+" class="0">
@@ -4842,7 +4842,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="132.08" x2="104.14" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="132.08" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="D7-L32P_0"/>
-<pinref part="PORT_B" gate="A" pin="MISO1+"/>
+<pinref part="B" gate="A" pin="MISO1+"/>
 </segment>
 </net>
 <net name="RHD_B_MISO1-" class="0">
@@ -4850,7 +4850,7 @@ LETTER landscape</description>
 <wire x1="101.6" y1="55.88" x2="101.6" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="129.54" x2="22.86" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="D8-L32N_0"/>
-<pinref part="PORT_B" gate="A" pin="MISO1-"/>
+<pinref part="B" gate="A" pin="MISO1-"/>
 </segment>
 </net>
 <net name="RHD_B_MISO2+" class="0">
@@ -4858,7 +4858,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="127" x2="111.76" y2="127" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="127" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="L17-L61P_1"/>
-<pinref part="PORT_B" gate="A" pin="MISO2+"/>
+<pinref part="B" gate="A" pin="MISO2+"/>
 </segment>
 </net>
 <net name="RHD_B_MISO2-" class="0">
@@ -4866,7 +4866,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="124.46" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="124.46" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="K18-L61N_1"/>
-<pinref part="PORT_B" gate="A" pin="MISO2-"/>
+<pinref part="B" gate="A" pin="MISO2-"/>
 </segment>
 </net>
 <net name="RHD_B_CS+" class="0">
@@ -4874,7 +4874,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="121.92" x2="81.28" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="121.92" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="D6-L3P_0"/>
-<pinref part="PORT_B" gate="A" pin="!CS!+"/>
+<pinref part="B" gate="A" pin="!CS!+"/>
 </segment>
 </net>
 <net name="RHD_B_CS-" class="0">
@@ -4882,7 +4882,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="119.38" x2="78.74" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="119.38" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="C6-L3N_0"/>
-<pinref part="PORT_B" gate="A" pin="!CS!-"/>
+<pinref part="B" gate="A" pin="!CS!-"/>
 </segment>
 </net>
 <net name="RHD_B_SCLK+" class="0">
@@ -4890,7 +4890,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="116.84" x2="88.9" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="116.84" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="A3-L1P_0"/>
-<pinref part="PORT_B" gate="A" pin="SCLK+"/>
+<pinref part="B" gate="A" pin="SCLK+"/>
 </segment>
 </net>
 <net name="RHD_B_SCLK-" class="0">
@@ -4898,7 +4898,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="114.3" x2="86.36" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="114.3" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="A4-L1N_0"/>
-<pinref part="PORT_B" gate="A" pin="SCLK-"/>
+<pinref part="B" gate="A" pin="SCLK-"/>
 </segment>
 </net>
 <net name="RHD_B_MOSI+" class="0">
@@ -4906,7 +4906,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="111.76" x2="96.52" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="111.76" x2="96.52" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="B8-L6P_0"/>
-<pinref part="PORT_B" gate="A" pin="MOSI+"/>
+<pinref part="B" gate="A" pin="MOSI+"/>
 </segment>
 </net>
 <net name="RHD_B_MOSI-" class="0">
@@ -4914,7 +4914,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="106.68" x2="93.98" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="106.68" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="A8-L6N_0"/>
-<pinref part="PORT_B" gate="A" pin="MOSI-"/>
+<pinref part="B" gate="A" pin="MOSI-"/>
 </segment>
 </net>
 <net name="RHD_C_CS+" class="0">
@@ -4922,7 +4922,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="104.14" x2="137.16" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="104.14" x2="137.16" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="B10-L34P_0"/>
-<pinref part="PORT_C" gate="A" pin="!CS!+"/>
+<pinref part="C" gate="A" pin="!CS!+"/>
 </segment>
 </net>
 <net name="RHD_C_CS-" class="0">
@@ -4930,7 +4930,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="101.6" x2="134.62" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="101.6" x2="134.62" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="A10-L34N_0"/>
-<pinref part="PORT_C" gate="A" pin="!CS!-"/>
+<pinref part="C" gate="A" pin="!CS!-"/>
 </segment>
 </net>
 <net name="RHD_C_SCLK+" class="0">
@@ -4938,7 +4938,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="99.06" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="99.06" x2="144.78" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="C13-L38P_0"/>
-<pinref part="PORT_C" gate="A" pin="SCLK+"/>
+<pinref part="C" gate="A" pin="SCLK+"/>
 </segment>
 </net>
 <net name="RHD_C_SCLK-" class="0">
@@ -4946,7 +4946,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="96.52" x2="142.24" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="96.52" x2="142.24" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="A13-L38N_0"/>
-<pinref part="PORT_C" gate="A" pin="SCLK-"/>
+<pinref part="C" gate="A" pin="SCLK-"/>
 </segment>
 </net>
 <net name="RHD_C_MOSI+" class="0">
@@ -4954,7 +4954,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="93.98" x2="152.4" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="93.98" x2="152.4" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="C15-L51P_0"/>
-<pinref part="PORT_C" gate="A" pin="MOSI+"/>
+<pinref part="C" gate="A" pin="MOSI+"/>
 </segment>
 </net>
 <net name="RHD_C_MOSI-" class="0">
@@ -4962,7 +4962,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="91.44" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="91.44" x2="149.86" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="A15-L51N_0"/>
-<pinref part="PORT_C" gate="A" pin="MOSI-"/>
+<pinref part="C" gate="A" pin="MOSI-"/>
 </segment>
 </net>
 <net name="RHD_D_CS+" class="0">
@@ -4970,7 +4970,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="88.9" x2="193.04" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="88.9" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="C17-L64P_0"/>
-<pinref part="PORT_D" gate="A" pin="!CS!+"/>
+<pinref part="D" gate="A" pin="!CS!+"/>
 </segment>
 </net>
 <net name="RHD_D_CS-" class="0">
@@ -4978,7 +4978,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="86.36" x2="190.5" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="86.36" x2="190.5" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="A17-L64N_0"/>
-<pinref part="PORT_D" gate="A" pin="!CS!-"/>
+<pinref part="D" gate="A" pin="!CS!-"/>
 </segment>
 </net>
 <net name="RHD_D_MOSI+" class="0">
@@ -4986,7 +4986,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="81.28" x2="208.28" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="81.28" x2="208.28" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="C11-L35P_0"/>
-<pinref part="PORT_D" gate="A" pin="MOSI+"/>
+<pinref part="D" gate="A" pin="MOSI+"/>
 </segment>
 </net>
 <net name="RHD_D_MOSI-" class="0">
@@ -4994,7 +4994,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="78.74" x2="205.74" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="78.74" x2="205.74" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="A11-L35N_0"/>
-<pinref part="PORT_D" gate="A" pin="MOSI-"/>
+<pinref part="D" gate="A" pin="MOSI-"/>
 </segment>
 </net>
 <net name="RHD_D_SCLK-" class="0">
@@ -5002,7 +5002,7 @@ LETTER landscape</description>
 <wire x1="22.86" y1="83.82" x2="198.12" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="83.82" x2="198.12" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_ODD" pin="A18-L65N_0"/>
-<pinref part="PORT_D" gate="A" pin="SCLK-"/>
+<pinref part="D" gate="A" pin="SCLK-"/>
 </segment>
 </net>
 <net name="RHD_D_SCLK+" class="0">
@@ -5010,7 +5010,7 @@ LETTER landscape</description>
 <wire x1="226.06" y1="83.82" x2="200.66" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="83.82" x2="200.66" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_EVEN" pin="B18-L65P_0"/>
-<pinref part="PORT_D" gate="A" pin="SCLK+"/>
+<pinref part="D" gate="A" pin="SCLK+"/>
 </segment>
 </net>
 <net name="RHD_C_MISO1+" class="0">
@@ -5018,7 +5018,7 @@ LETTER landscape</description>
 <wire x1="226.06" y1="160.02" x2="160.02" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="160.02" x2="160.02" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_EVEN" pin="T19-L74P_1"/>
-<pinref part="PORT_C" gate="A" pin="MISO1+"/>
+<pinref part="C" gate="A" pin="MISO1+"/>
 </segment>
 </net>
 <net name="RHD_C_MISO1-" class="0">
@@ -5026,7 +5026,7 @@ LETTER landscape</description>
 <wire x1="226.06" y1="157.48" x2="157.48" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="157.48" x2="157.48" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_EVEN" pin="T20-L74N_1"/>
-<pinref part="PORT_C" gate="A" pin="MISO1-"/>
+<pinref part="C" gate="A" pin="MISO1-"/>
 </segment>
 </net>
 <net name="RHD_C_MISO2+" class="0">
@@ -5034,7 +5034,7 @@ LETTER landscape</description>
 <wire x1="226.06" y1="154.94" x2="167.64" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="154.94" x2="167.64" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_EVEN" pin="P17-L72P_1"/>
-<pinref part="PORT_C" gate="A" pin="MISO2+"/>
+<pinref part="C" gate="A" pin="MISO2+"/>
 </segment>
 </net>
 <net name="RHD_C_MISO2-" class="0">
@@ -5042,7 +5042,7 @@ LETTER landscape</description>
 <wire x1="226.06" y1="152.4" x2="165.1" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="152.4" x2="165.1" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_EVEN" pin="N16-L72N_1"/>
-<pinref part="PORT_C" gate="A" pin="MISO2-"/>
+<pinref part="C" gate="A" pin="MISO2-"/>
 </segment>
 </net>
 <net name="RHD_D_MISO1+" class="0">
@@ -5050,7 +5050,7 @@ LETTER landscape</description>
 <wire x1="226.06" y1="149.86" x2="215.9" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="149.86" x2="215.9" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_EVEN" pin="M17-L71P_1"/>
-<pinref part="PORT_D" gate="A" pin="MISO1+"/>
+<pinref part="D" gate="A" pin="MISO1+"/>
 </segment>
 </net>
 <net name="RHD_D_MISO1-" class="0">
@@ -5058,7 +5058,7 @@ LETTER landscape</description>
 <wire x1="226.06" y1="147.32" x2="213.36" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="147.32" x2="213.36" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_EVEN" pin="M18-L71N_1"/>
-<pinref part="PORT_D" gate="A" pin="MISO1-"/>
+<pinref part="D" gate="A" pin="MISO1-"/>
 </segment>
 </net>
 <net name="RHD_D_MISO2+" class="0">
@@ -5068,7 +5068,7 @@ LETTER landscape</description>
 <wire x1="210.82" y1="71.12" x2="223.52" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="71.12" x2="223.52" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_EVEN" pin="P18-L73P_1"/>
-<pinref part="PORT_D" gate="A" pin="MISO2+"/>
+<pinref part="D" gate="A" pin="MISO2+"/>
 </segment>
 </net>
 <net name="RHD_D_MISO2-" class="0">
@@ -5078,7 +5078,7 @@ LETTER landscape</description>
 <wire x1="218.44" y1="68.58" x2="220.98" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="68.58" x2="220.98" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BRD1" gate="JP3_EVEN" pin="R19-L73N_1"/>
-<pinref part="PORT_D" gate="A" pin="MISO2-"/>
+<pinref part="D" gate="A" pin="MISO2-"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -5124,19 +5124,19 @@ LETTER landscape</description>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="PORT_A" gate="A" pin="GND"/>
+<pinref part="A" gate="A" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="PORT_B" gate="A" pin="GND"/>
+<pinref part="B" gate="A" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="PORT_C" gate="A" pin="GND"/>
+<pinref part="C" gate="A" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="PORT_D" gate="A" pin="GND"/>
+<pinref part="D" gate="A" pin="GND"/>
 </segment>
 <segment>
 <wire x1="81.28" y1="165.1" x2="78.74" y2="165.1" width="0.1524" layer="91"/>
@@ -5158,7 +5158,7 @@ LETTER landscape</description>
 <pinref part="C5" gate="C" pin="2"/>
 </segment>
 <segment>
-<pinref part="C6" gate="C" pin="2"/>
+<pinref part="C9" gate="C" pin="2"/>
 <pinref part="GND87" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -5170,7 +5170,7 @@ LETTER landscape</description>
 <pinref part="GND89" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C9" gate="C" pin="2"/>
+<pinref part="C6" gate="C" pin="2"/>
 <pinref part="GND90" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -5273,22 +5273,22 @@ LETTER landscape</description>
 </net>
 <net name="+3V5" class="1">
 <segment>
-<pinref part="PORT_A" gate="A" pin="VDD"/>
+<pinref part="A" gate="A" pin="VDD"/>
 <pinref part="+3V9" gate="G$1" pin="+3V5"/>
 <wire x1="63.5" y1="60.96" x2="63.5" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="PORT_B" gate="A" pin="VDD"/>
+<pinref part="B" gate="A" pin="VDD"/>
 <pinref part="+3V10" gate="G$1" pin="+3V5"/>
 <wire x1="119.38" y1="60.96" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="PORT_C" gate="A" pin="VDD"/>
+<pinref part="C" gate="A" pin="VDD"/>
 <pinref part="+3V11" gate="G$1" pin="+3V5"/>
 <wire x1="175.26" y1="60.96" x2="175.26" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="PORT_D" gate="A" pin="VDD"/>
+<pinref part="D" gate="A" pin="VDD"/>
 <pinref part="+3V12" gate="G$1" pin="+3V5"/>
 <wire x1="231.14" y1="60.96" x2="231.14" y2="55.88" width="0.1524" layer="91"/>
 </segment>
@@ -5310,7 +5310,7 @@ LETTER landscape</description>
 <junction x="127" y="175.26"/>
 </segment>
 <segment>
-<pinref part="C6" gate="C" pin="1"/>
+<pinref part="C9" gate="C" pin="1"/>
 <pinref part="+3V13" gate="G$1" pin="+3V5"/>
 </segment>
 <segment>
@@ -5322,7 +5322,7 @@ LETTER landscape</description>
 <pinref part="+3V15" gate="G$1" pin="+3V5"/>
 </segment>
 <segment>
-<pinref part="C9" gate="C" pin="1"/>
+<pinref part="C6" gate="C" pin="1"/>
 <pinref part="+3V16" gate="G$1" pin="+3V5"/>
 </segment>
 <segment>
