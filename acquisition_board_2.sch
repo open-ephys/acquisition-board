@@ -4357,7 +4357,7 @@ LETTER landscape</description>
 <part name="C10" library="RHD2000_eval_board" deviceset="C" device="_1206" value="10u"/>
 <part name="C11" library="RHD2000_eval_board" deviceset="C" device="_1206" value="10u"/>
 <part name="R81" library="RHD2000_eval_board" deviceset="R" device="_0603" value="95.3k"/>
-<part name="R82" library="RHD2000_eval_board" deviceset="R" device="_0603" value="27.3k"/>
+<part name="R82" library="RHD2000_eval_board" deviceset="R" device="_0603" value="27.4k"/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
@@ -4490,13 +4490,13 @@ LETTER landscape</description>
 <part name="GND121" library="supply1" deviceset="GND" device=""/>
 <part name="LS_DAC" library="open-ephys" deviceset="OCTAL_BUS_TRANSCEIVER" device=""/>
 <part name="FRAME6" library="frames" deviceset="LETTER_L" device=""/>
-<part name="K22-L44N" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
-<part name="G20-L39P" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
-<part name="G22-L39N" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
-<part name="E20-L35P" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
-<part name="E22-L35N" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
-<part name="C20-L32P" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
-<part name="C22-L32N" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="DIGITAL_OUT_9" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="DIGITAL_OUT_10" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="DIGITAL_OUT_11" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="DIGITAL_OUT_12" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="DIGITAL_OUT_13" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="DIGITAL_OUT_14" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="DIGITAL_OUT_15" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
 <part name="GND111" library="supply1" deviceset="GND" device=""/>
 <part name="GND113" library="supply1" deviceset="GND" device=""/>
 <part name="+3V21" library="RHD2000_eval_board" deviceset="+3V3" device=""/>
@@ -4511,14 +4511,14 @@ LETTER landscape</description>
 <part name="U$74" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
 <part name="R_CLOCK_OUT" library="RHD2000_eval_board" deviceset="R" device="_0603" value="51"/>
 <part name="U$81" library="open-ephys" deviceset="+5VADC" device=""/>
-<part name="F22-L37N" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
-<part name="D21-L31P" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
-<part name="D22-L31N" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
-<part name="B21-L19P" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
-<part name="B22-L19N" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
-<part name="A21-L20N" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
-<part name="J20-L43P" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
-<part name="J22-L43N" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="DIGITAL_IN_9" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="DIGITAL_IN_10" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="DIGITAL_IN_11" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="DIGITAL_IN_12" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="DIGITAL_IN_13" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="DIGITAL_IN_14" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="DIGITAL_IN_15" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="DIGITAL_IN_16" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
 <part name="ADC_REF" library="open-ephys" deviceset="REF195" device=""/>
 <part name="GND124" library="supply1" deviceset="GND" device=""/>
 <part name="U$82" library="open-ephys" deviceset="+5VADC" device=""/>
@@ -4534,39 +4534,39 @@ LETTER landscape</description>
 <part name="GND127" library="supply1" deviceset="GND" device=""/>
 <part name="U$84" library="open-ephys" deviceset="+5VDAC" device=""/>
 <part name="U$85" library="open-ephys" deviceset="-5VDAC" device=""/>
-<part name="R49" library="RHD2000_eval_board" deviceset="R" device="_0603" value="500"/>
+<part name="R49" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="U$86" library="open-ephys" deviceset="+5VADC" device=""/>
-<part name="R50" library="RHD2000_eval_board" deviceset="R" device="_0603" value="500"/>
+<part name="R50" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="JP_AIN_1" library="jumper" deviceset="JP2E" device=""/>
-<part name="R51" library="RHD2000_eval_board" deviceset="R" device="_0603" value="500"/>
+<part name="R51" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="U$89" library="open-ephys" deviceset="+5VADC" device=""/>
-<part name="R52" library="RHD2000_eval_board" deviceset="R" device="_0603" value="500"/>
+<part name="R52" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="JP_AIN_2" library="jumper" deviceset="JP2E" device=""/>
-<part name="R53" library="RHD2000_eval_board" deviceset="R" device="_0603" value="500"/>
+<part name="R53" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="U$92" library="open-ephys" deviceset="+5VADC" device=""/>
-<part name="R54" library="RHD2000_eval_board" deviceset="R" device="_0603" value="500"/>
+<part name="R54" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="JP_AIN_3" library="jumper" deviceset="JP2E" device=""/>
-<part name="R55" library="RHD2000_eval_board" deviceset="R" device="_0603" value="500"/>
+<part name="R55" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="U$95" library="open-ephys" deviceset="+5VADC" device=""/>
-<part name="R56" library="RHD2000_eval_board" deviceset="R" device="_0603" value="500"/>
+<part name="R56" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="JP_AIN_4" library="jumper" deviceset="JP2E" device=""/>
 <part name="U$96" library="open-ephys" deviceset="+5VDAC" device=""/>
 <part name="U$97" library="open-ephys" deviceset="-5VDAC" device=""/>
-<part name="R57" library="RHD2000_eval_board" deviceset="R" device="_0603" value="500"/>
+<part name="R57" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="U$98" library="open-ephys" deviceset="+5VADC" device=""/>
-<part name="R58" library="RHD2000_eval_board" deviceset="R" device="_0603" value="500"/>
+<part name="R58" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="JP_AIN_5" library="jumper" deviceset="JP2E" device=""/>
-<part name="R59" library="RHD2000_eval_board" deviceset="R" device="_0603" value="500"/>
+<part name="R59" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="U$101" library="open-ephys" deviceset="+5VADC" device=""/>
-<part name="R60" library="RHD2000_eval_board" deviceset="R" device="_0603" value="500"/>
+<part name="R60" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="JP_AIN_6" library="jumper" deviceset="JP2E" device=""/>
-<part name="R61" library="RHD2000_eval_board" deviceset="R" device="_0603" value="500"/>
+<part name="R61" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="U$104" library="open-ephys" deviceset="+5VADC" device=""/>
-<part name="R62" library="RHD2000_eval_board" deviceset="R" device="_0603" value="500"/>
+<part name="R62" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="JP_AIN_7" library="jumper" deviceset="JP2E" device=""/>
-<part name="R63" library="RHD2000_eval_board" deviceset="R" device="_0603" value="500"/>
+<part name="R63" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="U$107" library="open-ephys" deviceset="+5VADC" device=""/>
-<part name="R64" library="RHD2000_eval_board" deviceset="R" device="_0603" value="500"/>
+<part name="R64" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="JP_AIN_8" library="jumper" deviceset="JP2E" device=""/>
 <part name="C59" library="RHD2000_eval_board" deviceset="C" device="_0603" value="1n"/>
 <part name="GND128" library="supply1" deviceset="GND" device=""/>
@@ -4630,6 +4630,7 @@ LETTER landscape</description>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="+5V_RAW" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
 <part name="GND_7" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="DIGITAL_OUT_16" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5627,14 +5628,14 @@ LETTER landscape</description>
 <instance part="GND120" gate="1" x="121.92" y="101.6" rot="R90"/>
 <instance part="U$5" gate="G$1" x="152.4" y="81.28"/>
 <instance part="GND121" gate="1" x="86.36" y="91.44"/>
-<instance part="F22-L37N" gate="TP$1" x="215.9" y="93.98" rot="R90"/>
-<instance part="D21-L31P" gate="TP$1" x="215.9" y="91.44" rot="R90"/>
-<instance part="D22-L31N" gate="TP$1" x="215.9" y="88.9" rot="R90"/>
-<instance part="B21-L19P" gate="TP$1" x="215.9" y="86.36" rot="R90"/>
-<instance part="B22-L19N" gate="TP$1" x="208.28" y="83.82" rot="R90"/>
-<instance part="A21-L20N" gate="TP$1" x="208.28" y="81.28" rot="R90"/>
-<instance part="J20-L43P" gate="TP$1" x="208.28" y="78.74" rot="R90"/>
-<instance part="J22-L43N" gate="TP$1" x="208.28" y="76.2" rot="R90"/>
+<instance part="DIGITAL_IN_9" gate="TP$1" x="203.2" y="93.98" rot="R90"/>
+<instance part="DIGITAL_IN_10" gate="TP$1" x="205.74" y="91.44" rot="R90"/>
+<instance part="DIGITAL_IN_11" gate="TP$1" x="208.28" y="88.9" rot="R90"/>
+<instance part="DIGITAL_IN_12" gate="TP$1" x="210.82" y="86.36" rot="R90"/>
+<instance part="DIGITAL_IN_13" gate="TP$1" x="200.66" y="83.82" rot="R90"/>
+<instance part="DIGITAL_IN_14" gate="TP$1" x="203.2" y="81.28" rot="R90"/>
+<instance part="DIGITAL_IN_15" gate="TP$1" x="205.74" y="78.74" rot="R90"/>
+<instance part="DIGITAL_IN_16" gate="TP$1" x="208.28" y="76.2" rot="R90"/>
 <instance part="ADC_REF" gate="G$1" x="111.76" y="50.8"/>
 <instance part="GND124" gate="1" x="99.06" y="43.18"/>
 <instance part="U$82" gate="G$1" x="139.7" y="55.88"/>
@@ -5902,35 +5903,35 @@ LETTER landscape</description>
 <pinref part="LS_ADC" gate="G$1" pin="A8"/>
 </segment>
 </net>
-<net name="N$76" class="0">
+<net name="DIGITAL_IN_8_3.3V" class="0">
 <segment>
 <pinref part="BRD1" gate="JP2_ODD" pin="F21-L37P_1"/>
 <pinref part="LS_IN" gate="G$1" pin="B8"/>
 <wire x1="223.52" y1="96.52" x2="185.42" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$77" class="0">
+<net name="DIGITAL_IN_7_3.3V" class="0">
 <segment>
 <pinref part="BRD1" gate="JP2_ODD" pin="H22-L41N_1"/>
 <pinref part="LS_IN" gate="G$1" pin="B7"/>
 <wire x1="223.52" y1="99.06" x2="185.42" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$78" class="0">
+<net name="DIGITAL_IN_6_3.3V" class="0">
 <segment>
 <pinref part="BRD1" gate="JP2_ODD" pin="H21-L41P_1"/>
 <pinref part="LS_IN" gate="G$1" pin="B6"/>
 <wire x1="223.52" y1="101.6" x2="185.42" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$79" class="0">
+<net name="DIGITAL_IN_5_3.3V" class="0">
 <segment>
 <pinref part="BRD1" gate="JP2_ODD" pin="L22-L45N_1"/>
 <pinref part="LS_IN" gate="G$1" pin="B5"/>
 <wire x1="223.52" y1="104.14" x2="185.42" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$80" class="0">
+<net name="DIGITAL_IN_4_3.3V" class="0">
 <segment>
 <wire x1="223.52" y1="109.22" x2="200.66" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="109.22" x2="200.66" y2="106.68" width="0.1524" layer="91"/>
@@ -5939,7 +5940,7 @@ LETTER landscape</description>
 <wire x1="200.66" y1="106.68" x2="185.42" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$81" class="0">
+<net name="DIGITAL_IN_3_3.3V" class="0">
 <segment>
 <wire x1="198.12" y1="109.22" x2="198.12" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="111.76" x2="223.52" y2="111.76" width="0.1524" layer="91"/>
@@ -5948,7 +5949,7 @@ LETTER landscape</description>
 <wire x1="198.12" y1="109.22" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$82" class="0">
+<net name="DIGITAL_IN_2_3.3V" class="0">
 <segment>
 <wire x1="223.52" y1="114.3" x2="195.58" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="114.3" x2="195.58" y2="111.76" width="0.1524" layer="91"/>
@@ -5957,7 +5958,7 @@ LETTER landscape</description>
 <wire x1="195.58" y1="111.76" x2="185.42" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$83" class="0">
+<net name="DIGITAL_IN_1_3.3V" class="0">
 <segment>
 <wire x1="193.04" y1="114.3" x2="193.04" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="116.84" x2="223.52" y2="116.84" width="0.1524" layer="91"/>
@@ -6077,56 +6078,56 @@ LETTER landscape</description>
 <wire x1="210.82" y1="142.24" x2="223.52" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$195" class="0">
+<net name="DIGITAL_IN_8_5V" class="0">
 <segment>
 <pinref part="LS_IN" gate="G$1" pin="A8"/>
 <pinref part="TTL_IN" gate="G$1" pin="CLOCK-"/>
 <wire x1="160.02" y1="96.52" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$196" class="0">
+<net name="DIGITAL_IN_7_5V" class="0">
 <segment>
 <pinref part="LS_IN" gate="G$1" pin="A7"/>
 <pinref part="TTL_IN" gate="G$1" pin="CLOCK+"/>
 <wire x1="160.02" y1="99.06" x2="152.4" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$197" class="0">
+<net name="DIGITAL_IN_6_5V" class="0">
 <segment>
 <pinref part="LS_IN" gate="G$1" pin="A6"/>
 <pinref part="TTL_IN" gate="G$1" pin="DATA0-"/>
 <wire x1="160.02" y1="101.6" x2="152.4" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$198" class="0">
+<net name="DIGITAL_IN_5_5V" class="0">
 <segment>
 <pinref part="LS_IN" gate="G$1" pin="A5"/>
 <pinref part="TTL_IN" gate="G$1" pin="DATA0+"/>
 <wire x1="160.02" y1="104.14" x2="152.4" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$199" class="0">
+<net name="DIGITAL_IN_4_5V" class="0">
 <segment>
 <pinref part="LS_IN" gate="G$1" pin="A4"/>
 <pinref part="TTL_IN" gate="G$1" pin="DATA1-"/>
 <wire x1="160.02" y1="106.68" x2="152.4" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$200" class="0">
+<net name="DIGITAL_IN_3_5V" class="0">
 <segment>
 <pinref part="LS_IN" gate="G$1" pin="A3"/>
 <pinref part="TTL_IN" gate="G$1" pin="DATA1+"/>
 <wire x1="160.02" y1="109.22" x2="152.4" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$201" class="0">
+<net name="DIGITAL_IN_2_5V" class="0">
 <segment>
 <pinref part="LS_IN" gate="G$1" pin="A2"/>
 <pinref part="TTL_IN" gate="G$1" pin="DATA2-"/>
 <wire x1="160.02" y1="111.76" x2="152.4" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$202" class="0">
+<net name="DIGITAL_IN_1_5V" class="0">
 <segment>
 <pinref part="LS_IN" gate="G$1" pin="A1"/>
 <pinref part="TTL_IN" gate="G$1" pin="DATA2+"/>
@@ -6474,55 +6475,59 @@ LETTER landscape</description>
 <junction x="73.66" y="165.1"/>
 </segment>
 </net>
-<net name="N$89" class="0">
+<net name="DIGITAL_IN_9_3.3V" class="0">
 <segment>
 <pinref part="BRD1" gate="JP2_ODD" pin="F22-L37N_1"/>
-<pinref part="F22-L37N" gate="TP$1" pin="1"/>
+<pinref part="DIGITAL_IN_9" gate="TP$1" pin="1"/>
+<wire x1="210.82" y1="93.98" x2="223.52" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$90" class="0">
+<net name="DIGITAL_IN_10_3.3V" class="0">
 <segment>
 <pinref part="BRD1" gate="JP2_ODD" pin="D21-L31P_1"/>
-<pinref part="D21-L31P" gate="TP$1" pin="1"/>
+<pinref part="DIGITAL_IN_10" gate="TP$1" pin="1"/>
+<wire x1="213.36" y1="91.44" x2="223.52" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$91" class="0">
+<net name="DIGITAL_IN_11_3.3V" class="0">
 <segment>
 <pinref part="BRD1" gate="JP2_ODD" pin="D22-L31N_1"/>
-<pinref part="D22-L31N" gate="TP$1" pin="1"/>
+<pinref part="DIGITAL_IN_11" gate="TP$1" pin="1"/>
+<wire x1="215.9" y1="88.9" x2="223.52" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$100" class="0">
+<net name="DIGITAL_IN_12_3.3V" class="0">
 <segment>
 <pinref part="BRD1" gate="JP2_ODD" pin="B21-L19P_1"/>
-<pinref part="B21-L19P" gate="TP$1" pin="1"/>
+<pinref part="DIGITAL_IN_12" gate="TP$1" pin="1"/>
+<wire x1="218.44" y1="86.36" x2="223.52" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$101" class="0">
+<net name="DIGITAL_IN_13_3.3V" class="0">
 <segment>
 <pinref part="BRD1" gate="JP2_ODD" pin="B22-L19N-1"/>
-<pinref part="B22-L19N" gate="TP$1" pin="1"/>
-<wire x1="215.9" y1="83.82" x2="223.52" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="DIGITAL_IN_13" gate="TP$1" pin="1"/>
+<wire x1="208.28" y1="83.82" x2="223.52" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$102" class="0">
+<net name="DIGITAL_IN_14_3.3V" class="0">
 <segment>
 <pinref part="BRD1" gate="JP2_ODD" pin="A21-L20N_1"/>
-<pinref part="A21-L20N" gate="TP$1" pin="1"/>
-<wire x1="215.9" y1="81.28" x2="223.52" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="DIGITAL_IN_14" gate="TP$1" pin="1"/>
+<wire x1="210.82" y1="81.28" x2="223.52" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$103" class="0">
+<net name="DIGITAL_IN_15_3.3V" class="0">
 <segment>
 <pinref part="BRD1" gate="JP2_ODD" pin="J20-L43P_1"/>
-<pinref part="J20-L43P" gate="TP$1" pin="1"/>
-<wire x1="215.9" y1="78.74" x2="223.52" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="DIGITAL_IN_15" gate="TP$1" pin="1"/>
+<wire x1="213.36" y1="78.74" x2="223.52" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$104" class="0">
+<net name="DIGITAL_IN_16_3.3V" class="0">
 <segment>
 <pinref part="BRD1" gate="JP2_ODD" pin="J22-L43N_1"/>
-<pinref part="J22-L43N" gate="TP$1" pin="1"/>
+<pinref part="DIGITAL_IN_16" gate="TP$1" pin="1"/>
 <wire x1="215.9" y1="76.2" x2="223.52" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6737,13 +6742,13 @@ LETTER landscape</description>
 <instance part="GND112" gate="1" x="20.32" y="48.26"/>
 <instance part="U$76" gate="G$1" x="20.32" y="71.12"/>
 <instance part="LS_DAC" gate="G$1" x="177.8" y="134.62"/>
-<instance part="K22-L44N" gate="TP$1" x="195.58" y="96.52" rot="R90"/>
-<instance part="G20-L39P" gate="TP$1" x="193.04" y="93.98" rot="R90"/>
-<instance part="G22-L39N" gate="TP$1" x="190.5" y="91.44" rot="R90"/>
-<instance part="E20-L35P" gate="TP$1" x="187.96" y="88.9" rot="R90"/>
-<instance part="E22-L35N" gate="TP$1" x="185.42" y="86.36" rot="R90"/>
-<instance part="C20-L32P" gate="TP$1" x="182.88" y="83.82" rot="R90"/>
-<instance part="C22-L32N" gate="TP$1" x="180.34" y="81.28" rot="R90"/>
+<instance part="DIGITAL_OUT_9" gate="TP$1" x="195.58" y="96.52" rot="R90"/>
+<instance part="DIGITAL_OUT_10" gate="TP$1" x="193.04" y="93.98" rot="R90"/>
+<instance part="DIGITAL_OUT_11" gate="TP$1" x="190.5" y="91.44" rot="R90"/>
+<instance part="DIGITAL_OUT_12" gate="TP$1" x="187.96" y="88.9" rot="R90"/>
+<instance part="DIGITAL_OUT_13" gate="TP$1" x="185.42" y="86.36" rot="R90"/>
+<instance part="DIGITAL_OUT_14" gate="TP$1" x="182.88" y="83.82" rot="R90"/>
+<instance part="DIGITAL_OUT_15" gate="TP$1" x="180.34" y="81.28" rot="R90"/>
 <instance part="GND111" gate="1" x="160.02" y="106.68"/>
 <instance part="GND113" gate="1" x="193.04" y="106.68"/>
 <instance part="+3V21" gate="G$1" x="193.04" y="121.92" rot="R270"/>
@@ -6766,6 +6771,7 @@ LETTER landscape</description>
 <instance part="GND_5" gate="TP$1" x="236.22" y="60.96"/>
 <instance part="U$99" gate="G$1" x="238.76" y="45.72" rot="R270"/>
 <instance part="GND45" gate="1" x="236.22" y="43.18"/>
+<instance part="DIGITAL_OUT_16" gate="TP$1" x="177.8" y="78.74" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -7963,52 +7969,52 @@ LETTER landscape</description>
 <pinref part="LS_DAC" gate="G$1" pin="B1"/>
 </segment>
 </net>
-<net name="N$74" class="0">
+<net name="OUT9" class="0">
 <segment>
 <pinref part="BRD1" gate="JP2_EVEN" pin="K22-L44N_1"/>
-<pinref part="K22-L44N" gate="TP$1" pin="1"/>
+<pinref part="DIGITAL_OUT_9" gate="TP$1" pin="1"/>
 <wire x1="203.2" y1="96.52" x2="223.52" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$75" class="0">
+<net name="OUT10" class="0">
 <segment>
 <pinref part="BRD1" gate="JP2_EVEN" pin="G20-L39P_1"/>
-<pinref part="G20-L39P" gate="TP$1" pin="1"/>
+<pinref part="DIGITAL_OUT_10" gate="TP$1" pin="1"/>
 <wire x1="200.66" y1="93.98" x2="223.52" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$84" class="0">
+<net name="OUT11" class="0">
 <segment>
 <pinref part="BRD1" gate="JP2_EVEN" pin="G22-L39N_1"/>
-<pinref part="G22-L39N" gate="TP$1" pin="1"/>
+<pinref part="DIGITAL_OUT_11" gate="TP$1" pin="1"/>
 <wire x1="198.12" y1="91.44" x2="223.52" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$85" class="0">
+<net name="OUT12" class="0">
 <segment>
 <pinref part="BRD1" gate="JP2_EVEN" pin="E20-L35P_1"/>
-<pinref part="E20-L35P" gate="TP$1" pin="1"/>
+<pinref part="DIGITAL_OUT_12" gate="TP$1" pin="1"/>
 <wire x1="195.58" y1="88.9" x2="223.52" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$86" class="0">
+<net name="OUT13" class="0">
 <segment>
 <pinref part="BRD1" gate="JP2_EVEN" pin="E22-L35N_1"/>
-<pinref part="E22-L35N" gate="TP$1" pin="1"/>
+<pinref part="DIGITAL_OUT_13" gate="TP$1" pin="1"/>
 <wire x1="193.04" y1="86.36" x2="223.52" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$87" class="0">
+<net name="OUT14" class="0">
 <segment>
 <pinref part="BRD1" gate="JP2_EVEN" pin="C20-L32P_1"/>
-<pinref part="C20-L32P" gate="TP$1" pin="1"/>
+<pinref part="DIGITAL_OUT_14" gate="TP$1" pin="1"/>
 <wire x1="190.5" y1="83.82" x2="223.52" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$88" class="0">
+<net name="OUT15" class="0">
 <segment>
 <pinref part="BRD1" gate="JP2_EVEN" pin="C22-L32N_1"/>
-<pinref part="C22-L32N" gate="TP$1" pin="1"/>
+<pinref part="DIGITAL_OUT_15" gate="TP$1" pin="1"/>
 <wire x1="187.96" y1="81.28" x2="223.52" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8032,6 +8038,13 @@ LETTER landscape</description>
 <pinref part="+5.5V" gate="TP$1" pin="1"/>
 <pinref part="U$99" gate="G$1" pin="+5V5"/>
 <wire x1="238.76" y1="50.8" x2="238.76" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="OUT16" class="0">
+<segment>
+<pinref part="BRD1" gate="JP2_EVEN" pin="A20-L20P_1"/>
+<wire x1="223.52" y1="78.74" x2="185.42" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="DIGITAL_OUT_16" gate="TP$1" pin="1"/>
 </segment>
 </net>
 </nets>
