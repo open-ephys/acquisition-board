@@ -529,7 +529,7 @@ LETTER landscape</description>
 <smd name="1" x="-0.95" y="-1.35" dx="1" dy="0.55" layer="1" rot="R90"/>
 <smd name="3" x="0.95" y="-1.35" dx="1" dy="0.55" layer="1" rot="R90"/>
 <smd name="4" x="0.95" y="1.35" dx="1" dy="0.55" layer="1" rot="R90"/>
-<text x="-1.705" y="2.0066" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0.073" y="-0.0254" size="0.762" layer="25" font="vector" align="center">&gt;NAME</text>
 <smd name="5" x="-0.95" y="1.35" dx="1" dy="0.55" layer="1" rot="R90"/>
 </package>
 <package name="SOIC-14">
@@ -3512,6 +3512,7 @@ LETTER landscape</description>
 <wire x1="0" y1="-1.1" x2="5.2" y2="-1.1" width="0.127" layer="21"/>
 <wire x1="5.2" y1="-1.1" x2="5.2" y2="-0.5" width="0.127" layer="21"/>
 <circle x="1.8" y="3.9" radius="0.282840625" width="0.127" layer="21"/>
+<text x="2.54" y="1.27" size="0.762" layer="21" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="DCU">
 <smd name="P1" x="0" y="0" dx="0.25" dy="0.75" layer="1"/>
