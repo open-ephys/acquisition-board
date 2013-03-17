@@ -1,6 +1,8 @@
 acquisition-board
 =================
 
+There are two different designs in this repository. The "acquisition-board.*" files specify a design that interfaces with headstages using the RHA2132 chips from Intan. This design is working, but will soon be replaced completely by "acquisition_board_2.*", which interfaces with the RHD2132 chips. All Verilog code and Gerber files are for the original RHA design, but those will also be replaced in the near future.
+
 Description
 ----------------
 The Open Ephys acquisition board provides a convenient USB interface between up to four headstages and a computer. It features 8 channels of digital input, to sync acquisition with external devices, and 8 channels of digital output, to trigger optogenetic stimulation or behavioral feedback. 
