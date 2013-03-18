@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3493,9 +3493,6 @@ LETTER landscape</description>
 <wire x1="12.7" y1="-6.35" x2="12.7" y2="5.08" width="0.127" layer="25"/>
 <wire x1="12.7" y1="5.08" x2="-2.54" y2="5.08" width="0.127" layer="25"/>
 </package>
-<package name="M6_HOLE">
-<pad name="P$1" x="0" y="0" drill="6.3"/>
-</package>
 <package name="8-SOIC">
 <smd name="P1" x="0" y="3.81" dx="2.2" dy="0.6" layer="1"/>
 <smd name="P2" x="0" y="2.54" dx="2.2" dy="0.6" layer="1"/>
@@ -3705,10 +3702,6 @@ LETTER landscape</description>
 <wire x1="-16.51" y1="3.302" x2="-16.51" y2="2.54" width="0.254" layer="94"/>
 <pin name="GND" x="5.08" y="-2.54" length="middle" rot="R180"/>
 <pin name="SIG" x="5.08" y="0" length="middle" rot="R180"/>
-</symbol>
-<symbol name="M6_HOLE">
-<text x="5.08" y="-2.54" size="2.54" layer="95">&gt;NAME</text>
-<circle x="0" y="0" radius="3.5921" width="0.254" layer="94"/>
 </symbol>
 <symbol name="REF195">
 <pin name="TP1" x="-10.16" y="7.62" length="middle"/>
@@ -3993,18 +3986,6 @@ LETTER landscape</description>
 <connect gate="G$1" pin="GND" pad="P$GND"/>
 <connect gate="G$1" pin="SIG" pad="P$SIG"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="M6_HOLE">
-<gates>
-<gate name="G$1" symbol="M6_HOLE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="M6_HOLE">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4566,10 +4547,6 @@ LETTER landscape</description>
 <part name="U$80" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
 <part name="GND117" library="supply1" deviceset="GND" device=""/>
 <part name="GND118" library="supply1" deviceset="GND" device=""/>
-<part name="HOLE4" library="open-ephys" deviceset="M6_HOLE" device=""/>
-<part name="HOLE3" library="open-ephys" deviceset="M6_HOLE" device=""/>
-<part name="HOLE1" library="open-ephys" deviceset="M6_HOLE" device=""/>
-<part name="HOLE2" library="open-ephys" deviceset="M6_HOLE" device=""/>
 <part name="LS_ADC" library="open-ephys" deviceset="OCTAL_BUS_TRANSCEIVER" device=""/>
 <part name="U$1" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
 <part name="+3V24" library="RHD2000_eval_board" deviceset="+3V3" device=""/>
@@ -5720,10 +5697,6 @@ LETTER landscape</description>
 <instance part="U$79" gate="G$1" x="190.5" y="91.44"/>
 <instance part="U$80" gate="G$1" x="193.04" y="71.12" rot="R270"/>
 <instance part="GND117" gate="1" x="195.58" y="78.74" rot="R90"/>
-<instance part="HOLE4" gate="G$1" x="116.84" y="5.08"/>
-<instance part="HOLE3" gate="G$1" x="116.84" y="15.24"/>
-<instance part="HOLE1" gate="G$1" x="116.84" y="35.56"/>
-<instance part="HOLE2" gate="G$1" x="116.84" y="25.4"/>
 <instance part="LS_ADC" gate="G$1" x="106.68" y="121.92"/>
 <instance part="U$1" gate="G$1" x="116.84" y="114.3"/>
 <instance part="+3V24" gate="G$1" x="124.46" y="109.22" rot="R270"/>

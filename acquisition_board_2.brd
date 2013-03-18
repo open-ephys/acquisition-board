@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="15" fill="1" visible="yes" active="yes"/>
@@ -117,6 +117,11 @@
 <text x="132.08" y="60.706" size="1.27" layer="25" font="vector" ratio="10">Acquisition Board v2.0</text>
 <text x="132.08" y="57.531" size="1.27" layer="25" font="vector" ratio="10">revision 1 (March 2013)</text>
 <text x="132.08" y="54.229" size="1.27" layer="25" font="vector" ratio="10">http://open-ephys.org</text>
+<hole x="154.432" y="6.731" drill="3.175"/>
+<hole x="154.432" y="154.305" drill="3.175"/>
+<hole x="154.432" y="154.305" drill="3.175"/>
+<hole x="6.858" y="154.305" drill="3.175"/>
+<hole x="6.731" y="6.731" drill="3.175"/>
 </plain>
 <libraries>
 <library name="RHD2000_eval_board">
@@ -2315,9 +2320,6 @@
 <wire x1="12.7" y1="-6.35" x2="12.7" y2="5.08" width="0.127" layer="25"/>
 <wire x1="12.7" y1="5.08" x2="-2.54" y2="5.08" width="0.127" layer="25"/>
 </package>
-<package name="M6_HOLE">
-<pad name="P$1" x="0" y="0" drill="6.3"/>
-</package>
 <package name="8-SOIC">
 <smd name="P1" x="0" y="3.81" dx="2.2" dy="0.6" layer="1"/>
 <smd name="P2" x="0" y="2.54" dx="2.2" dy="0.6" layer="1"/>
@@ -3057,10 +3059,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="72.136" y="55.626" size="0.762" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="BNC" library="open-ephys" package="BNC_RIGHT_ANGLE" value="BNC_RIGHT_ANGLE" x="72.009" y="154.432"/>
-<element name="HOLE4" library="open-ephys" package="M6_HOLE" value="M6_HOLE" x="5.715" y="5.588" rot="R270"/>
-<element name="HOLE3" library="open-ephys" package="M6_HOLE" value="M6_HOLE" x="5.715" y="155.448" rot="R270"/>
-<element name="HOLE1" library="open-ephys" package="M6_HOLE" value="M6_HOLE" x="155.575" y="155.448" rot="R270"/>
-<element name="HOLE2" library="open-ephys" package="M6_HOLE" value="M6_HOLE" x="155.575" y="5.588" rot="R270"/>
 <element name="LS_ADC" library="open-ephys" package="TSSOP-24" value="OCTAL_BUS_TRANSCEIVER" x="122.428" y="86.233" rot="R90"/>
 <element name="LS_DAC" library="open-ephys" package="TSSOP-24" value="OCTAL_BUS_TRANSCEIVER" x="56.769" y="62.103" rot="R270"/>
 <element name="DIGITAL_OUT_9" library="RHD2000_eval_board" package="TESTPOINT" value="TESTPOINT" x="94.107" y="56.007" rot="MR0"/>
@@ -5096,6 +5094,9 @@ design rules under a new name.</description>
 <wire x1="89.662" y1="146.05" x2="86.36" y2="142.748" width="0.6096" layer="16"/>
 <wire x1="72.39" y1="41.148" x2="72.39" y2="44.704" width="0.2032" layer="1"/>
 <wire x1="72.39" y1="44.704" x2="72.263" y2="44.831" width="0.2032" layer="1"/>
+<wire x1="72.39" y1="79.629" x2="69.342" y2="76.581" width="0.2032" layer="1"/>
+<wire x1="69.342" y1="76.581" x2="58.674" y2="76.581" width="0.2032" layer="1"/>
+<wire x1="58.674" y1="76.581" x2="58.3946" y2="76.3016" width="0.2032" layer="1"/>
 <wire x1="104.648" y1="126.6444" x2="104.648" y2="126.619" width="0" layer="19" extent="1-1"/>
 <wire x1="64.135" y1="65.1256" x2="64.135" y2="65.151" width="0" layer="19" extent="1-1"/>
 <wire x1="78.6384" y1="22.86" x2="78.613" y2="22.86" width="0" layer="19" extent="1-1"/>
@@ -5106,14 +5107,10 @@ design rules under a new name.</description>
 <wire x1="76.1746" y1="51.816" x2="76.2" y2="51.689" width="0" layer="19" extent="1-1"/>
 <wire x1="124.968" y1="5.08" x2="125.095" y2="5.0546" width="0" layer="19" extent="1-1"/>
 <wire x1="82.1944" y1="31.623" x2="82.169" y2="31.496" width="0" layer="19" extent="1-1"/>
-<wire x1="91.186" y1="96.012" x2="91.119" y2="96.144" width="0" layer="19" extent="1-1"/>
 <wire x1="84.328" y1="67.691" x2="84.455" y2="67.818" width="0" layer="19" extent="1-1"/>
 <wire x1="54.356" y1="64.643" x2="54.229" y2="64.4906" width="0" layer="19" extent="1-1"/>
 <wire x1="56.769" y1="65.763" x2="56.769" y2="65.113" width="0" layer="19" extent="1-1"/>
 <wire x1="39.37" y1="24.13" x2="38.0746" y2="25.654" width="0" layer="19" extent="1-1"/>
-<wire x1="72.39" y1="79.629" x2="69.342" y2="76.581" width="0.2032" layer="1"/>
-<wire x1="69.342" y1="76.581" x2="58.674" y2="76.581" width="0.2032" layer="1"/>
-<wire x1="58.674" y1="76.581" x2="58.3946" y2="76.3016" width="0.2032" layer="1"/>
 </signal>
 <signal name="+3V3" class="1">
 <contactref element="BRD1" pad="JP3-9"/>
@@ -9574,7 +9571,7 @@ design rules under a new name.</description>
 <wire x1="127.635" y1="50.292" x2="127.635" y2="40.132" width="0.2032" layer="16"/>
 <wire x1="127.635" y1="40.132" x2="127.508" y2="40.005" width="0.2032" layer="16"/>
 <wire x1="127.508" y1="40.005" x2="127.381" y2="40.132" width="0.2032" layer="16"/>
-<wire x1="127.381" y1="40.132" x2="127.508" y2="40.132" width="0" layer="19" extent="1-16"/>
+<wire x1="127.635" y1="40.132" x2="127.508" y2="40.132" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$161">
 <contactref element="LED_D" pad="5"/>
