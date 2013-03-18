@@ -4406,7 +4406,7 @@ LETTER landscape</description>
 <part name="R46" library="RHD2000_eval_board" deviceset="R" device="_0603" value="51"/>
 <part name="R47" library="RHD2000_eval_board" deviceset="R" device="_0603" value="51"/>
 <part name="R48" library="RHD2000_eval_board" deviceset="R" device="_0603" value="51"/>
-<part name="U$6" library="open-ephys" deviceset="OPEN_EPHYS_LOGO" device=""/>
+<part name="U$8" library="open-ephys" deviceset="OPEN_EPHYS_LOGO" device=""/>
 <part name="FRAME5" library="frames" deviceset="LETTER_L" device=""/>
 <part name="LED_A" library="open-ephys" deviceset="RGB_LED_SMD" device=""/>
 <part name="LED_B" library="open-ephys" deviceset="RGB_LED_SMD" device=""/>
@@ -8176,7 +8176,7 @@ LETTER landscape</description>
 <instance part="R46" gate="R" x="53.34" y="55.88"/>
 <instance part="R47" gate="R" x="43.18" y="53.34"/>
 <instance part="R48" gate="R" x="60.96" y="50.8"/>
-<instance part="U$6" gate="G$1" x="119.38" y="5.08"/>
+<instance part="U$8" gate="G$1" x="119.38" y="5.08"/>
 <instance part="5.5V_BOOST" gate="G$1" x="175.26" y="63.5"/>
 <instance part="D1" gate="G$1" x="190.5" y="81.28"/>
 <instance part="L2" gate="L" x="172.72" y="81.28" rot="R90"/>
