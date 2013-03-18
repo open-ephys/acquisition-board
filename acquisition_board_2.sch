@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4406,7 +4406,7 @@ LETTER landscape</description>
 <part name="R46" library="RHD2000_eval_board" deviceset="R" device="_0603" value="51"/>
 <part name="R47" library="RHD2000_eval_board" deviceset="R" device="_0603" value="51"/>
 <part name="R48" library="RHD2000_eval_board" deviceset="R" device="_0603" value="51"/>
-<part name="U$6" library="open-ephys" deviceset="OPEN_EPHYS_LOGO" device=""/>
+<part name="U$8" library="open-ephys" deviceset="OPEN_EPHYS_LOGO" device=""/>
 <part name="FRAME5" library="frames" deviceset="LETTER_L" device=""/>
 <part name="LED_A" library="open-ephys" deviceset="RGB_LED_SMD" device=""/>
 <part name="LED_B" library="open-ephys" deviceset="RGB_LED_SMD" device=""/>
@@ -4666,8 +4666,6 @@ LETTER landscape</description>
 <part name="GND139" library="supply1" deviceset="GND" device=""/>
 <part name="C74" library="RHD2000_eval_board" deviceset="C" device="_0603"/>
 <part name="C75" library="RHD2000_eval_board" deviceset="C" device="_0603"/>
-<part name="+3V28" library="RHD2000_eval_board" deviceset="+3V3" device=""/>
-<part name="+3V29" library="RHD2000_eval_board" deviceset="+3V3" device=""/>
 <part name="GND140" library="supply1" deviceset="GND" device=""/>
 <part name="GND141" library="supply1" deviceset="GND" device=""/>
 <part name="GND142" library="supply1" deviceset="GND" device=""/>
@@ -4710,8 +4708,12 @@ LETTER landscape</description>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
 <part name="GND144" library="supply1" deviceset="GND" device=""/>
 <part name="GND145" library="supply1" deviceset="GND" device=""/>
-<part name="+3V8" library="RHD2000_eval_board" deviceset="+3V3" device=""/>
-<part name="+3V34" library="RHD2000_eval_board" deviceset="+3V3" device=""/>
+<part name="U$75" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
+<part name="U$106" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
+<part name="U$108" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
+<part name="U$109" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
+<part name="GND146" library="supply1" deviceset="GND" device=""/>
+<part name="GND147" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5550,28 +5552,28 @@ LETTER landscape</description>
 <wire x1="187.96" y1="96.52" x2="226.06" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$191" class="0">
+<net name="SR_CLK" class="0">
 <segment>
 <pinref part="BRD1" gate="JP3_EVEN" pin="B14-L50P_0"/>
 <pinref part="B14-L50P" gate="TP$1" pin="1"/>
 <wire x1="190.5" y1="93.98" x2="226.06" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$192" class="0">
+<net name="SR_CLR" class="0">
 <segment>
 <pinref part="BRD1" gate="JP3_EVEN" pin="A14-L50N_0"/>
 <pinref part="A14-L50N" gate="TP$1" pin="1"/>
 <wire x1="200.66" y1="91.44" x2="226.06" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$193" class="0">
+<net name="SR_IN_B" class="0">
 <segment>
 <pinref part="BRD1" gate="JP3_EVEN" pin="B16-L63P_0"/>
 <pinref part="B16-L63P" gate="TP$1" pin="1"/>
 <wire x1="203.2" y1="88.9" x2="226.06" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$194" class="0">
+<net name="SR_IN_A" class="0">
 <segment>
 <pinref part="BRD1" gate="JP3_EVEN" pin="A16-L63N_0"/>
 <pinref part="A16-L63N" gate="TP$1" pin="1"/>
@@ -8176,7 +8178,7 @@ LETTER landscape</description>
 <instance part="R46" gate="R" x="53.34" y="55.88"/>
 <instance part="R47" gate="R" x="43.18" y="53.34"/>
 <instance part="R48" gate="R" x="60.96" y="50.8"/>
-<instance part="U$6" gate="G$1" x="119.38" y="5.08"/>
+<instance part="U$8" gate="G$1" x="119.38" y="5.08"/>
 <instance part="5.5V_BOOST" gate="G$1" x="175.26" y="63.5"/>
 <instance part="D1" gate="G$1" x="190.5" y="81.28"/>
 <instance part="L2" gate="L" x="172.72" y="81.28" rot="R90"/>
@@ -8215,7 +8217,7 @@ LETTER landscape</description>
 <instance part="GND108" gate="1" x="210.82" y="139.7"/>
 <instance part="GND109" gate="1" x="231.14" y="139.7"/>
 <instance part="U$32" gate="G$1" x="236.22" y="162.56"/>
-<instance part="U$33" gate="G$1" x="152.4" y="165.1"/>
+<instance part="U$33" gate="G$1" x="152.4" y="167.64"/>
 <instance part="BNC" gate="G$1" x="35.56" y="109.22" rot="R270"/>
 <instance part="GND110" gate="1" x="33.02" y="91.44"/>
 <instance part="GND115" gate="1" x="63.5" y="20.32"/>
@@ -8872,11 +8874,12 @@ LETTER landscape</description>
 <wire x1="144.78" y1="162.56" x2="152.4" y2="162.56" width="0.1524" layer="91"/>
 <junction x="144.78" y="162.56"/>
 <pinref part="C54" gate="C" pin="1"/>
-<wire x1="152.4" y1="162.56" x2="152.4" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="162.56" x2="152.4" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="162.56" x2="152.4" y2="160.02" width="0.1524" layer="91"/>
 <junction x="152.4" y="162.56"/>
 <pinref part="R73" gate="R" pin="2"/>
 <pinref part="U$33" gate="G$1" pin="+5V_T"/>
+<wire x1="160.02" y1="160.02" x2="157.48" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TTL_OUT" gate="G$1" pin="VCC"/>
@@ -8959,14 +8962,16 @@ LETTER landscape</description>
 <instance part="R67" gate="R" x="190.5" y="119.38"/>
 <instance part="GND37" gate="1" x="243.84" y="101.6" rot="R90"/>
 <instance part="GND127" gate="1" x="78.74" y="5.08"/>
-<instance part="C74" gate="C" x="55.88" y="27.94"/>
-<instance part="C75" gate="C" x="205.74" y="86.36"/>
-<instance part="+3V28" gate="G$1" x="205.74" y="91.44"/>
-<instance part="+3V29" gate="G$1" x="55.88" y="33.02"/>
+<instance part="C74" gate="C" x="55.88" y="30.48"/>
+<instance part="C75" gate="C" x="205.74" y="91.44"/>
 <instance part="GND140" gate="1" x="55.88" y="20.32"/>
 <instance part="GND141" gate="1" x="205.74" y="78.74"/>
-<instance part="+3V8" gate="G$1" x="243.84" y="124.46" rot="R270"/>
-<instance part="+3V34" gate="G$1" x="101.6" y="5.08" rot="R180"/>
+<instance part="U$75" gate="G$1" x="241.3" y="124.46"/>
+<instance part="U$106" gate="G$1" x="205.74" y="96.52" rot="R90"/>
+<instance part="U$108" gate="G$1" x="55.88" y="35.56" rot="R90"/>
+<instance part="U$109" gate="G$1" x="101.6" y="5.08" rot="R270"/>
+<instance part="GND146" gate="1" x="246.38" y="116.84" rot="R90"/>
+<instance part="GND147" gate="1" x="93.98" y="5.08"/>
 </instances>
 <busses>
 </busses>
@@ -9244,30 +9249,82 @@ LETTER landscape</description>
 <segment>
 <pinref part="C74" gate="C" pin="2"/>
 <pinref part="GND140" gate="1" pin="GND"/>
+<wire x1="55.88" y1="25.4" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C75" gate="C" pin="2"/>
 <pinref part="GND141" gate="1" pin="GND"/>
+<wire x1="205.74" y1="86.36" x2="205.74" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SR_LED" gate="G$1" pin="OE"/>
+<pinref part="GND147" gate="1" pin="GND"/>
+<wire x1="93.98" y1="12.7" x2="93.98" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SR_COLOR" gate="G$1" pin="OE"/>
+<pinref part="GND146" gate="1" pin="GND"/>
+<wire x1="236.22" y1="116.84" x2="243.84" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+3V3" class="1">
+<net name="+5V_T" class="0">
 <segment>
-<pinref part="C75" gate="C" pin="1"/>
-<pinref part="+3V28" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
+<pinref part="U$108" gate="G$1" pin="+5V_T"/>
+<wire x1="55.88" y1="35.56" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="C74" gate="C" pin="1"/>
-<pinref part="+3V29" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
+<pinref part="U$106" gate="G$1" pin="+5V_T"/>
+<wire x1="205.74" y1="93.98" x2="205.74" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="C75" gate="C" pin="1"/>
+</segment>
+<segment>
+<pinref part="U$75" gate="G$1" pin="+5V_T"/>
 <pinref part="SR_COLOR" gate="G$1" pin="VCC"/>
-<wire x1="236.22" y1="124.46" x2="241.3" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="+3V8" gate="G$1" pin="+3V3"/>
+<wire x1="241.3" y1="124.46" x2="236.22" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="U$109" gate="G$1" pin="+5V_T"/>
 <pinref part="SR_LED" gate="G$1" pin="VCC"/>
-<wire x1="101.6" y1="12.7" x2="101.6" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="+3V34" gate="G$1" pin="+3V3"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SR_IN_A" class="0">
+<segment>
+<pinref part="SR_COLOR" gate="G$1" pin="SER"/>
+<wire x1="236.22" y1="119.38" x2="241.3" y2="119.38" width="0.1524" layer="91"/>
+<label x="241.3" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SR_IN_B" class="0">
+<segment>
+<pinref part="SR_LED" gate="G$1" pin="SER"/>
+<wire x1="96.52" y1="12.7" x2="96.52" y2="7.62" width="0.1524" layer="91"/>
+<label x="96.52" y="7.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SR_CLK" class="0">
+<segment>
+<pinref part="SR_LED" gate="G$1" pin="SRCLK"/>
+<wire x1="88.9" y1="12.7" x2="88.9" y2="7.62" width="0.1524" layer="91"/>
+<label x="88.9" y="7.62" size="1.778" layer="95" rot="R270"/>
+</segment>
+<segment>
+<pinref part="SR_COLOR" gate="G$1" pin="SRCLK"/>
+<wire x1="236.22" y1="111.76" x2="243.84" y2="111.76" width="0.1524" layer="91"/>
+<label x="243.84" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SR_CLR" class="0">
+<segment>
+<pinref part="SR_COLOR" gate="G$1" pin="SRCLR"/>
+<wire x1="236.22" y1="109.22" x2="243.84" y2="109.22" width="0.1524" layer="91"/>
+<label x="243.84" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SR_LED" gate="G$1" pin="SRCLR"/>
+<wire x1="86.36" y1="12.7" x2="86.36" y2="7.62" width="0.1524" layer="91"/>
+<label x="86.36" y="7.62" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 </nets>
