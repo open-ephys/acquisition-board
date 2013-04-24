@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4721,6 +4721,22 @@ LETTER landscape</description>
 <part name="ADC6" library="open-ephys" deviceset="ADC161S626" device=""/>
 <part name="ADC7" library="open-ephys" deviceset="ADC161S626" device=""/>
 <part name="ADC8" library="open-ephys" deviceset="ADC161S626" device=""/>
+<part name="R77" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R78" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R79" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R80" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R81" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R82" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R83" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R84" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="GND148" library="supply1" deviceset="GND" device=""/>
+<part name="GND149" library="supply1" deviceset="GND" device=""/>
+<part name="GND150" library="supply1" deviceset="GND" device=""/>
+<part name="GND151" library="supply1" deviceset="GND" device=""/>
+<part name="GND152" library="supply1" deviceset="GND" device=""/>
+<part name="GND153" library="supply1" deviceset="GND" device=""/>
+<part name="GND154" library="supply1" deviceset="GND" device=""/>
+<part name="GND155" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5614,11 +5630,12 @@ LETTER landscape</description>
 <text x="43.18" y="177.8" size="2.54" layer="91">ADCs</text>
 <text x="157.48" y="142.24" size="2.54" layer="91">future expansion FPGA I/O</text>
 <text x="27.94" y="5.08" size="2.54" layer="91">bypass caps for ADCs</text>
-<text x="193.04" y="63.5" size="1.778" layer="91">DIR to VCCA</text>
-<text x="193.04" y="60.96" size="1.778" layer="91">for A &gt; B transmission</text>
+<text x="180.34" y="63.5" size="1.778" layer="91">DIR to VCCA</text>
+<text x="180.34" y="60.96" size="1.778" layer="91">for A &gt; B transmission</text>
 <text x="111.76" y="78.74" size="1.778" layer="91">DIR to VCCA</text>
 <text x="104.14" y="76.2" size="1.778" layer="91">for A &gt; B transmission</text>
 <text x="106.68" y="40.64" size="1.778" layer="91">VOLTAGE REF FOR ADCs</text>
+<text x="213.36" y="38.1" size="1.778" layer="91">pulldowns for TTL IN</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -5696,7 +5713,7 @@ LETTER landscape</description>
 <instance part="+3V22" gate="G$1" x="193.04" y="86.36" rot="R270"/>
 <instance part="+3V23" gate="G$1" x="193.04" y="83.82" rot="R270"/>
 <instance part="U$79" gate="G$1" x="190.5" y="91.44"/>
-<instance part="U$80" gate="G$1" x="193.04" y="71.12" rot="R270"/>
+<instance part="U$80" gate="G$1" x="190.5" y="71.12" rot="R270"/>
 <instance part="GND117" gate="1" x="195.58" y="78.74" rot="R90"/>
 <instance part="LS_ADC" gate="G$1" x="106.68" y="121.92"/>
 <instance part="U$1" gate="G$1" x="116.84" y="114.3"/>
@@ -5737,6 +5754,22 @@ LETTER landscape</description>
 <instance part="ADC6" gate="G$1" x="50.8" y="76.2"/>
 <instance part="ADC7" gate="G$1" x="50.8" y="58.42"/>
 <instance part="ADC8" gate="G$1" x="50.8" y="40.64"/>
+<instance part="R77" gate="R" x="213.36" y="58.42" rot="R180"/>
+<instance part="R78" gate="R" x="213.36" y="50.8" rot="R180"/>
+<instance part="R79" gate="R" x="228.6" y="68.58" rot="R180"/>
+<instance part="R80" gate="R" x="228.6" y="60.96" rot="R180"/>
+<instance part="R81" gate="R" x="228.6" y="53.34" rot="R180"/>
+<instance part="R82" gate="R" x="228.6" y="45.72" rot="R180"/>
+<instance part="R83" gate="R" x="213.36" y="43.18" rot="R180"/>
+<instance part="R84" gate="R" x="213.36" y="66.04" rot="R180"/>
+<instance part="GND148" gate="1" x="220.98" y="66.04" rot="R90"/>
+<instance part="GND149" gate="1" x="220.98" y="58.42" rot="R90"/>
+<instance part="GND150" gate="1" x="220.98" y="50.8" rot="R90"/>
+<instance part="GND151" gate="1" x="220.98" y="43.18" rot="R90"/>
+<instance part="GND152" gate="1" x="236.22" y="45.72" rot="R90"/>
+<instance part="GND153" gate="1" x="236.22" y="53.34" rot="R90"/>
+<instance part="GND154" gate="1" x="236.22" y="60.96" rot="R90"/>
+<instance part="GND155" gate="1" x="236.22" y="68.58" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -5922,6 +5955,38 @@ LETTER landscape</description>
 <segment>
 <pinref part="GND33" gate="1" pin="GND"/>
 <pinref part="ADC8" gate="G$1" pin="GND_1"/>
+</segment>
+<segment>
+<pinref part="R84" gate="R" pin="1"/>
+<pinref part="GND148" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R77" gate="R" pin="1"/>
+<pinref part="GND149" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R78" gate="R" pin="1"/>
+<pinref part="GND150" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R83" gate="R" pin="1"/>
+<pinref part="GND151" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R82" gate="R" pin="1"/>
+<pinref part="GND152" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R81" gate="R" pin="1"/>
+<pinref part="GND153" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R80" gate="R" pin="1"/>
+<pinref part="GND154" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R79" gate="R" pin="1"/>
+<pinref part="GND155" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$52" class="0">
@@ -6169,12 +6234,20 @@ LETTER landscape</description>
 <pinref part="TTL_IN" gate="G$1" pin="CLOCK-"/>
 <wire x1="160.02" y1="96.52" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R82" gate="R" pin="2"/>
+<wire x1="223.52" y1="45.72" x2="220.98" y2="45.72" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="DIGITAL_IN_7_5V" class="0">
 <segment>
 <pinref part="LS_IN" gate="G$1" pin="A7"/>
 <pinref part="TTL_IN" gate="G$1" pin="CLOCK+"/>
 <wire x1="160.02" y1="99.06" x2="152.4" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R81" gate="R" pin="2"/>
+<wire x1="223.52" y1="53.34" x2="220.98" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIGITAL_IN_6_5V" class="0">
@@ -6183,12 +6256,20 @@ LETTER landscape</description>
 <pinref part="TTL_IN" gate="G$1" pin="DATA0-"/>
 <wire x1="160.02" y1="101.6" x2="152.4" y2="101.6" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R80" gate="R" pin="2"/>
+<wire x1="223.52" y1="60.96" x2="220.98" y2="60.96" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="DIGITAL_IN_5_5V" class="0">
 <segment>
 <pinref part="LS_IN" gate="G$1" pin="A5"/>
 <pinref part="TTL_IN" gate="G$1" pin="DATA0+"/>
 <wire x1="160.02" y1="104.14" x2="152.4" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R79" gate="R" pin="2"/>
+<wire x1="223.52" y1="68.58" x2="220.98" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIGITAL_IN_4_5V" class="0">
@@ -6197,12 +6278,20 @@ LETTER landscape</description>
 <pinref part="TTL_IN" gate="G$1" pin="DATA1-"/>
 <wire x1="160.02" y1="106.68" x2="152.4" y2="106.68" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R83" gate="R" pin="2"/>
+<wire x1="208.28" y1="43.18" x2="205.74" y2="43.18" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="DIGITAL_IN_3_5V" class="0">
 <segment>
 <pinref part="LS_IN" gate="G$1" pin="A3"/>
 <pinref part="TTL_IN" gate="G$1" pin="DATA1+"/>
 <wire x1="160.02" y1="109.22" x2="152.4" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R78" gate="R" pin="2"/>
+<wire x1="208.28" y1="50.8" x2="205.74" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIGITAL_IN_2_5V" class="0">
@@ -6211,12 +6300,20 @@ LETTER landscape</description>
 <pinref part="TTL_IN" gate="G$1" pin="DATA2-"/>
 <wire x1="160.02" y1="111.76" x2="152.4" y2="111.76" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R77" gate="R" pin="2"/>
+<wire x1="208.28" y1="58.42" x2="205.74" y2="58.42" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="DIGITAL_IN_1_5V" class="0">
 <segment>
 <pinref part="LS_IN" gate="G$1" pin="A1"/>
 <pinref part="TTL_IN" gate="G$1" pin="DATA2+"/>
 <wire x1="160.02" y1="114.3" x2="152.4" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R84" gate="R" pin="2"/>
+<wire x1="208.28" y1="66.04" x2="205.74" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$277" class="0">
@@ -6385,8 +6482,8 @@ LETTER landscape</description>
 </segment>
 <segment>
 <pinref part="LS_IN" gate="G$1" pin="DIR"/>
-<wire x1="185.42" y1="76.2" x2="193.04" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="76.2" x2="193.04" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="76.2" x2="190.5" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="76.2" x2="190.5" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="U$80" gate="G$1" pin="+5V_T"/>
 </segment>
 <segment>
@@ -9344,7 +9441,7 @@ LETTER landscape</description>
 <text x="182.88" y="147.32" size="1.778" layer="91">(user selectable)</text>
 <text x="182.88" y="152.4" size="1.778" layer="91">voltage divider for -5v-5v -&gt; 0v-5v input conversion </text>
 <text x="213.36" y="144.78" size="1.778" layer="91">RF-cut High Pass filter</text>
-<text x="96.52" y="139.7" size="1.778" layer="91" rot="R90">input unity gain amp</text>
+<text x="93.98" y="139.7" size="1.778" layer="91" rot="R90">input unity gain amp</text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0"/>
@@ -9362,8 +9459,8 @@ LETTER landscape</description>
 <instance part="+3V30" gate="G$1" x="15.24" y="25.4" rot="R90"/>
 <instance part="GND126" gate="1" x="10.16" y="20.32"/>
 <instance part="+3V31" gate="G$1" x="86.36" y="25.4" rot="R270"/>
-<instance part="U$84" gate="G$1" x="111.76" y="165.1"/>
-<instance part="U$85" gate="G$1" x="109.22" y="182.88"/>
+<instance part="U$84" gate="G$1" x="109.22" y="182.88"/>
+<instance part="U$85" gate="G$1" x="111.76" y="165.1"/>
 <instance part="R49" gate="R" x="132.08" y="172.72"/>
 <instance part="U$86" gate="G$1" x="154.94" y="172.72"/>
 <instance part="R50" gate="R" x="147.32" y="172.72"/>
@@ -9380,8 +9477,8 @@ LETTER landscape</description>
 <instance part="U$95" gate="G$1" x="154.94" y="96.52"/>
 <instance part="R56" gate="R" x="147.32" y="96.52"/>
 <instance part="JP_AIN_4" gate="1" x="137.16" y="83.82" rot="R180"/>
-<instance part="U$96" gate="G$1" x="195.58" y="124.46"/>
-<instance part="U$97" gate="G$1" x="193.04" y="142.24"/>
+<instance part="U$96" gate="G$1" x="193.04" y="142.24"/>
+<instance part="U$97" gate="G$1" x="195.58" y="124.46"/>
 <instance part="R57" gate="R" x="215.9" y="132.08"/>
 <instance part="U$98" gate="G$1" x="238.76" y="132.08"/>
 <instance part="R58" gate="R" x="231.14" y="132.08"/>
@@ -9546,97 +9643,97 @@ LETTER landscape</description>
 <segment>
 <pinref part="ADC_IN" gate="G$1" pin="DATA2-"/>
 <wire x1="55.88" y1="104.14" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="144.78" x2="99.06" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="JP_AIN_2" gate="1" pin="3"/>
 <wire x1="134.62" y1="137.16" x2="134.62" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="137.16" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="144.78" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="137.16" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="149.86" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="104.14" x2="83.82" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="137.16" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
-<junction x="99.06" y="137.16"/>
-<pinref part="OPAMP_C" gate="B" pin="-IN"/>
+<wire x1="83.82" y1="137.16" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
+<junction x="96.52" y="137.16"/>
+<pinref part="OPAMP_C" gate="B" pin="+IN"/>
+<wire x1="96.52" y1="149.86" x2="101.6" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$214" class="0">
 <segment>
 <pinref part="ADC_IN" gate="G$1" pin="DATA1+"/>
 <wire x1="55.88" y1="101.6" x2="86.36" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="119.38" x2="99.06" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="JP_AIN_3" gate="1" pin="3"/>
 <wire x1="134.62" y1="111.76" x2="134.62" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="111.76" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="119.38" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="111.76" x2="96.52" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="124.46" x2="96.52" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="101.6" x2="86.36" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="111.76" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
-<junction x="99.06" y="111.76"/>
-<pinref part="OPAMP_C" gate="C" pin="-IN"/>
+<wire x1="86.36" y1="111.76" x2="96.52" y2="111.76" width="0.1524" layer="91"/>
+<junction x="96.52" y="111.76"/>
+<pinref part="OPAMP_C" gate="C" pin="+IN"/>
+<wire x1="96.52" y1="124.46" x2="101.6" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$216" class="0">
 <segment>
 <pinref part="ADC_IN" gate="G$1" pin="DATA0+"/>
 <wire x1="55.88" y1="96.52" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="129.54" x2="182.88" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="JP_AIN_5" gate="1" pin="3"/>
 <wire x1="218.44" y1="121.92" x2="218.44" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="121.92" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="129.54" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="121.92" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="121.92" x2="180.34" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="134.62" x2="180.34" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="121.92" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="121.92" x2="172.72" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="78.74" x2="91.44" y2="78.74" width="0.1524" layer="91"/>
-<junction x="182.88" y="121.92"/>
+<junction x="180.34" y="121.92"/>
 <wire x1="91.44" y1="96.52" x2="91.44" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="OPAMP_D" gate="A" pin="-IN"/>
+<pinref part="OPAMP_D" gate="A" pin="+IN"/>
+<wire x1="180.34" y1="134.62" x2="185.42" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$217" class="0">
 <segment>
 <pinref part="ADC_IN" gate="G$1" pin="DATA0-"/>
 <wire x1="55.88" y1="93.98" x2="88.9" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="104.14" x2="182.88" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="JP_AIN_6" gate="1" pin="3"/>
 <wire x1="218.44" y1="96.52" x2="218.44" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="96.52" x2="182.88" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="104.14" x2="182.88" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="96.52" x2="175.26" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="96.52" x2="180.34" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="109.22" x2="180.34" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="96.52" x2="175.26" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="96.52" x2="175.26" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
-<junction x="182.88" y="96.52"/>
+<junction x="180.34" y="96.52"/>
 <wire x1="88.9" y1="93.98" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="OPAMP_D" gate="B" pin="-IN"/>
+<pinref part="OPAMP_D" gate="B" pin="+IN"/>
+<wire x1="180.34" y1="109.22" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$218" class="0">
 <segment>
 <pinref part="ADC_IN" gate="G$1" pin="CLOCK+"/>
 <wire x1="55.88" y1="91.44" x2="86.36" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="78.74" x2="182.88" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="JP_AIN_7" gate="1" pin="3"/>
 <wire x1="218.44" y1="71.12" x2="218.44" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="71.12" x2="182.88" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="78.74" x2="182.88" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="73.66" x2="182.88" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="73.66" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
-<junction x="182.88" y="73.66"/>
+<wire x1="218.44" y1="71.12" x2="180.34" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="73.66" x2="180.34" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="73.66" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
+<junction x="180.34" y="73.66"/>
 <wire x1="86.36" y1="91.44" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="OPAMP_D" gate="C" pin="-IN"/>
+<wire x1="180.34" y1="73.66" x2="180.34" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="OPAMP_D" gate="C" pin="+IN"/>
+<wire x1="180.34" y1="83.82" x2="185.42" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$219" class="0">
 <segment>
 <pinref part="ADC_IN" gate="G$1" pin="CLOCK-"/>
 <wire x1="55.88" y1="88.9" x2="83.82" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="53.34" x2="182.88" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="JP_AIN_8" gate="1" pin="3"/>
 <wire x1="218.44" y1="45.72" x2="218.44" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="45.72" x2="182.88" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="53.34" x2="182.88" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="53.34" x2="175.26" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="53.34" x2="175.26" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="45.72" x2="180.34" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="58.42" x2="180.34" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="58.42" x2="175.26" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="58.42" x2="175.26" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="71.12" x2="83.82" y2="71.12" width="0.1524" layer="91"/>
-<junction x="182.88" y="53.34"/>
 <wire x1="83.82" y1="88.9" x2="83.82" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="OPAMP_D" gate="D" pin="-IN"/>
+<pinref part="OPAMP_D" gate="D" pin="+IN"/>
+<wire x1="180.34" y1="58.42" x2="185.42" y2="58.42" width="0.1524" layer="91"/>
+<junction x="180.34" y="58.42"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -9865,23 +9962,14 @@ LETTER landscape</description>
 <wire x1="119.38" y1="172.72" x2="127" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="R49" gate="R" pin="1"/>
 <pinref part="OPAMP_C" gate="A" pin="OUT"/>
-<wire x1="119.38" y1="172.72" x2="119.38" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="177.8" x2="99.06" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="OPAMP_C" gate="A" pin="+IN"/>
-<wire x1="99.06" y1="175.26" x2="101.6" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="177.8" x2="99.06" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="172.72" x2="119.38" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="167.64" x2="99.06" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="167.64" x2="99.06" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="OPAMP_C" gate="A" pin="-IN"/>
+<wire x1="99.06" y1="170.18" x2="101.6" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="-5VDAC" class="1">
-<segment>
-<pinref part="U$85" gate="G$1" pin="-5VDAC"/>
-<wire x1="109.22" y1="182.88" x2="109.22" y2="180.34" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$97" gate="G$1" pin="-5VDAC"/>
-<wire x1="193.04" y1="142.24" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="OPAMP_D" gate="P" pin="V+"/>
-</segment>
 <segment>
 <pinref part="C80" gate="C" pin="2"/>
 <pinref part="U$103" gate="G$1" pin="-5VDAC"/>
@@ -9892,18 +9980,18 @@ LETTER landscape</description>
 <pinref part="U$105" gate="G$1" pin="-5VDAC"/>
 <wire x1="147.32" y1="48.26" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="OPAMP_C" gate="P" pin="V-"/>
+<pinref part="U$85" gate="G$1" pin="-5VDAC"/>
+<wire x1="111.76" y1="165.1" x2="109.22" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="OPAMP_D" gate="P" pin="V-"/>
+<pinref part="U$97" gate="G$1" pin="-5VDAC"/>
+<wire x1="195.58" y1="124.46" x2="193.04" y2="124.46" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+5VDAC" class="0">
-<segment>
-<pinref part="U$84" gate="G$1" pin="+5VDAC"/>
-<wire x1="111.76" y1="165.1" x2="109.22" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="OPAMP_C" gate="P" pin="V-"/>
-</segment>
-<segment>
-<pinref part="U$96" gate="G$1" pin="+5VDAC"/>
-<wire x1="195.58" y1="124.46" x2="193.04" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="OPAMP_D" gate="P" pin="V-"/>
-</segment>
 <segment>
 <pinref part="C78" gate="C" pin="1"/>
 <pinref part="U$100" gate="G$1" pin="+5VDAC"/>
@@ -9913,6 +10001,16 @@ LETTER landscape</description>
 <pinref part="C79" gate="C" pin="1"/>
 <pinref part="U$102" gate="G$1" pin="+5VDAC"/>
 <wire x1="127" y1="60.96" x2="127" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="OPAMP_C" gate="P" pin="V+"/>
+<pinref part="U$84" gate="G$1" pin="+5VDAC"/>
+<wire x1="109.22" y1="182.88" x2="109.22" y2="180.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="OPAMP_D" gate="P" pin="V+"/>
+<pinref part="U$96" gate="G$1" pin="+5VDAC"/>
+<wire x1="193.04" y1="142.24" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADC_IN_1" class="0">
@@ -9941,29 +10039,29 @@ LETTER landscape</description>
 <segment>
 <pinref part="JP_AIN_1" gate="1" pin="3"/>
 <wire x1="134.62" y1="162.56" x2="134.62" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="162.56" x2="99.06" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="170.18" x2="99.06" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="162.56" x2="99.06" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="162.56" x2="96.52" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="162.56" x2="96.52" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="ADC_IN" gate="G$1" pin="DATA2+"/>
 <wire x1="55.88" y1="106.68" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="106.68" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="162.56" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
-<junction x="99.06" y="162.56"/>
-<pinref part="OPAMP_C" gate="A" pin="-IN"/>
+<wire x1="96.52" y1="162.56" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
+<junction x="96.52" y="162.56"/>
+<pinref part="OPAMP_C" gate="A" pin="+IN"/>
+<wire x1="96.52" y1="175.26" x2="101.6" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$227" class="0">
 <segment>
-<wire x1="99.06" y1="149.86" x2="101.6" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="149.86" x2="99.06" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="154.94" x2="119.38" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="154.94" x2="119.38" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="144.78" x2="99.06" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="139.7" x2="119.38" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="139.7" x2="119.38" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="147.32" x2="119.38" y2="147.32" width="0.1524" layer="91"/>
 <junction x="119.38" y="147.32"/>
 <wire x1="119.38" y1="147.32" x2="127" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="R51" gate="R" pin="1"/>
-<pinref part="OPAMP_C" gate="B" pin="+IN"/>
 <pinref part="OPAMP_C" gate="B" pin="OUT"/>
+<pinref part="OPAMP_C" gate="B" pin="-IN"/>
+<wire x1="99.06" y1="144.78" x2="101.6" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADC_IN_2" class="0">
@@ -9990,16 +10088,16 @@ LETTER landscape</description>
 </net>
 <net name="N$231" class="0">
 <segment>
-<wire x1="99.06" y1="124.46" x2="101.6" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="124.46" x2="99.06" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="129.54" x2="119.38" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="129.54" x2="119.38" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="119.38" x2="99.06" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="114.3" x2="119.38" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="114.3" x2="119.38" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="121.92" x2="119.38" y2="121.92" width="0.1524" layer="91"/>
 <junction x="119.38" y="121.92"/>
 <wire x1="119.38" y1="121.92" x2="127" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R53" gate="R" pin="1"/>
-<pinref part="OPAMP_C" gate="C" pin="+IN"/>
 <pinref part="OPAMP_C" gate="C" pin="OUT"/>
+<pinref part="OPAMP_C" gate="C" pin="-IN"/>
+<wire x1="99.06" y1="119.38" x2="101.6" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADC_IN_3" class="0">
@@ -10026,16 +10124,16 @@ LETTER landscape</description>
 </net>
 <net name="N$235" class="0">
 <segment>
-<wire x1="99.06" y1="99.06" x2="101.6" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="99.06" x2="99.06" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="104.14" x2="119.38" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="104.14" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="93.98" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="88.9" x2="119.38" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="88.9" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="96.52" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
 <junction x="119.38" y="96.52"/>
 <wire x1="119.38" y1="96.52" x2="127" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="R55" gate="R" pin="1"/>
-<pinref part="OPAMP_C" gate="D" pin="+IN"/>
 <pinref part="OPAMP_C" gate="D" pin="OUT"/>
+<pinref part="OPAMP_C" gate="D" pin="-IN"/>
+<wire x1="99.06" y1="93.98" x2="101.6" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADC_IN_4" class="0">
@@ -10062,31 +10160,29 @@ LETTER landscape</description>
 </net>
 <net name="N$238" class="0">
 <segment>
-<wire x1="101.6" y1="93.98" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="JP_AIN_4" gate="1" pin="3"/>
 <wire x1="134.62" y1="86.36" x2="134.62" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="86.36" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="93.98" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="93.98" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="86.36" x2="96.52" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="99.06" x2="96.52" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="ADC_IN" gate="G$1" pin="DATA1-"/>
-<wire x1="55.88" y1="99.06" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="93.98" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
-<junction x="99.06" y="93.98"/>
-<pinref part="OPAMP_C" gate="D" pin="-IN"/>
+<wire x1="55.88" y1="99.06" x2="96.52" y2="99.06" width="0.1524" layer="91"/>
+<junction x="96.52" y="99.06"/>
+<pinref part="OPAMP_C" gate="D" pin="+IN"/>
+<wire x1="96.52" y1="99.06" x2="101.6" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$239" class="0">
 <segment>
-<wire x1="182.88" y1="134.62" x2="185.42" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="134.62" x2="182.88" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="144.78" x2="203.2" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="144.78" x2="203.2" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="129.54" x2="182.88" y2="127" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="127" x2="203.2" y2="127" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="127" x2="203.2" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="132.08" x2="203.2" y2="132.08" width="0.1524" layer="91"/>
 <junction x="203.2" y="132.08"/>
 <wire x1="203.2" y1="132.08" x2="210.82" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="R57" gate="R" pin="1"/>
-<pinref part="OPAMP_D" gate="A" pin="+IN"/>
 <pinref part="OPAMP_D" gate="A" pin="OUT"/>
+<pinref part="OPAMP_D" gate="A" pin="-IN"/>
+<wire x1="182.88" y1="129.54" x2="185.42" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADC_IN_5" class="0">
@@ -10113,16 +10209,16 @@ LETTER landscape</description>
 </net>
 <net name="N$243" class="0">
 <segment>
-<wire x1="182.88" y1="109.22" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="109.22" x2="182.88" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="114.3" x2="203.2" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="114.3" x2="203.2" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="104.14" x2="182.88" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="99.06" x2="203.2" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="99.06" x2="203.2" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="106.68" x2="203.2" y2="106.68" width="0.1524" layer="91"/>
 <junction x="203.2" y="106.68"/>
 <wire x1="203.2" y1="106.68" x2="210.82" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="R59" gate="R" pin="1"/>
-<pinref part="OPAMP_D" gate="B" pin="+IN"/>
 <pinref part="OPAMP_D" gate="B" pin="OUT"/>
+<pinref part="OPAMP_D" gate="B" pin="-IN"/>
+<wire x1="182.88" y1="104.14" x2="185.42" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADC_IN_6" class="0">
@@ -10149,16 +10245,16 @@ LETTER landscape</description>
 </net>
 <net name="N$247" class="0">
 <segment>
-<wire x1="182.88" y1="83.82" x2="185.42" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="83.82" x2="182.88" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="88.9" x2="203.2" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="88.9" x2="203.2" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="78.74" x2="182.88" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="73.66" x2="203.2" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="73.66" x2="203.2" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="81.28" x2="203.2" y2="81.28" width="0.1524" layer="91"/>
 <junction x="203.2" y="81.28"/>
 <wire x1="203.2" y1="81.28" x2="210.82" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R61" gate="R" pin="1"/>
-<pinref part="OPAMP_D" gate="C" pin="+IN"/>
 <pinref part="OPAMP_D" gate="C" pin="OUT"/>
+<pinref part="OPAMP_D" gate="C" pin="-IN"/>
+<wire x1="182.88" y1="78.74" x2="185.42" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADC_IN_7" class="0">
@@ -10185,16 +10281,16 @@ LETTER landscape</description>
 </net>
 <net name="N$251" class="0">
 <segment>
-<wire x1="182.88" y1="58.42" x2="185.42" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="58.42" x2="182.88" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="63.5" x2="203.2" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="63.5" x2="203.2" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="53.34" x2="182.88" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="48.26" x2="203.2" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="48.26" x2="203.2" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="55.88" x2="203.2" y2="55.88" width="0.1524" layer="91"/>
 <junction x="203.2" y="55.88"/>
 <wire x1="203.2" y1="55.88" x2="210.82" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R63" gate="R" pin="1"/>
-<pinref part="OPAMP_D" gate="D" pin="+IN"/>
 <pinref part="OPAMP_D" gate="D" pin="OUT"/>
+<pinref part="OPAMP_D" gate="D" pin="-IN"/>
+<wire x1="182.88" y1="53.34" x2="185.42" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADC_IN_8" class="0">
