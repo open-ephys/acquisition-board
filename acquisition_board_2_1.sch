@@ -4853,6 +4853,8 @@ LETTER landscape</description>
 <part name="GND79" library="supply1" deviceset="GND" device=""/>
 <part name="GND80" library="supply1" deviceset="GND" device=""/>
 <part name="U$29" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
+<part name="+5VD" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="U$57" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7098,6 +7100,8 @@ LETTER landscape</description>
 <instance part="U$53" gate="G$1" x="190.5" y="175.26" rot="R90"/>
 <instance part="U$54" gate="G$1" x="198.12" y="175.26" rot="R90"/>
 <instance part="U$55" gate="G$1" x="205.74" y="175.26" rot="R90"/>
+<instance part="+5VD" gate="TP$1" x="177.8" y="50.8"/>
+<instance part="U$57" gate="G$1" x="175.26" y="40.64" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -8265,6 +8269,11 @@ LETTER landscape</description>
 <pinref part="DAC8" gate="G$1" pin="VDD"/>
 <pinref part="U$68" gate="G$1" pin="+5VD"/>
 <wire x1="104.14" y1="27.94" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="+5VD" gate="TP$1" pin="1"/>
+<pinref part="U$57" gate="G$1" pin="+5VD"/>
+<wire x1="175.26" y1="40.64" x2="177.8" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V5" class="0">
