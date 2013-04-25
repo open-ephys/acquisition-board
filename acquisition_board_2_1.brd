@@ -3274,11 +3274,11 @@ design rules under a new name.</description>
 <element name="R78" library="RHD2000_eval_board" package="0603" value="10k" x="101.092" y="95.377" rot="R270"/>
 <element name="R79" library="RHD2000_eval_board" package="0603" value="10k" x="101.219" y="91.694" rot="R270"/>
 <element name="R80" library="RHD2000_eval_board" package="0603" value="10k" x="101.219" y="87.757" rot="R90"/>
-<element name="R81" library="RHD2000_eval_board" package="0603" value="10k" x="102.616" y="83.82" rot="R90"/>
-<element name="R82" library="RHD2000_eval_board" package="0603" value="10k" x="104.394" y="83.82" rot="R90"/>
+<element name="R81" library="RHD2000_eval_board" package="0603" value="10k" x="102.616" y="84.455" rot="R90"/>
+<element name="R82" library="RHD2000_eval_board" package="0603" value="10k" x="104.394" y="84.328" rot="R90"/>
 <element name="R83" library="RHD2000_eval_board" package="0603" value="10k" x="102.87" y="91.694" rot="R270"/>
 <element name="R84" library="RHD2000_eval_board" package="0603" value="10k" x="104.775" y="95.377" rot="R270"/>
-<element name="S1" library="RHD2000_eval_board" package="TERMINAL_BLOCK_3.5MM_2_GND" value="TERMINAL_BLOCK_2-3.5MM-GND" x="4.191" y="72.644" rot="R270"/>
+<element name="S1" library="RHD2000_eval_board" package="TERMINAL_BLOCK_3.5MM_2_GND" value="TERMINAL_BLOCK_2-3.5MM-GND" x="3.429" y="50.673" rot="R270"/>
 <element name="ADC1" library="open-ephys" package="8-MSOP" value="ADS8325" x="73.9775" y="24.892" rot="R90"/>
 <element name="ADC2" library="open-ephys" package="8-MSOP" value="ADS8325" x="68.707" y="24.9555" rot="R90"/>
 <element name="ADC3" library="open-ephys" package="8-MSOP" value="ADS8325" x="63.5635" y="24.9555" rot="R90"/>
@@ -5005,13 +5005,13 @@ design rules under a new name.</description>
 <wire x1="101.219" y1="92.456" x2="101.981" y2="91.694" width="0.254" layer="1"/>
 <via x="101.981" y="91.694" extent="1-16" drill="0.254" diameter="0.3048"/>
 <wire x1="101.981" y1="91.694" x2="102.235" y2="91.694" width="0.254" layer="3"/>
-<wire x1="104.394" y1="82.9564" x2="102.616" y2="82.9564" width="0.254" layer="1"/>
-<wire x1="102.616" y1="82.9564" x2="101.3206" y2="82.9564" width="0.254" layer="1"/>
-<wire x1="101.3206" y1="82.9564" x2="101.092" y2="83.185" width="0.254" layer="1"/>
-<wire x1="101.092" y1="83.185" x2="101.092" y2="86.7664" width="0.254" layer="1"/>
+<wire x1="104.394" y1="83.4644" x2="102.616" y2="83.5914" width="0.254" layer="1"/>
+<wire x1="102.616" y1="83.5914" x2="101.3206" y2="83.5914" width="0.254" layer="1"/>
+<wire x1="101.3206" y1="83.5914" x2="101.092" y2="83.82" width="0.254" layer="1"/>
+<wire x1="101.092" y1="83.82" x2="101.092" y2="86.7664" width="0.254" layer="1"/>
 <wire x1="101.092" y1="86.7664" x2="101.219" y2="86.8934" width="0.254" layer="1"/>
-<wire x1="104.394" y1="82.9564" x2="105.4354" y2="82.9564" width="0.254" layer="1"/>
-<wire x1="105.4354" y1="82.9564" x2="106.172" y2="83.693" width="0.254" layer="1"/>
+<wire x1="104.394" y1="83.4644" x2="105.4354" y2="83.4644" width="0.254" layer="1"/>
+<wire x1="105.4354" y1="83.4644" x2="106.172" y2="83.693" width="0.254" layer="1"/>
 <via x="106.172" y="83.693" extent="1-16" drill="0.254" diameter="0.3048"/>
 <wire x1="106.172" y1="83.693" x2="106.172" y2="83.947" width="0.254" layer="3"/>
 <wire x1="106.172" y1="83.947" x2="106.426" y2="84.201" width="0.254" layer="3"/>
@@ -5948,7 +5948,7 @@ design rules under a new name.</description>
 <wire x1="106.553" y1="87.63" x2="107.196" y2="87.63" width="0.2032" layer="1"/>
 <wire x1="107.196" y1="87.63" x2="107.315" y2="87.749" width="0.2032" layer="1"/>
 <contactref element="R82" pad="2"/>
-<wire x1="104.394" y1="84.6836" x2="104.394" y2="85.471" width="0.254" layer="1"/>
+<wire x1="104.394" y1="85.1916" x2="104.394" y2="85.471" width="0.254" layer="1"/>
 <wire x1="104.394" y1="85.471" x2="105.537" y2="86.614" width="0.254" layer="1"/>
 </signal>
 <signal name="DIGITAL_IN_7_5V">
@@ -5968,7 +5968,7 @@ design rules under a new name.</description>
 <wire x1="105.664" y1="87.757" x2="106.299" y2="88.392" width="0.2032" layer="1"/>
 <wire x1="106.299" y1="88.392" x2="107.442" y2="88.392" width="0.2032" layer="1"/>
 <contactref element="R81" pad="2"/>
-<wire x1="102.616" y1="84.6836" x2="102.616" y2="86.614" width="0.254" layer="1"/>
+<wire x1="102.616" y1="85.3186" x2="102.616" y2="86.614" width="0.254" layer="1"/>
 <wire x1="102.616" y1="86.614" x2="103.759" y2="87.757" width="0.254" layer="1"/>
 <wire x1="107.442" y1="88.392" x2="107.315" y2="88.399" width="0" layer="19" extent="1-1"/>
 </signal>
