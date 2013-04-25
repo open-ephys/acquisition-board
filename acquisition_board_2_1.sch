@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3592,7 +3592,7 @@ LETTER landscape</description>
 <wire x1="3.75" y1="-0.5" x2="3.75" y2="2.5" width="0.127" layer="21"/>
 <wire x1="3.75" y1="2.5" x2="1" y2="2.5" width="0.127" layer="21"/>
 <circle x="0.75" y="3.25" radius="0.353553125" width="0.127" layer="21"/>
-<text x="2.286" y="0.889" size="0.762" layer="21" font="vector" ratio="10" distance="100" rot="R90" align="center">&gt;NAME</text>
+<text x="2.286" y="0.889" size="0.762" layer="21" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -4189,6 +4189,9 @@ LETTER landscape</description>
 <pad name="2" x="0" y="0" drill="0.9144" shape="long" rot="R90"/>
 <pad name="3" x="2.54" y="0" drill="0.9144" shape="long" rot="R90"/>
 <text x="-3.556" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-2.667" size="0.9906" layer="21" ratio="12">1</text>
+<text x="0" y="-2.667" size="0.9906" layer="21" ratio="12">2</text>
+<text x="2.54" y="-2.667" size="0.9906" layer="21" ratio="12">3</text>
 <text x="-3.556" y="-4.318" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-2.8448" y1="-0.3048" x2="-2.2352" y2="0.3048" layer="51"/>
 <rectangle x1="-0.3048" y1="-0.3048" x2="0.3048" y2="0.3048" layer="51"/>
@@ -4846,6 +4849,10 @@ LETTER landscape</description>
 <part name="GND78" library="supply1" deviceset="GND" device=""/>
 <part name="C22" library="RHD2000_eval_board" deviceset="C_POL" device="_1206" value="10u"/>
 <part name="U$96" library="open-ephys" deviceset="+5VADC" device=""/>
+<part name="5V_FAN" library="jumper" deviceset="JP2E" device=""/>
+<part name="GND79" library="supply1" deviceset="GND" device=""/>
+<part name="GND80" library="supply1" deviceset="GND" device=""/>
+<part name="U$29" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8389,6 +8396,7 @@ LETTER landscape</description>
 <text x="154.94" y="86.36" size="2.54" layer="91">boost raw power supply input to +5.5V</text>
 <text x="104.14" y="30.48" size="1.778" layer="91">DIR to GND for B &gt; A transmission</text>
 <text x="63.5" y="12.7" size="1.778" layer="91">LOGIC LEVEL SHIFTER (TTL OUT)</text>
+<text x="2.54" y="106.68" size="2.54" layer="91">5V fan connector</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -8483,6 +8491,10 @@ LETTER landscape</description>
 <instance part="GND139" gate="1" x="116.84" y="12.7"/>
 <instance part="C73" gate="C" x="116.84" y="20.32"/>
 <instance part="U$32" gate="G$1" x="236.22" y="162.56"/>
+<instance part="5V_FAN" gate="1" x="10.16" y="99.06"/>
+<instance part="GND79" gate="1" x="5.08" y="91.44"/>
+<instance part="GND80" gate="1" x="15.24" y="91.44"/>
+<instance part="U$29" gate="G$1" x="10.16" y="88.9" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -8696,6 +8708,17 @@ LETTER landscape</description>
 <segment>
 <pinref part="GND139" gate="1" pin="GND"/>
 <pinref part="C73" gate="C" pin="2"/>
+</segment>
+<segment>
+<pinref part="5V_FAN" gate="1" pin="3"/>
+<wire x1="12.7" y1="96.52" x2="15.24" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="GND80" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="5V_FAN" gate="1" pin="1"/>
+<pinref part="GND79" gate="1" pin="GND"/>
+<junction x="5.08" y="93.98"/>
+<wire x1="5.08" y1="93.98" x2="7.62" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DAC1_OUT" class="0">
@@ -9127,6 +9150,11 @@ LETTER landscape</description>
 <segment>
 <pinref part="U$73" gate="G$1" pin="+5VD"/>
 <pinref part="C73" gate="C" pin="1"/>
+</segment>
+<segment>
+<pinref part="5V_FAN" gate="1" pin="2"/>
+<wire x1="10.16" y1="96.52" x2="10.16" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="U$29" gate="G$1" pin="+5VD"/>
 </segment>
 </net>
 <net name="N$99" class="0">
