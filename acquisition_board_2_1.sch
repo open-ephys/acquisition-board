@@ -4852,9 +4852,9 @@ LETTER landscape</description>
 <part name="5V_FAN" library="jumper" deviceset="JP2E" device=""/>
 <part name="GND79" library="supply1" deviceset="GND" device=""/>
 <part name="GND80" library="supply1" deviceset="GND" device=""/>
-<part name="U$29" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
 <part name="+5VD" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
 <part name="U$57" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
+<part name="P+8" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8503,7 +8503,7 @@ LETTER landscape</description>
 <instance part="5V_FAN" gate="1" x="10.16" y="99.06"/>
 <instance part="GND79" gate="1" x="5.08" y="91.44"/>
 <instance part="GND80" gate="1" x="15.24" y="91.44"/>
-<instance part="U$29" gate="G$1" x="10.16" y="88.9" rot="R270"/>
+<instance part="P+8" gate="1" x="10.16" y="81.28" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -8761,6 +8761,11 @@ LETTER landscape</description>
 <wire x1="149.86" y1="68.58" x2="149.86" y2="81.28" width="0.1524" layer="91"/>
 <junction x="149.86" y="81.28"/>
 <pinref part="P+7" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="5V_FAN" gate="1" pin="2"/>
+<wire x1="10.16" y1="96.52" x2="10.16" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="P+8" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="N$145" class="1">
@@ -9159,11 +9164,6 @@ LETTER landscape</description>
 <segment>
 <pinref part="U$73" gate="G$1" pin="+5VD"/>
 <pinref part="C73" gate="C" pin="1"/>
-</segment>
-<segment>
-<pinref part="5V_FAN" gate="1" pin="2"/>
-<wire x1="10.16" y1="96.52" x2="10.16" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U$29" gate="G$1" pin="+5VD"/>
 </segment>
 </net>
 <net name="N$99" class="0">
