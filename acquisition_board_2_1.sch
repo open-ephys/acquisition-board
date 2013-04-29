@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4713,13 +4713,13 @@ LETTER landscape</description>
 <part name="U$90" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
 <part name="+3V5_1" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
 <part name="+3V33" library="RHD2000_eval_board" deviceset="+3V5" device=""/>
-<part name="+5V_DAC" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
-<part name="-5V_DAC" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
-<part name="GND_DAC" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="+5VA" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="-5VA" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="GND_6" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
 <part name="U$93" library="open-ephys" deviceset="-5VDAC" device=""/>
 <part name="C73" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
-<part name="+5V_LS" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
-<part name="GND_LS" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="+5VD_1" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
+<part name="GND_4" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
 <part name="U$94" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="+5.5V" library="RHD2000_eval_board" deviceset="TESTPOINT" device=""/>
@@ -7048,12 +7048,12 @@ LETTER landscape</description>
 <instance part="C71" gate="C" x="170.18" y="91.44" rot="MR0"/>
 <instance part="GND138" gate="1" x="170.18" y="83.82"/>
 <instance part="U$87" gate="G$1" x="170.18" y="93.98" rot="R90"/>
-<instance part="+5V_DAC" gate="TP$1" x="190.5" y="63.5"/>
-<instance part="-5V_DAC" gate="TP$1" x="195.58" y="68.58"/>
-<instance part="GND_DAC" gate="TP$1" x="193.04" y="66.04"/>
+<instance part="+5VA" gate="TP$1" x="190.5" y="63.5"/>
+<instance part="-5VA" gate="TP$1" x="195.58" y="68.58"/>
+<instance part="GND_6" gate="TP$1" x="193.04" y="66.04"/>
 <instance part="U$93" gate="G$1" x="195.58" y="55.88" rot="R270"/>
-<instance part="+5V_LS" gate="TP$1" x="218.44" y="63.5"/>
-<instance part="GND_LS" gate="TP$1" x="215.9" y="60.96"/>
+<instance part="+5VD_1" gate="TP$1" x="218.44" y="63.5"/>
+<instance part="GND_4" gate="TP$1" x="215.9" y="60.96"/>
 <instance part="U$94" gate="G$1" x="218.44" y="48.26" rot="R270"/>
 <instance part="GND35" gate="1" x="215.9" y="43.18"/>
 <instance part="+5.5V" gate="TP$1" x="238.76" y="63.5"/>
@@ -7162,7 +7162,7 @@ LETTER landscape</description>
 <segment>
 <pinref part="GND51" gate="1" pin="GND"/>
 <wire x1="193.04" y1="50.8" x2="193.04" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="GND_DAC" gate="TP$1" pin="1"/>
+<pinref part="GND_6" gate="TP$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="C37" gate="C" pin="2"/>
@@ -7295,7 +7295,7 @@ LETTER landscape</description>
 <pinref part="GND138" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND_LS" gate="TP$1" pin="1"/>
+<pinref part="GND_4" gate="TP$1" pin="1"/>
 <pinref part="GND35" gate="1" pin="GND"/>
 <wire x1="215.9" y1="45.72" x2="215.9" y2="53.34" width="0.1524" layer="91"/>
 </segment>
@@ -8043,7 +8043,7 @@ LETTER landscape</description>
 </segment>
 <segment>
 <wire x1="195.58" y1="55.88" x2="195.58" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="-5V_DAC" gate="TP$1" pin="1"/>
+<pinref part="-5VA" gate="TP$1" pin="1"/>
 <pinref part="U$93" gate="G$1" pin="-5VA"/>
 </segment>
 <segment>
@@ -8194,7 +8194,7 @@ LETTER landscape</description>
 <pinref part="U$87" gate="G$1" pin="+5VD"/>
 </segment>
 <segment>
-<pinref part="+5V_LS" gate="TP$1" pin="1"/>
+<pinref part="+5VD_1" gate="TP$1" pin="1"/>
 <pinref part="U$94" gate="G$1" pin="+5VD"/>
 <wire x1="218.44" y1="48.26" x2="218.44" y2="55.88" width="0.1524" layer="91"/>
 </segment>
@@ -8354,7 +8354,7 @@ LETTER landscape</description>
 </segment>
 <segment>
 <wire x1="190.5" y1="48.26" x2="190.5" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="+5V_DAC" gate="TP$1" pin="1"/>
+<pinref part="+5VA" gate="TP$1" pin="1"/>
 <pinref part="U$71" gate="G$1" pin="+5VA"/>
 </segment>
 </net>
