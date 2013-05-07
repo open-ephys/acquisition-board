@@ -1,21 +1,34 @@
-Case (3D printing):
+3D printing:
 
 Shapeways (www.shapeways.com)
 Material: Strong, black, and flexible
-Price:
+Price: $134.85
 Advantages: Cheaper, matte finish
 Disadvantages: Very difficult to clean, scratches easily
 
-Case (CNC machining):
+
+CNC machining (plastic):
 
 FirstCut (www.firstcut.com)
 Material: Black ABS
-Price:
+Price: $650.00
 Advantages: More professional look
 Disadvantages: Linear streaks from cutting path 
 
-Cover (Laser cutting):
 
-Ponoko (www.ponoko.com)
-Material: Acrylic, Opal, 3 mm
-Price: 
+CNC machining (metal):
+
+FirstCut (www.firstcut.com)
+Material: Aluminum 6061-T651
+Price: $986.00
+Advantages: Pretty sweet case you got there
+Disadvantages: Expensive
+
+
+Cast urethane:
+
+APProto (approto.com)
+Material: ?
+Price: ?
+Advantages: Cheaper for large runs
+Disadvantages: High startup cost
