@@ -11410,9 +11410,6 @@ design rules under a new name.</description>
 <wire x1="72.39" y1="84.709" x2="72.4535" y2="84.6455" width="0.762" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="4,1,2b7034cc31fe66d9"/>
-</errors>
 </board>
 </drawing>
 </eagle>
