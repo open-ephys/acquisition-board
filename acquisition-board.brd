@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9,7 +9,7 @@
 <grid distance="2.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Power" color="10" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Power" color="10" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Ground" color="7" fill="1" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -2471,7 +2471,7 @@
 <class number="1" name="power" width="0.381" drill="0">
 </class>
 </classes>
-<designrules name="default">
+<designrules>
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -3952,10 +3952,10 @@ design rules under a new name.</description>
 <contactref element="BRD1" pad="JP3-76"/>
 <contactref element="D" pad="B2"/>
 <wire x1="145.669" y1="1.7145" x2="145.7325" y2="1.778" width="0.2032" layer="1"/>
-<wire x1="145.7325" y1="1.778" x2="145.7325" y2="0.6985" width="0.254" layer="1"/>
-<wire x1="145.7325" y1="0.6985" x2="145.542" y2="0.508" width="0.254" layer="1"/>
-<via x="145.542" y="0.508" extent="1-16" drill="0.381"/>
-<wire x1="145.542" y1="0.508" x2="145.796" y2="0.762" width="0.254" layer="3"/>
+<wire x1="145.7325" y1="1.778" x2="145.7325" y2="0.254" width="0.254" layer="1"/>
+<wire x1="145.7325" y1="0.254" x2="145.288" y2="-0.1905" width="0.254" layer="1"/>
+<via x="145.288" y="-0.1905" extent="1-16" drill="0.381"/>
+<wire x1="145.288" y1="-0.1905" x2="145.796" y2="0.762" width="0.254" layer="3"/>
 <wire x1="145.796" y1="0.762" x2="145.796" y2="9.144" width="0.254" layer="3"/>
 <wire x1="145.796" y1="9.144" x2="148.336" y2="11.684" width="0.254" layer="3"/>
 <wire x1="148.336" y1="11.684" x2="148.336" y2="90.424" width="0.254" layer="3"/>
@@ -5311,7 +5311,6 @@ design rules under a new name.</description>
 <wire x1="151.384" y1="8.382" x2="151.384" y2="3.048" width="0.8128" layer="1"/>
 <wire x1="153.924" y1="15.748" x2="153.924" y2="13.208" width="0.8128" layer="1"/>
 <wire x1="153.924" y1="13.208" x2="154.051" y2="13.081" width="0.8128" layer="1"/>
-<wire x1="148.2725" y1="1.778" x2="142.8496" y2="1.4224" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$143">
 <contactref element="C4" pad="1"/>
