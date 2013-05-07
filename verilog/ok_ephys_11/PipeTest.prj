@@ -1,5 +1,0 @@
-verilog work "ipcore_dir/big_fifo.v"
-verilog work "okLibrary.v"
-verilog work "led_status01.v"
-verilog work "AD7980_controller_jv_01.v"
-verilog work "PipeTest.v"
