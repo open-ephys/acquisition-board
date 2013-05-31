@@ -4692,7 +4692,7 @@ LETTER landscape</description>
 <part name="U$88" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
 <part name="U$73" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
 <part name="GND139" library="supply1" deviceset="GND" device=""/>
-<part name="C74" library="RHD2000_eval_board" deviceset="C" device="_0603"/>
+<part name="C88" library="RHD2000_eval_board" deviceset="C" device="_0603"/>
 <part name="GND140" library="supply1" deviceset="GND" device=""/>
 <part name="GND142" library="supply1" deviceset="GND" device=""/>
 <part name="GND143" library="supply1" deviceset="GND" device=""/>
@@ -4871,8 +4871,8 @@ LETTER landscape</description>
 <part name="GND141" library="supply1" deviceset="GND" device=""/>
 <part name="U$102" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
 <part name="GND146" library="supply1" deviceset="GND" device=""/>
-<part name="C23" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
-<part name="C75" library="RHD2000_eval_board" deviceset="C" device="_0603"/>
+<part name="C90" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
+<part name="C89" library="RHD2000_eval_board" deviceset="C" device="_0603"/>
 <part name="GND147" library="supply1" deviceset="GND" device=""/>
 <part name="U$106" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
 <part name="C82" library="RHD2000_eval_board" deviceset="C" device="_0603"/>
@@ -9277,7 +9277,7 @@ LETTER landscape</description>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
 <instance part="FRAME5" gate="G$2" x="147.32" y="0"/>
 <instance part="GND37" gate="1" x="53.34" y="162.56" rot="R270"/>
-<instance part="C74" gate="C" x="55.88" y="30.48"/>
+<instance part="C88" gate="C" x="55.88" y="30.48"/>
 <instance part="GND140" gate="1" x="55.88" y="20.32"/>
 <instance part="U$75" gate="G$1" x="134.62" y="165.1"/>
 <instance part="U$108" gate="G$1" x="55.88" y="35.56" rot="R90"/>
@@ -9312,8 +9312,8 @@ LETTER landscape</description>
 <instance part="GND141" gate="1" x="226.06" y="109.22"/>
 <instance part="U$102" gate="G$1" x="241.3" y="109.22" rot="R90"/>
 <instance part="GND146" gate="1" x="241.3" y="99.06"/>
-<instance part="C23" gate="C" x="241.3" y="106.68"/>
-<instance part="C75" gate="C" x="66.04" y="33.02"/>
+<instance part="C90" gate="C" x="241.3" y="106.68"/>
+<instance part="C89" gate="C" x="66.04" y="33.02"/>
 <instance part="GND147" gate="1" x="66.04" y="22.86"/>
 <instance part="U$106" gate="G$1" x="66.04" y="38.1" rot="R90"/>
 <instance part="C82" gate="C" x="73.66" y="30.48"/>
@@ -9345,7 +9345,7 @@ LETTER landscape</description>
 <pinref part="LED1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C74" gate="C" pin="2"/>
+<pinref part="C88" gate="C" pin="2"/>
 <pinref part="GND140" gate="1" pin="GND"/>
 <wire x1="55.88" y1="25.4" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
 </segment>
@@ -9410,10 +9410,10 @@ LETTER landscape</description>
 </segment>
 <segment>
 <pinref part="GND146" gate="1" pin="GND"/>
-<pinref part="C23" gate="C" pin="2"/>
+<pinref part="C90" gate="C" pin="2"/>
 </segment>
 <segment>
-<pinref part="C75" gate="C" pin="2"/>
+<pinref part="C89" gate="C" pin="2"/>
 <pinref part="GND147" gate="1" pin="GND"/>
 <wire x1="66.04" y1="27.94" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
 </segment>
@@ -9452,7 +9452,7 @@ LETTER landscape</description>
 <segment>
 <pinref part="U$108" gate="G$1" pin="+5VD"/>
 <wire x1="55.88" y1="35.56" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="C74" gate="C" pin="1"/>
+<pinref part="C88" gate="C" pin="1"/>
 </segment>
 <segment>
 <pinref part="U$75" gate="G$1" pin="+5VD"/>
@@ -9526,12 +9526,12 @@ LETTER landscape</description>
 </segment>
 <segment>
 <pinref part="U$102" gate="G$1" pin="+5VD"/>
-<pinref part="C23" gate="C" pin="1"/>
+<pinref part="C90" gate="C" pin="1"/>
 </segment>
 <segment>
 <pinref part="U$106" gate="G$1" pin="+5VD"/>
 <wire x1="66.04" y1="38.1" x2="66.04" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="C75" gate="C" pin="1"/>
+<pinref part="C89" gate="C" pin="1"/>
 </segment>
 <segment>
 <pinref part="U$109" gate="G$1" pin="+5VD"/>
