@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9628,10 +9628,11 @@ LETTER landscape</description>
 <net name="N$9" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="DI"/>
-<wire x1="68.58" y1="175.26" x2="71.12" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="175.26" x2="68.58" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="R67" gate="R" pin="1"/>
-<wire x1="71.12" y1="177.8" x2="152.4" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="177.8" x2="175.26" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="177.8" x2="160.02" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="177.8" x2="160.02" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="154.94" x2="175.26" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -9644,12 +9645,10 @@ LETTER landscape</description>
 <net name="N$4" class="0">
 <segment>
 <pinref part="LED4" gate="G$1" pin="DO"/>
-<wire x1="68.58" y1="66.04" x2="91.44" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="66.04" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="71.12" x2="96.52" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="170.18" x2="101.6" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="66.04" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="66.04" x2="96.52" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="LED5" gate="G$1" pin="DI"/>
-<wire x1="101.6" y1="175.26" x2="114.3" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="175.26" x2="114.3" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
