@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10,7 +10,7 @@
 <layers>
 <layer number="1" name="Top" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Power" color="10" fill="1" visible="yes" active="yes"/>
-<layer number="3" name="Ground" color="7" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Ground" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
 <layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
@@ -200,6 +200,10 @@
 <hole x="136.2" y="157.4" drill="3.5"/>
 <text x="150.6935" y="28.6435" size="1.016" layer="25" font="vector" ratio="10">gnd</text>
 <text x="150.63" y="23.754" size="1.016" layer="25" font="vector" ratio="10">gnd</text>
+<rectangle x1="123.3805" y1="23.4315" x2="149.7965" y2="31.115" layer="25"/>
+<rectangle x1="123.444" y1="16.256" x2="149.733" y2="19.4945" layer="25"/>
+<text x="123.317" y="31.369" size="1.27" layer="25" font="vector" ratio="10">s/n</text>
+<text x="123.444" y="19.7485" size="1.27" layer="25" font="vector" ratio="10">tested</text>
 </plain>
 <libraries>
 <library name="RHD2000_eval_board">
@@ -2487,7 +2491,7 @@
 <class number="1" name="power" width="0.381" drill="0">
 </class>
 </classes>
-<designrules name="default">
+<designrules>
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
