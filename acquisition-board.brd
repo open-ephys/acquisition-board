@@ -2987,7 +2987,7 @@ design rules under a new name.</description>
 <element name="ADC_SCLK" library="RHD2000_eval_board" package="TESTPOINT" value="TESTPOINT" x="54.356" y="73.533" rot="MR0"/>
 <element name="DAC_SCLK" library="RHD2000_eval_board" package="TESTPOINT" value="TESTPOINT" x="54.356" y="70.993" rot="MR0"/>
 <element name="DAC_!SYNC!" library="RHD2000_eval_board" package="TESTPOINT" value="TESTPOINT" x="54.356" y="68.453" rot="MR0"/>
-<element name="+1.8V_FPGA" library="RHD2000_eval_board" package="TESTPOINT" value="TESTPOINT" x="142.113" y="124.206" rot="MR180"/>
+<element name="+1.8V_FPGA" library="RHD2000_eval_board" package="TESTPOINT" value="TESTPOINT" x="141.986" y="124.079" rot="MR90"/>
 <element name="+1.2V_FPGA" library="RHD2000_eval_board" package="TESTPOINT" value="TESTPOINT" x="127.381" y="124.841" rot="MR0"/>
 <element name="C1" library="RHD2000_eval_board" package="1206" value="22u" x="142.748" y="143.51" smashed="yes" rot="R90">
 <attribute name="NAME" x="145.542" y="142.875" size="1.016" layer="25" font="vector" rot="R90"/>
@@ -5644,8 +5644,8 @@ design rules under a new name.</description>
 <signal name="N$175" class="1">
 <contactref element="BRD1" pad="JP3-7"/>
 <contactref element="+1.8V_FPGA" pad="1"/>
-<wire x1="137.291" y1="124.144" x2="142.051" y2="124.144" width="0.254" layer="1"/>
-<wire x1="142.051" y1="124.144" x2="142.113" y2="124.206" width="0.254" layer="1"/>
+<wire x1="137.291" y1="124.144" x2="141.797" y2="124.144" width="0.254" layer="1"/>
+<wire x1="141.797" y1="124.144" x2="141.986" y2="124.079" width="0.254" layer="1"/>
 </signal>
 <signal name="N$185" class="1">
 <contactref element="BRD1" pad="JP3-4"/>
