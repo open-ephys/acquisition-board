@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="9" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="14" fill="1" visible="no" active="yes"/>
 <layer number="18" name="Vias" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="12" fill="1" visible="yes" active="yes"/>
@@ -216,6 +216,8 @@
 <text x="99.822" y="22.987" size="1.27" layer="25" font="vector" ratio="10">ADC range select</text>
 <text x="99.822" y="20.701" size="1.27" layer="25" font="vector" ratio="20">0-5V straight to ADC</text>
 <text x="99.314" y="14.605" size="1.27" layer="25" font="vector" ratio="10">0-5V via buffer op-amp</text>
+<wire x1="76.454" y1="23.114" x2="76.454" y2="20.32" width="0.4064" layer="21"/>
+<text x="76.708" y="13.208" size="0.762" layer="21" font="vector" ratio="12" rot="R90">2/3 = ±5V</text>
 </plain>
 <libraries>
 <library name="RHD2000_eval_board">
