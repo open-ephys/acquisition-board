@@ -4630,38 +4630,38 @@ LETTER landscape</description>
 <part name="GND126" library="supply1" deviceset="GND" device=""/>
 <part name="+3V31" library="RHD2000_eval_board" deviceset="+3V3" device=""/>
 <part name="U$85" library="open-ephys" deviceset="-5VDAC" device=""/>
-<part name="R49" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R49" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="U$86" library="open-ephys" deviceset="+5VADC" device=""/>
-<part name="R50" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R50" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="JP_AIN_1" library="jumper" deviceset="JP2E" device=""/>
-<part name="R51" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R51" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="U$89" library="open-ephys" deviceset="+5VADC" device=""/>
-<part name="R52" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R52" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="JP_AIN_2" library="jumper" deviceset="JP2E" device=""/>
-<part name="R53" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R53" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="U$92" library="open-ephys" deviceset="+5VADC" device=""/>
-<part name="R54" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R54" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="JP_AIN_3" library="jumper" deviceset="JP2E" device=""/>
-<part name="R55" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R55" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="U$95" library="open-ephys" deviceset="+5VADC" device=""/>
-<part name="R56" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R56" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="JP_AIN_4" library="jumper" deviceset="JP2E" device=""/>
 <part name="U$97" library="open-ephys" deviceset="-5VDAC" device=""/>
-<part name="R57" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R57" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="U$98" library="open-ephys" deviceset="+5VADC" device=""/>
-<part name="R58" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R58" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="JP_AIN_5" library="jumper" deviceset="JP2E" device=""/>
-<part name="R59" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R59" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="U$101" library="open-ephys" deviceset="+5VADC" device=""/>
-<part name="R60" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R60" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="JP_AIN_6" library="jumper" deviceset="JP2E" device=""/>
-<part name="R61" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R61" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="U$104" library="open-ephys" deviceset="+5VADC" device=""/>
-<part name="R62" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R62" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="JP_AIN_7" library="jumper" deviceset="JP2E" device=""/>
-<part name="R63" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R63" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="U$107" library="open-ephys" deviceset="+5VADC" device=""/>
-<part name="R64" library="RHD2000_eval_board" deviceset="R" device="_0603" value="10k"/>
+<part name="R64" library="RHD2000_eval_board" deviceset="R" device="_0603" value="499"/>
 <part name="JP_AIN_8" library="jumper" deviceset="JP2E" device=""/>
 <part name="C62" library="RHD2000_eval_board" deviceset="C" device="_0603" value="1n"/>
 <part name="GND128" library="supply1" deviceset="GND" device=""/>
