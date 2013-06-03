@@ -7392,8 +7392,6 @@ design rules under a new name.</description>
 <wire x1="97.207" y1="16.256" x2="97.244" y2="16.293" width="0.2032" layer="1"/>
 <wire x1="91.119" y1="107.344" x2="91.119" y2="107.3185" width="0.2032" layer="1"/>
 <wire x1="91.119" y1="107.3185" x2="91.1225" y2="107.315" width="0.2032" layer="1"/>
-<wire x1="99.2505" y1="16.764" x2="99.2505" y2="15.367" width="0.2032" layer="1"/>
-<wire x1="99.441" y1="15.8115" x2="99.2505" y2="15.367" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OUT3">
 <contactref element="BRD1" pad="JP2-48"/>
@@ -11230,6 +11228,9 @@ design rules under a new name.</description>
 <wire x1="29.718" y1="49.276" x2="27.94" y2="51.054" width="0.254" layer="1"/>
 </signal>
 </signals>
+<errors>
+<approved hash="19,1,9dc48ec43cd25a5f"/>
+</errors>
 </board>
 </drawing>
 </eagle>
