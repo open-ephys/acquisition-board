@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="2.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="8" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Power" color="10" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Ground" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -5419,8 +5419,9 @@ design rules under a new name.</description>
 <wire x1="134.747" y1="1.016" x2="134.747" y2="-0.508" width="0.3048" layer="1"/>
 <wire x1="134.747" y1="-0.508" x2="135.0645" y2="-0.889" width="0.3048" layer="1"/>
 <via x="135.0645" y="-0.889" extent="1-16" drill="0.381" diameter="0.3048"/>
-<wire x1="141.859" y1="1.4224" x2="142.8496" y2="1.4224" width="0.3048" layer="1"/>
-<wire x1="142.8496" y1="1.4224" x2="142.9385" y2="-0.381" width="0.3048" layer="1"/>
+<wire x1="141.859" y1="1.4224" x2="142.587465625" y2="1.4224" width="0.3048" layer="1"/>
+<wire x1="142.587465625" y1="1.4224" x2="142.96838125" y2="1.033378125" width="0.3048" layer="1"/>
+<wire x1="142.96838125" y1="1.033378125" x2="142.9385" y2="-0.381" width="0.3048" layer="1"/>
 <via x="142.9385" y="-0.381" extent="1-16" drill="0.381" diameter="0.3048"/>
 <wire x1="150.1394" y1="1.6129" x2="151.1554" y2="1.6129" width="0.3048" layer="1"/>
 <wire x1="151.1554" y1="1.6129" x2="151.384" y2="1.8415" width="0.3048" layer="1"/>
