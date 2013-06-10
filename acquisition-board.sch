@@ -4692,7 +4692,7 @@ LETTER landscape</description>
 <part name="U$88" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
 <part name="U$73" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
 <part name="GND139" library="supply1" deviceset="GND" device=""/>
-<part name="C88" library="RHD2000_eval_board" deviceset="C" device="_0603"/>
+<part name="C88" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
 <part name="GND140" library="supply1" deviceset="GND" device=""/>
 <part name="GND142" library="supply1" deviceset="GND" device=""/>
 <part name="GND143" library="supply1" deviceset="GND" device=""/>
@@ -4872,25 +4872,25 @@ LETTER landscape</description>
 <part name="U$102" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
 <part name="GND146" library="supply1" deviceset="GND" device=""/>
 <part name="C90" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
-<part name="C89" library="RHD2000_eval_board" deviceset="C" device="_0603"/>
+<part name="C89" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
 <part name="GND147" library="supply1" deviceset="GND" device=""/>
 <part name="U$106" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
-<part name="C82" library="RHD2000_eval_board" deviceset="C" device="_0603"/>
+<part name="C82" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
 <part name="GND171" library="supply1" deviceset="GND" device=""/>
 <part name="U$109" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
-<part name="C83" library="RHD2000_eval_board" deviceset="C" device="_0603"/>
+<part name="C83" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
 <part name="GND172" library="supply1" deviceset="GND" device=""/>
 <part name="U$111" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
-<part name="C84" library="RHD2000_eval_board" deviceset="C" device="_0603"/>
+<part name="C84" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
 <part name="GND173" library="supply1" deviceset="GND" device=""/>
 <part name="U$112" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
-<part name="C85" library="RHD2000_eval_board" deviceset="C" device="_0603"/>
+<part name="C85" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
 <part name="GND174" library="supply1" deviceset="GND" device=""/>
 <part name="U$113" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
-<part name="C86" library="RHD2000_eval_board" deviceset="C" device="_0603"/>
+<part name="C86" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
 <part name="GND175" library="supply1" deviceset="GND" device=""/>
 <part name="U$114" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
-<part name="C87" library="RHD2000_eval_board" deviceset="C" device="_0603"/>
+<part name="C87" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
 <part name="GND176" library="supply1" deviceset="GND" device=""/>
 <part name="U$115" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
 </parts>
