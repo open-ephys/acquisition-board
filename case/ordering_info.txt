@@ -28,7 +28,7 @@ Disadvantages: Expensive
 Cast urethane:
 
 APProto (approto.com)
-Material: ?
-Price: ?
+Material: ABS-Like TC-851
+Price: $1800 startup, then ~$50 per case
 Advantages: Cheaper for large runs
 Disadvantages: High startup cost
