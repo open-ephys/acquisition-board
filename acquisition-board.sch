@@ -4755,7 +4755,7 @@ LETTER landscape</description>
 <part name="GND153" library="supply1" deviceset="GND" device=""/>
 <part name="GND154" library="supply1" deviceset="GND" device=""/>
 <part name="GND155" library="supply1" deviceset="GND" device=""/>
-<part name="S1" library="RHD2000_eval_board" deviceset="TERMINAL_BLOCK_2" device="-3.5MM-GND"/>
+<part name="GND_CONN" library="RHD2000_eval_board" deviceset="TERMINAL_BLOCK_2" device="-3.5MM-GND"/>
 <part name="GND156" library="supply1" deviceset="GND" device=""/>
 <part name="GND157" library="supply1" deviceset="GND" device=""/>
 <part name="U$110" library="open-ephys" deviceset="+5VADC" device=""/>
@@ -5003,7 +5003,7 @@ LETTER landscape</description>
 <instance part="+3V33" gate="G$1" x="134.62" y="132.08" rot="R180"/>
 <instance part="+5V_RAW" gate="TP$1" x="66.04" y="27.94"/>
 <instance part="GND_7" gate="TP$1" x="68.58" y="30.48"/>
-<instance part="S1" gate="A" x="170.18" y="170.18" rot="R90"/>
+<instance part="GND_CONN" gate="A" x="170.18" y="170.18" rot="R90"/>
 <instance part="GND156" gate="1" x="154.94" y="172.72" rot="R270"/>
 <instance part="GND157" gate="1" x="149.86" y="170.18" rot="R270"/>
 </instances>
@@ -5466,12 +5466,12 @@ LETTER landscape</description>
 <wire x1="68.58" y1="22.86" x2="68.58" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="S1" gate="A" pin="1"/>
+<pinref part="GND_CONN" gate="A" pin="1"/>
 <pinref part="GND156" gate="1" pin="GND"/>
 <wire x1="157.48" y1="172.72" x2="162.56" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="S1" gate="A" pin="0"/>
+<pinref part="GND_CONN" gate="A" pin="0"/>
 <pinref part="GND157" gate="1" pin="GND"/>
 <wire x1="152.4" y1="170.18" x2="162.56" y2="170.18" width="0.1524" layer="91"/>
 </segment>

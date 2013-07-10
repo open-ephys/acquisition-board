@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="2.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="2.5" unitdist="mil" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Power" color="10" fill="1" visible="yes" active="yes"/>
@@ -26,12 +26,12 @@
 <layer number="16" name="Bottom" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="12" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="12" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="15" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
@@ -3317,7 +3317,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="104.267" y="99.3775" size="0.762" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="104.775" y="93.599" size="0.762" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="S1" library="RHD2000_eval_board" package="TERMINAL_BLOCK_3.5MM_2_GND" value="TERMINAL_BLOCK_2-3.5MM-GND" x="6.223" y="72.771" rot="R270"/>
+<element name="GND_CONN" library="RHD2000_eval_board" package="TERMINAL_BLOCK_3.5MM_2_GND" value="TERMINAL_BLOCK_2-3.5MM-GND" x="6.223" y="72.771" rot="R270"/>
 <element name="ADC1" library="open-ephys" package="8-MSOP" value="ADS8325" x="73.9775" y="24.892" rot="R90"/>
 <element name="ADC2" library="open-ephys" package="8-MSOP" value="ADS8325" x="68.707" y="24.9555" rot="R90"/>
 <element name="ADC3" library="open-ephys" package="8-MSOP" value="ADS8325" x="63.5635" y="24.9555" rot="R90"/>
@@ -4716,8 +4716,8 @@ design rules under a new name.</description>
 <contactref element="R81" pad="1"/>
 <contactref element="R80" pad="1"/>
 <contactref element="R79" pad="1"/>
-<contactref element="S1" pad="2"/>
-<contactref element="S1" pad="1"/>
+<contactref element="GND_CONN" pad="2"/>
+<contactref element="GND_CONN" pad="1"/>
 <contactref element="ADC1" pad="P4"/>
 <contactref element="ADC2" pad="P4"/>
 <contactref element="ADC3" pad="P4"/>
