@@ -530,17 +530,17 @@ LETTER landscape</description>
 <rectangle x1="0.6096" y1="-0.635" x2="1.016" y2="0.635" layer="51"/>
 </package>
 <package name="SOT-23-5">
-<wire x1="-1.5" y1="0.7" x2="1.5" y2="0.7" width="0.1524" layer="21"/>
-<wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.1524" layer="21"/>
-<wire x1="1.5" y1="-0.7" x2="-1.5" y2="-0.7" width="0.1524" layer="21"/>
-<wire x1="-1.5" y1="-0.7" x2="-1.5" y2="0.7" width="0.1524" layer="21"/>
-<circle x="-1.7" y="-1.2" radius="0.2236" width="0.1524" layer="21"/>
-<smd name="2" x="0" y="-1.35" dx="1" dy="0.55" layer="1" rot="R90"/>
-<smd name="1" x="-0.95" y="-1.35" dx="1" dy="0.55" layer="1" rot="R90"/>
-<smd name="3" x="0.95" y="-1.35" dx="1" dy="0.55" layer="1" rot="R90"/>
-<smd name="4" x="0.95" y="1.35" dx="1" dy="0.55" layer="1" rot="R90"/>
-<text x="0.073" y="-0.0254" size="0.762" layer="25" font="vector" align="center">&gt;NAME</text>
-<smd name="5" x="-0.95" y="1.35" dx="1" dy="0.55" layer="1" rot="R90"/>
+<wire x1="0.7" y1="1.5" x2="0.7" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="0.7" y1="-1.5" x2="-0.7" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="-0.7" y1="-1.5" x2="-0.7" y2="1.5" width="0.1524" layer="21"/>
+<wire x1="-0.7" y1="1.5" x2="0.7" y2="1.5" width="0.1524" layer="21"/>
+<circle x="-1.2" y="1.7" radius="0.2236" width="0.1524" layer="21"/>
+<smd name="2" x="-1.35" y="0" dx="1" dy="0.55" layer="1"/>
+<smd name="1" x="-1.35" y="0.95" dx="1" dy="0.55" layer="1"/>
+<smd name="3" x="-1.35" y="-0.95" dx="1" dy="0.55" layer="1"/>
+<smd name="4" x="1.35" y="-0.95" dx="1" dy="0.55" layer="1"/>
+<text x="-0.0254" y="-0.073" size="0.762" layer="25" font="vector" rot="R270" align="center">&gt;NAME</text>
+<smd name="5" x="1.35" y="0.95" dx="1" dy="0.55" layer="1"/>
 </package>
 <package name="SOIC-14">
 <wire x1="4.325" y1="-1.7" x2="-4.325" y2="-1.7" width="0.1524" layer="21"/>
@@ -585,18 +585,18 @@ LETTER landscape</description>
 <text x="4.8255" y="3.391" size="1.27" layer="25" font="vector">&gt;NAME</text>
 </package>
 <package name="SOT-23-6">
-<wire x1="-1.5" y1="0.7" x2="1.5" y2="0.7" width="0.1524" layer="21"/>
-<wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.1524" layer="21"/>
-<wire x1="1.5" y1="-0.7" x2="-1.5" y2="-0.7" width="0.1524" layer="21"/>
-<wire x1="-1.5" y1="-0.7" x2="-1.5" y2="0.7" width="0.1524" layer="21"/>
-<circle x="-1.7" y="-1.2" radius="0.2236" width="0.1524" layer="21"/>
-<smd name="2" x="0" y="-1.35" dx="1" dy="0.55" layer="1" rot="R90"/>
-<smd name="1" x="-0.95" y="-1.35" dx="1" dy="0.55" layer="1" rot="R90"/>
-<smd name="3" x="0.95" y="-1.35" dx="1" dy="0.55" layer="1" rot="R90"/>
-<smd name="4" x="0.95" y="1.35" dx="1" dy="0.55" layer="1" rot="R90"/>
-<text x="-0.0794" y="0.0762" size="0.762" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<smd name="6" x="-0.95" y="1.35" dx="1" dy="0.55" layer="1" rot="R90"/>
-<smd name="5" x="0" y="1.35" dx="1" dy="0.55" layer="1" rot="R90"/>
+<wire x1="0.7" y1="1.5" x2="0.7" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="0.7" y1="-1.5" x2="-0.7" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="-0.7" y1="-1.5" x2="-0.7" y2="1.5" width="0.1524" layer="21"/>
+<wire x1="-0.7" y1="1.5" x2="0.7" y2="1.5" width="0.1524" layer="21"/>
+<circle x="-1.2" y="1.7" radius="0.2236" width="0.1524" layer="21"/>
+<smd name="2" x="-1.35" y="0" dx="1" dy="0.55" layer="1"/>
+<smd name="1" x="-1.35" y="0.95" dx="1" dy="0.55" layer="1"/>
+<smd name="3" x="-1.35" y="-0.95" dx="1" dy="0.55" layer="1"/>
+<smd name="4" x="1.35" y="-0.95" dx="1" dy="0.55" layer="1"/>
+<text x="0.0762" y="0.0794" size="0.762" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<smd name="6" x="1.35" y="0.95" dx="1" dy="0.55" layer="1"/>
+<smd name="5" x="1.35" y="0" dx="1" dy="0.55" layer="1"/>
 </package>
 <package name="TESTPOINT">
 <pad name="1" x="0" y="0" drill="1.016" rot="R90"/>
@@ -3471,20 +3471,20 @@ LETTER landscape</description>
 <rectangle x1="13.3477" y1="4.8133" x2="13.4493" y2="4.8387" layer="25"/>
 </package>
 <package name="SOT23-6">
-<smd name="5" x="0" y="1.3" dx="0.7" dy="1" layer="1"/>
-<smd name="2" x="0" y="-1.3" dx="0.7" dy="1" layer="1"/>
-<smd name="3" x="0.95" y="-1.3" dx="0.7" dy="1" layer="1"/>
-<smd name="4" x="0.95" y="1.3" dx="0.7" dy="1" layer="1"/>
-<smd name="6" x="-0.95" y="1.3" dx="0.7" dy="1" layer="1"/>
-<smd name="1" x="-0.95" y="-1.3" dx="0.7" dy="1" layer="1"/>
-<wire x1="-1.6" y1="1.2" x2="-2" y2="1.2" width="0.127" layer="25"/>
-<wire x1="-2" y1="1.2" x2="-2" y2="-1.2" width="0.127" layer="25"/>
-<wire x1="-2" y1="-1.2" x2="-1.6" y2="-1.2" width="0.127" layer="25"/>
-<wire x1="1.6" y1="-1.2" x2="2" y2="-1.2" width="0.127" layer="25"/>
-<wire x1="2" y1="-1.2" x2="2" y2="1.2" width="0.127" layer="25"/>
-<wire x1="2" y1="1.2" x2="1.6" y2="1.2" width="0.127" layer="25"/>
-<circle x="-1.4" y="-0.4" radius="0.2" width="0.127" layer="25"/>
-<text x="-2.54" y="0" size="0.508" layer="25" font="vector" rot="R90" align="center">&gt;VALUE</text>
+<smd name="5" x="1.3" y="0" dx="0.7" dy="1" layer="1" rot="R270"/>
+<smd name="2" x="-1.3" y="0" dx="0.7" dy="1" layer="1" rot="R270"/>
+<smd name="3" x="-1.3" y="-0.95" dx="0.7" dy="1" layer="1" rot="R270"/>
+<smd name="4" x="1.3" y="-0.95" dx="0.7" dy="1" layer="1" rot="R270"/>
+<smd name="6" x="1.3" y="0.95" dx="0.7" dy="1" layer="1" rot="R270"/>
+<smd name="1" x="-1.3" y="0.95" dx="0.7" dy="1" layer="1" rot="R270"/>
+<wire x1="1.2" y1="1.6" x2="1.2" y2="2" width="0.127" layer="25"/>
+<wire x1="1.2" y1="2" x2="-1.2" y2="2" width="0.127" layer="25"/>
+<wire x1="-1.2" y1="2" x2="-1.2" y2="1.6" width="0.127" layer="25"/>
+<wire x1="-1.2" y1="-1.6" x2="-1.2" y2="-2" width="0.127" layer="25"/>
+<wire x1="-1.2" y1="-2" x2="1.2" y2="-2" width="0.127" layer="25"/>
+<wire x1="1.2" y1="-2" x2="1.2" y2="-1.6" width="0.127" layer="25"/>
+<circle x="-0.4" y="1.4" radius="0.2" width="0.127" layer="25"/>
+<text x="0" y="2.54" size="0.508" layer="25" font="vector" align="center">&gt;VALUE</text>
 </package>
 <package name="MBRA210LT3-D">
 <smd name="NEG" x="-2" y="0" dx="2" dy="2" layer="1"/>
