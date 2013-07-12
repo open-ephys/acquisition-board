@@ -3502,39 +3502,39 @@ LETTER landscape</description>
 <wire x1="-0.508" y1="0.762" x2="-0.508" y2="-0.762" width="0.127" layer="25"/>
 </package>
 <package name="BNC_RIGHT_ANGLE">
-<wire x1="-2.54" y1="-6.35" x2="12.7" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="12.7" y1="-6.35" x2="12.7" y2="5.08" width="0.127" layer="21"/>
-<wire x1="12.7" y1="5.08" x2="10.16" y2="5.08" width="0.127" layer="21"/>
-<wire x1="10.16" y1="5.08" x2="0" y2="5.08" width="0.127" layer="21"/>
-<wire x1="0" y1="5.08" x2="-2.54" y2="5.08" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="0" y1="5.08" x2="0" y2="11.43" width="0.127" layer="21"/>
-<wire x1="0" y1="11.43" x2="1.27" y2="11.43" width="0.127" layer="21"/>
-<wire x1="1.27" y1="11.43" x2="8.89" y2="11.43" width="0.127" layer="21"/>
-<wire x1="8.89" y1="11.43" x2="10.16" y2="11.43" width="0.127" layer="21"/>
-<wire x1="10.16" y1="11.43" x2="10.16" y2="5.08" width="0.127" layer="21"/>
-<wire x1="1.27" y1="11.43" x2="1.27" y2="19.812" width="0.127" layer="21"/>
-<wire x1="1.27" y1="19.812" x2="1.27" y2="20.828" width="0.127" layer="21"/>
-<wire x1="1.27" y1="20.828" x2="1.27" y2="21.59" width="0.127" layer="21"/>
-<wire x1="1.27" y1="21.59" x2="8.89" y2="21.59" width="0.127" layer="21"/>
-<wire x1="8.89" y1="21.59" x2="8.89" y2="20.828" width="0.127" layer="21"/>
-<wire x1="8.89" y1="20.828" x2="8.89" y2="19.812" width="0.127" layer="21"/>
-<wire x1="8.89" y1="19.812" x2="8.89" y2="11.43" width="0.127" layer="21"/>
-<wire x1="8.89" y1="20.828" x2="9.398" y2="20.828" width="0.254" layer="21"/>
-<wire x1="9.398" y1="20.828" x2="9.398" y2="19.812" width="0.254" layer="21"/>
-<wire x1="9.398" y1="19.812" x2="8.89" y2="19.812" width="0.254" layer="21"/>
-<wire x1="1.27" y1="20.828" x2="0.762" y2="20.828" width="0.254" layer="21"/>
-<wire x1="0.762" y1="20.828" x2="0.762" y2="19.812" width="0.254" layer="21"/>
-<wire x1="0.762" y1="19.812" x2="1.27" y2="19.812" width="0.254" layer="21"/>
-<pad name="P$1" x="0" y="0" drill="2.2"/>
-<pad name="P$2" x="10.16" y="0" drill="2.2"/>
-<pad name="P$SIG" x="5.08" y="-5.08" drill="1"/>
-<pad name="P$GND" x="2.54" y="-5.08" drill="1"/>
-<text x="5.08" y="-8.89" size="2.54" layer="25" font="vector" align="center">&gt;NAME</text>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-6.35" width="0.127" layer="25"/>
-<wire x1="-2.54" y1="-6.35" x2="12.7" y2="-6.35" width="0.127" layer="25"/>
-<wire x1="12.7" y1="-6.35" x2="12.7" y2="5.08" width="0.127" layer="25"/>
-<wire x1="12.7" y1="5.08" x2="-2.54" y2="5.08" width="0.127" layer="25"/>
+<wire x1="-7.62" y1="-12.7" x2="7.62" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-12.7" x2="7.62" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-1.27" x2="5.08" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-1.27" x2="-5.08" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-1.27" x2="-7.62" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-1.27" x2="-7.62" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="5.08" x2="-3.81" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="5.08" x2="3.81" y2="5.08" width="0.127" layer="21"/>
+<wire x1="3.81" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="21"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="13.462" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="13.462" x2="-3.81" y2="14.478" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="14.478" x2="-3.81" y2="15.24" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="15.24" x2="3.81" y2="15.24" width="0.127" layer="21"/>
+<wire x1="3.81" y1="15.24" x2="3.81" y2="14.478" width="0.127" layer="21"/>
+<wire x1="3.81" y1="14.478" x2="3.81" y2="13.462" width="0.127" layer="21"/>
+<wire x1="3.81" y1="13.462" x2="3.81" y2="5.08" width="0.127" layer="21"/>
+<wire x1="3.81" y1="14.478" x2="4.318" y2="14.478" width="0.254" layer="21"/>
+<wire x1="4.318" y1="14.478" x2="4.318" y2="13.462" width="0.254" layer="21"/>
+<wire x1="4.318" y1="13.462" x2="3.81" y2="13.462" width="0.254" layer="21"/>
+<wire x1="-3.81" y1="14.478" x2="-4.318" y2="14.478" width="0.254" layer="21"/>
+<wire x1="-4.318" y1="14.478" x2="-4.318" y2="13.462" width="0.254" layer="21"/>
+<wire x1="-4.318" y1="13.462" x2="-3.81" y2="13.462" width="0.254" layer="21"/>
+<pad name="P$1" x="-5.08" y="-6.35" drill="2.2"/>
+<pad name="P$2" x="5.08" y="-6.35" drill="2.2"/>
+<pad name="P$SIG" x="0" y="-11.43" drill="1"/>
+<pad name="P$GND" x="-2.54" y="-11.43" drill="1"/>
+<text x="0" y="-15.24" size="2.54" layer="25" font="vector" align="center">&gt;NAME</text>
+<wire x1="-7.62" y1="-1.27" x2="-7.62" y2="-12.7" width="0.127" layer="25"/>
+<wire x1="-7.62" y1="-12.7" x2="7.62" y2="-12.7" width="0.127" layer="25"/>
+<wire x1="7.62" y1="-12.7" x2="7.62" y2="-1.27" width="0.127" layer="25"/>
+<wire x1="7.62" y1="-1.27" x2="-7.62" y2="-1.27" width="0.127" layer="25"/>
 </package>
 <package name="8-SOIC">
 <smd name="P1" x="0" y="3.81" dx="2.2" dy="0.6" layer="1"/>
@@ -3572,20 +3572,20 @@ LETTER landscape</description>
 <circle x="0" y="1" radius="0.25" width="0.127" layer="21"/>
 </package>
 <package name="8-MSOP">
-<smd name="P4" x="0" y="0" dx="1.2" dy="0.45" layer="1"/>
-<smd name="P3" x="0" y="0.66" dx="1.2" dy="0.45" layer="1"/>
-<smd name="P2" x="0" y="1.32" dx="1.2" dy="0.45" layer="1"/>
-<smd name="P1" x="0" y="1.98" dx="1.2" dy="0.45" layer="1"/>
-<smd name="P5" x="4.76" y="0" dx="1.2" dy="0.45" layer="1"/>
-<smd name="P6" x="4.76" y="0.66" dx="1.2" dy="0.45" layer="1"/>
-<smd name="P7" x="4.76" y="1.32" dx="1.2" dy="0.45" layer="1"/>
-<smd name="P8" x="4.76" y="1.98" dx="1.2" dy="0.45" layer="1"/>
-<wire x1="1" y1="2.5" x2="1" y2="-0.5" width="0.127" layer="21"/>
-<wire x1="1" y1="-0.5" x2="3.75" y2="-0.5" width="0.127" layer="21"/>
-<wire x1="3.75" y1="-0.5" x2="3.75" y2="2.5" width="0.127" layer="21"/>
-<wire x1="3.75" y1="2.5" x2="1" y2="2.5" width="0.127" layer="21"/>
-<circle x="0.75" y="3.25" radius="0.353553125" width="0.127" layer="21"/>
-<text x="2.286" y="0.889" size="0.762" layer="21" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<smd name="P4" x="-2.375" y="-1" dx="1.2" dy="0.45" layer="1"/>
+<smd name="P3" x="-2.375" y="-0.34" dx="1.2" dy="0.45" layer="1"/>
+<smd name="P2" x="-2.375" y="0.32" dx="1.2" dy="0.45" layer="1"/>
+<smd name="P1" x="-2.375" y="0.98" dx="1.2" dy="0.45" layer="1"/>
+<smd name="P5" x="2.385" y="-1" dx="1.2" dy="0.45" layer="1"/>
+<smd name="P6" x="2.385" y="-0.34" dx="1.2" dy="0.45" layer="1"/>
+<smd name="P7" x="2.385" y="0.32" dx="1.2" dy="0.45" layer="1"/>
+<smd name="P8" x="2.385" y="0.98" dx="1.2" dy="0.45" layer="1"/>
+<wire x1="-1.375" y1="1.5" x2="-1.375" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.375" y1="-1.5" x2="1.375" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.375" y1="-1.5" x2="1.375" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.375" y1="1.5" x2="-1.375" y2="1.5" width="0.127" layer="21"/>
+<circle x="-1.625" y="2.25" radius="0.353553125" width="0.127" layer="21"/>
+<text x="-0.089" y="-0.111" size="0.762" layer="21" font="vector" ratio="10" distance="100" rot="R90" align="center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -4093,9 +4093,6 @@ LETTER landscape</description>
 <pad name="2" x="0" y="0" drill="0.9144" shape="long" rot="R90"/>
 <pad name="3" x="2.54" y="0" drill="0.9144" shape="long" rot="R90"/>
 <text x="-3.556" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-2.667" size="0.9906" layer="21" ratio="12">1</text>
-<text x="0" y="-2.667" size="0.9906" layer="21" ratio="12">2</text>
-<text x="2.54" y="-2.667" size="0.9906" layer="21" ratio="12">3</text>
 <text x="-3.556" y="-4.318" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-2.8448" y1="-0.3048" x2="-2.2352" y2="0.3048" layer="51"/>
 <rectangle x1="-0.3048" y1="-0.3048" x2="0.3048" y2="0.3048" layer="51"/>
