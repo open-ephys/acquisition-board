@@ -3556,21 +3556,21 @@ LETTER landscape</description>
 <text x="2.54" y="1.27" size="0.762" layer="21" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="DCU">
-<smd name="P1" x="0" y="0" dx="0.25" dy="0.75" layer="1"/>
-<smd name="P2" x="0.5" y="0" dx="0.25" dy="0.75" layer="1"/>
-<smd name="P3" x="1" y="0" dx="0.25" dy="0.75" layer="1"/>
-<smd name="P4" x="1.5" y="0" dx="0.25" dy="0.75" layer="1"/>
-<smd name="P8" x="0" y="3.1" dx="0.25" dy="0.75" layer="1"/>
-<smd name="P7" x="0.5" y="3.1" dx="0.25" dy="0.75" layer="1"/>
-<smd name="P6" x="1" y="3.1" dx="0.25" dy="0.75" layer="1"/>
-<smd name="P5" x="1.5" y="3.1" dx="0.25" dy="0.75" layer="1"/>
-<wire x1="-0.5" y1="3" x2="-0.75" y2="3" width="0.127" layer="21"/>
-<wire x1="-0.75" y1="3" x2="-0.75" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.75" y1="0" x2="-0.5" y2="0" width="0.127" layer="21"/>
-<wire x1="2" y1="0" x2="2.25" y2="0" width="0.127" layer="21"/>
-<wire x1="2.25" y1="0" x2="2.25" y2="3" width="0.127" layer="21"/>
-<wire x1="2.25" y1="3" x2="2" y2="3" width="0.127" layer="21"/>
-<circle x="0" y="1" radius="0.25" width="0.127" layer="21"/>
+<smd name="P1" x="-1.5" y="0.75" dx="0.25" dy="0.75" layer="1" rot="R270"/>
+<smd name="P2" x="-1.5" y="0.25" dx="0.25" dy="0.75" layer="1" rot="R270"/>
+<smd name="P3" x="-1.5" y="-0.25" dx="0.25" dy="0.75" layer="1" rot="R270"/>
+<smd name="P4" x="-1.5" y="-0.75" dx="0.25" dy="0.75" layer="1" rot="R270"/>
+<smd name="P8" x="1.6" y="0.75" dx="0.25" dy="0.75" layer="1" rot="R270"/>
+<smd name="P7" x="1.6" y="0.25" dx="0.25" dy="0.75" layer="1" rot="R270"/>
+<smd name="P6" x="1.6" y="-0.25" dx="0.25" dy="0.75" layer="1" rot="R270"/>
+<smd name="P5" x="1.6" y="-0.75" dx="0.25" dy="0.75" layer="1" rot="R270"/>
+<wire x1="1.5" y1="1.25" x2="1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.25" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="-1.25" width="0.127" layer="21"/>
+<circle x="-0.5" y="0.75" radius="0.25" width="0.127" layer="21"/>
 </package>
 <package name="8-MSOP">
 <smd name="P4" x="-2.375" y="-1" dx="1.2" dy="0.45" layer="1"/>
