@@ -4553,7 +4553,7 @@ LETTER landscape</description>
 <part name="C56" library="RHD2000_eval_board" deviceset="C" device="_0603" value="10n"/>
 <part name="C57" library="RHD2000_eval_board" deviceset="C" device="_0603" value="15p"/>
 <part name="C58" library="RHD2000_eval_board" deviceset="C" device="_1206" value="22u"/>
-<part name="R74" library="RHD2000_eval_board" deviceset="R" device="_0603" value="30.9k"/>
+<part name="R74" library="RHD2000_eval_board" deviceset="R" device="_0603" value="25.5k"/>
 <part name="R75" library="RHD2000_eval_board" deviceset="R" device="_0603" value="95.3k"/>
 <part name="GND106" library="supply1" deviceset="GND" device=""/>
 <part name="GND107" library="supply1" deviceset="GND" device=""/>
