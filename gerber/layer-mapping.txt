@@ -1,0 +1,13 @@
+.bot = bottom copper
+.bsk = bottom silkscreen
+.bsp = bottom solder paste (empty)
+.drd = excellon drill file
+.drl = drill size file
+.layer2 = inner layer 2
+.layer3 = inner layer 3
+.oln = board outline
+.slk = top silkscreen
+.smb = bottom solder mask
+.smt = top solder mask
+.top = top copper
+.tsp = top solder paste
