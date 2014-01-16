@@ -27,10 +27,10 @@
 <layer number="17" name="Pads" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="12" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="15" fill="1" visible="no" active="yes"/>
@@ -209,7 +209,7 @@
 <text x="44.069" y="156.718" size="1.27" layer="25" font="vector" ratio="10" rot="R90">gnd</text>
 <text x="58.293" y="152.4" size="1.27" layer="25" font="vector" ratio="10" rot="R90">gnd</text>
 <text x="47.752" y="159.131" size="1.27" layer="25" font="vector" ratio="10">o</text>
-<text x="53.086" y="152.273" size="1.27" layer="25" font="vector" ratio="10">i</text>
+<text x="52.324" y="152.019" size="1.27" layer="25" font="vector" ratio="10">i</text>
 <text x="128.4525" y="69.1465" size="1.016" layer="25" font="vector" ratio="10" rot="R180">led_dat</text>
 <text x="5.842" y="43.815" size="1.016" layer="25" font="vector" ratio="10" rot="R180">+5va</text>
 <text x="5.842" y="41.275" size="1.016" layer="25" font="vector" ratio="10" rot="R180">-5va</text>
@@ -3479,9 +3479,12 @@ design rules under a new name.</description>
 <element name="R65" library="RHD2000_eval_board" package="0603" value="10k" x="54.864" y="151.13"/>
 <element name="R66" library="RHD2000_eval_board" package="0603" value="100" x="59.944" y="154.94" rot="R90"/>
 <element name="C89" library="RHD2000_eval_board" package="1206" value="22u" x="84.836" y="45.212" rot="R270"/>
-<element name="C90" library="RHD2000_eval_board" package="1206" value="22u" x="153.162" y="38.1" rot="R270"/>
+<element name="C90" library="RHD2000_eval_board" package="1206" value="22u" x="153.162" y="38.1" smashed="yes" rot="R270">
+<attribute name="NAME" x="152.654" y="43.942" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="150.622" y="40.64" size="1.016" layer="27" font="vector" rot="R270"/>
+</element>
 <element name="C23" library="RHD2000_eval_board" package="0603" value="10n" x="135.89" y="27.178" smashed="yes" rot="R90">
-<attribute name="NAME" x="136.906" y="28.956" size="0.762" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="136.398" y="28.956" size="0.762" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="135.89" y="28.956" size="0.762" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="C91" library="RHD2000_eval_board" package="0805" value="1.0u" x="135.89" y="19.558" smashed="yes" rot="R270">
@@ -3506,7 +3509,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="133.096" y="25.908" size="0.762" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="C94" library="RHD2000_eval_board" package="0603" value="10n" x="144.272" y="27.178" smashed="yes" rot="R90">
-<attribute name="NAME" x="144.526" y="30.988" size="0.762" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="144.018" y="30.988" size="0.762" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="144.272" y="28.956" size="0.762" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="C95" library="RHD2000_eval_board" package="0805" value="1.0u" x="151.638" y="19.558" smashed="yes" rot="R270">
