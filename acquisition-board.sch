@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5821,39 +5821,16 @@ LETTER landscape</description>
 <junction x="220.98" y="175.26"/>
 </segment>
 </net>
-<net name="+3V5A" class="1">
-<segment>
-<pinref part="A" gate="A" pin="VDD"/>
-<wire x1="63.5" y1="60.96" x2="63.5" y2="55.88" width="0.1524" layer="91"/>
-<label x="63.5" y="63.5" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="+3V5B" class="1">
-<segment>
-<pinref part="B" gate="A" pin="VDD"/>
-<wire x1="119.38" y1="60.96" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
-<label x="119.38" y="63.5" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="+3V5C" class="1">
-<segment>
-<pinref part="C" gate="A" pin="VDD"/>
-<wire x1="175.26" y1="60.96" x2="175.26" y2="55.88" width="0.1524" layer="91"/>
-<label x="175.26" y="63.5" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="+3V5D" class="1">
-<segment>
-<pinref part="D" gate="A" pin="VDD"/>
-<wire x1="231.14" y1="60.96" x2="231.14" y2="55.88" width="0.1524" layer="91"/>
-<label x="231.14" y="66.04" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
 <net name="3V5A" class="0">
 <segment>
 <pinref part="C6" gate="C" pin="1"/>
 <wire x1="86.36" y1="22.86" x2="86.36" y2="25.4" width="0.1524" layer="91"/>
 <label x="86.36" y="27.94" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="A" gate="A" pin="VDD"/>
+<wire x1="63.5" y1="60.96" x2="63.5" y2="55.88" width="0.1524" layer="91"/>
+<label x="63.5" y="63.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="3V5B" class="0">
@@ -5862,6 +5839,11 @@ LETTER landscape</description>
 <wire x1="99.06" y1="22.86" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
 <label x="99.06" y="25.4" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="B" gate="A" pin="VDD"/>
+<wire x1="119.38" y1="60.96" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
+<label x="119.38" y="63.5" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="3V5C" class="0">
 <segment>
@@ -5869,12 +5851,22 @@ LETTER landscape</description>
 <wire x1="111.76" y1="22.86" x2="111.76" y2="25.4" width="0.1524" layer="91"/>
 <label x="111.76" y="25.4" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="C" gate="A" pin="VDD"/>
+<wire x1="175.26" y1="60.96" x2="175.26" y2="55.88" width="0.1524" layer="91"/>
+<label x="175.26" y="63.5" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="3V5D" class="0">
 <segment>
 <pinref part="C9" gate="C" pin="1"/>
 <wire x1="124.46" y1="22.86" x2="124.46" y2="25.4" width="0.1524" layer="91"/>
 <label x="124.46" y="25.4" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="D" gate="A" pin="VDD"/>
+<wire x1="231.14" y1="60.96" x2="231.14" y2="55.88" width="0.1524" layer="91"/>
+<label x="231.14" y="66.04" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
