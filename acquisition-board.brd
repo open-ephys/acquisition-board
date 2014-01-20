@@ -3239,73 +3239,73 @@ design rules under a new name.</description>
 <attribute name="NAME" x="84.5185" y="20.447" size="0.762" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="LS_I2C" library="open-ephys" package="DCU" value="TCA9406" x="108.027" y="126.262" rot="R270"/>
-<element name="R49" library="RHD2000_eval_board" package="0603" value="499" x="70.485" y="14.478" smashed="yes" rot="R90">
+<element name="R49" library="RHD2000_eval_board" package="0603" value="10k" x="70.485" y="14.478" smashed="yes" rot="R90">
 <attribute name="NAME" x="71.501" y="12.573" size="0.762" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R50" library="RHD2000_eval_board" package="0603" value="499" x="73.025" y="14.478" smashed="yes" rot="R270">
+<element name="R50" library="RHD2000_eval_board" package="0603" value="10k" x="73.025" y="14.478" smashed="yes" rot="R270">
 <attribute name="NAME" x="72.771" y="12.7" size="0.762" layer="25" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="JP_AIN_1" library="jumper" package="JP2" value="" x="73.025" y="20.066" smashed="yes" rot="R90">
 <attribute name="VALUE" x="77.343" y="16.51" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R51" library="RHD2000_eval_board" package="0603" value="499" x="65.151" y="14.478" smashed="yes" rot="R90">
+<element name="R51" library="RHD2000_eval_board" package="0603" value="10k" x="65.151" y="14.478" smashed="yes" rot="R90">
 <attribute name="NAME" x="66.2305" y="16.9545" size="0.762" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R52" library="RHD2000_eval_board" package="0603" value="499" x="67.691" y="14.478" smashed="yes" rot="R270">
+<element name="R52" library="RHD2000_eval_board" package="0603" value="10k" x="67.691" y="14.478" smashed="yes" rot="R270">
 <attribute name="NAME" x="69.469" y="14.097" size="0.762" layer="25" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="JP_AIN_2" library="jumper" package="JP2" value="" x="67.691" y="20.066" smashed="yes" rot="R90">
 <attribute name="VALUE" x="72.009" y="16.51" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R53" library="RHD2000_eval_board" package="0603" value="499" x="60.071" y="14.478" smashed="yes" rot="R90">
+<element name="R53" library="RHD2000_eval_board" package="0603" value="10k" x="60.071" y="14.478" smashed="yes" rot="R90">
 <attribute name="NAME" x="60.452" y="10.795" size="0.762" layer="25" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="R54" library="RHD2000_eval_board" package="0603" value="499" x="62.611" y="14.478" smashed="yes" rot="R270">
+<element name="R54" library="RHD2000_eval_board" package="0603" value="10k" x="62.611" y="14.478" smashed="yes" rot="R270">
 <attribute name="NAME" x="61.5315" y="12.7635" size="0.762" layer="25" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="JP_AIN_3" library="jumper" package="JP2" value="" x="62.611" y="20.066" smashed="yes" rot="R90">
 <attribute name="VALUE" x="66.929" y="16.51" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R55" library="RHD2000_eval_board" package="0603" value="499" x="54.991" y="14.478" smashed="yes" rot="R90">
+<element name="R55" library="RHD2000_eval_board" package="0603" value="10k" x="54.991" y="14.478" smashed="yes" rot="R90">
 <attribute name="NAME" x="55.372" y="10.668" size="0.762" layer="25" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="R56" library="RHD2000_eval_board" package="0603" value="499" x="57.531" y="14.478" smashed="yes" rot="R270">
+<element name="R56" library="RHD2000_eval_board" package="0603" value="10k" x="57.531" y="14.478" smashed="yes" rot="R270">
 <attribute name="NAME" x="57.15" y="12.7" size="0.762" layer="25" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="JP_AIN_4" library="jumper" package="JP2" value="" x="57.531" y="20.066" smashed="yes" rot="R90">
 <attribute name="VALUE" x="61.849" y="16.51" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R57" library="RHD2000_eval_board" package="0603" value="499" x="49.911" y="14.478" smashed="yes" rot="R90">
+<element name="R57" library="RHD2000_eval_board" package="0603" value="10k" x="49.911" y="14.478" smashed="yes" rot="R90">
 <attribute name="NAME" x="50.292" y="10.795" size="0.762" layer="25" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="R58" library="RHD2000_eval_board" package="0603" value="499" x="52.451" y="14.478" smashed="yes" rot="R270">
+<element name="R58" library="RHD2000_eval_board" package="0603" value="10k" x="52.451" y="14.478" smashed="yes" rot="R270">
 <attribute name="NAME" x="52.07" y="12.827" size="0.762" layer="25" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="JP_AIN_5" library="jumper" package="JP2" value="" x="52.451" y="20.066" smashed="yes" rot="R90">
 <attribute name="VALUE" x="56.769" y="16.51" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R59" library="RHD2000_eval_board" package="0603" value="499" x="44.831" y="14.478" smashed="yes" rot="R90">
+<element name="R59" library="RHD2000_eval_board" package="0603" value="10k" x="44.831" y="14.478" smashed="yes" rot="R90">
 <attribute name="NAME" x="44.831" y="10.668" size="0.762" layer="25" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="R60" library="RHD2000_eval_board" package="0603" value="499" x="47.371" y="14.478" smashed="yes" rot="R270">
+<element name="R60" library="RHD2000_eval_board" package="0603" value="10k" x="47.371" y="14.478" smashed="yes" rot="R270">
 <attribute name="NAME" x="47.117" y="12.827" size="0.762" layer="25" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="JP_AIN_6" library="jumper" package="JP2" value="" x="47.371" y="20.066" smashed="yes" rot="R90">
 <attribute name="VALUE" x="51.689" y="16.51" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R61" library="RHD2000_eval_board" package="0603" value="499" x="39.751" y="14.478" smashed="yes" rot="R90">
+<element name="R61" library="RHD2000_eval_board" package="0603" value="10k" x="39.751" y="14.478" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.894" y="12.573" size="0.762" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R62" library="RHD2000_eval_board" package="0603" value="499" x="42.291" y="14.478" smashed="yes" rot="R270">
+<element name="R62" library="RHD2000_eval_board" package="0603" value="10k" x="42.291" y="14.478" smashed="yes" rot="R270">
 <attribute name="NAME" x="41.275" y="11.811" size="0.762" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="JP_AIN_7" library="jumper" package="JP2" value="" x="42.291" y="20.066" smashed="yes" rot="R90">
 <attribute name="VALUE" x="46.609" y="16.51" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R63" library="RHD2000_eval_board" package="0603" value="499" x="34.671" y="14.478" smashed="yes" rot="R90">
+<element name="R63" library="RHD2000_eval_board" package="0603" value="10k" x="34.671" y="14.478" smashed="yes" rot="R90">
 <attribute name="NAME" x="33.5915" y="13.5255" size="0.762" layer="25" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="R64" library="RHD2000_eval_board" package="0603" value="499" x="37.211" y="14.478" smashed="yes" rot="R270">
+<element name="R64" library="RHD2000_eval_board" package="0603" value="10k" x="37.211" y="14.478" smashed="yes" rot="R270">
 <attribute name="NAME" x="36.195" y="11.811" size="0.762" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="JP_AIN_8" library="jumper" package="JP2" value="" x="37.211" y="20.066" smashed="yes" rot="R90">
