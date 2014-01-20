@@ -3109,7 +3109,7 @@ design rules under a new name.</description>
 <element name="+1.8V_FPGA" library="RHD2000_eval_board" package="TESTPOINT" value="TESTPOINT" x="141.986" y="124.079" rot="MR90"/>
 <element name="+1.2V_FPGA" library="RHD2000_eval_board" package="TESTPOINT" value="TESTPOINT" x="127.381" y="124.841" rot="MR0"/>
 <element name="C1" library="RHD2000_eval_board" package="1206" value="22u" x="138.684" y="136.906" smashed="yes" rot="R90">
-<attribute name="NAME" x="141.478" y="136.271" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="136.525" y="138.938" size="1.016" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="GND_3" library="RHD2000_eval_board" package="TESTPOINT" value="TESTPOINT" x="156.972" y="14.732" rot="MR90"/>
 <element name="LS_IN" library="open-ephys" package="TSSOP-24" value="OCTAL_BUS_TRANSCEIVER" x="110.115" y="89.999"/>
@@ -3606,8 +3606,11 @@ design rules under a new name.</description>
 <element name="JP_LEDS1" library="jumper" package="JP2" value="" x="157.734" y="39.751" rot="R90"/>
 <element name="JP_LEDS2" library="jumper" package="JP2" value="" x="3.175" y="-5.969" rot="R90"/>
 <element name="JP_LEDS3" library="jumper" package="JP2" value="" x="3.175" y="39.878" rot="R90"/>
-<element name="U$29" library="open-ephys" package="CT/CN1812" value="0ZCC_FUSE" x="145.796" y="143.764" rot="R270"/>
-<element name="U$59" library="open-ephys" package="2-XDFN" value="TPD1E10B06" x="145.542" y="134.874"/>
+<element name="POLYFUSE" library="open-ephys" package="CT/CN1812" value="0ZCC_FUSE" x="145.796" y="143.764" smashed="yes" rot="R270">
+<attribute name="NAME" x="143.042" y="141.01" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="142.296" y="146.264" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="ZENER" library="open-ephys" package="2-XDFN" value="TPD1E10B06" x="145.542" y="134.874" smashed="yes"/>
 </elements>
 <signals>
 <signal name="+VCCO1_35">
@@ -5592,7 +5595,7 @@ design rules under a new name.</description>
 <vertex x="-0.254" y="-9.906"/>
 <vertex x="161.544" y="-9.906"/>
 </polygon>
-<contactref element="U$59" pad="P$1"/>
+<contactref element="ZENER" pad="P$1"/>
 <wire x1="145.042" y1="134.874" x2="145.042" y2="135.12" width="0.4064" layer="1"/>
 <wire x1="145.042" y1="135.12" x2="141.478" y2="138.684" width="0.4064" layer="1"/>
 <wire x1="141.478" y1="138.684" x2="138.811" y2="138.684" width="0.4064" layer="1"/>
@@ -6140,8 +6143,8 @@ design rules under a new name.</description>
 <wire x1="24.716" y1="42.086" x2="24.716" y2="42.64" width="0.4064" layer="1"/>
 <wire x1="155.194" y1="36.322" x2="155.194" y2="38.354" width="0.254" layer="1"/>
 <wire x1="155.194" y1="38.354" x2="153.67" y2="39.878" width="0.254" layer="1"/>
-<contactref element="U$29" pad="2"/>
-<contactref element="U$59" pad="P$2"/>
+<contactref element="POLYFUSE" pad="2"/>
+<contactref element="ZENER" pad="P$2"/>
 <wire x1="146.566" y1="141.506" x2="145.796" y2="141.514" width="0.508" layer="1"/>
 <wire x1="146.566" y1="141.506" x2="146.042" y2="141.506" width="0.4064" layer="1"/>
 <wire x1="146.042" y1="141.506" x2="146.042" y2="134.874" width="0.4064" layer="1"/>
@@ -12112,7 +12115,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$25">
 <contactref element="J2" pad="1"/>
-<contactref element="U$29" pad="1"/>
+<contactref element="POLYFUSE" pad="1"/>
 <wire x1="145.796" y1="146.014" x2="146.304" y2="146.268" width="0.508" layer="1"/>
 <wire x1="146.304" y1="146.268" x2="146.304" y2="150.622" width="0.508" layer="1"/>
 <wire x1="146.304" y1="150.622" x2="146.304" y2="150.797" width="0" layer="19" extent="1-1"/>

@@ -5156,8 +5156,8 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <part name="JP_LEDS3" library="jumper" deviceset="JP2E" device=""/>
 <part name="GND215" library="supply1" deviceset="GND" device=""/>
 <part name="GND216" library="supply1" deviceset="GND" device=""/>
-<part name="U$29" library="open-ephys" deviceset="0ZCC_FUSE" device=""/>
-<part name="U$59" library="open-ephys" deviceset="TPD1E10B06" device=""/>
+<part name="POLYFUSE" library="open-ephys" deviceset="0ZCC_FUSE" device=""/>
+<part name="ZENER" library="open-ephys" deviceset="TPD1E10B06" device=""/>
 <part name="GND217" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -5244,8 +5244,8 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <instance part="GND_CONN" gate="A" x="185.42" y="170.18" rot="R90"/>
 <instance part="GND156" gate="1" x="172.72" y="172.72" rot="R270"/>
 <instance part="GND157" gate="1" x="167.64" y="170.18" rot="R270"/>
-<instance part="U$29" gate="G$1" x="129.54" y="172.72"/>
-<instance part="U$59" gate="G$1" x="144.78" y="160.02" rot="R90"/>
+<instance part="POLYFUSE" gate="G$1" x="129.54" y="172.72"/>
+<instance part="ZENER" gate="G$1" x="144.78" y="160.02" rot="R90"/>
 <instance part="GND217" gate="1" x="144.78" y="147.32"/>
 </instances>
 <busses>
@@ -5688,7 +5688,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <wire x1="170.18" y1="170.18" x2="177.8" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$59" gate="G$1" pin="P$1"/>
+<pinref part="ZENER" gate="G$1" pin="P$1"/>
 <pinref part="GND217" gate="1" pin="GND"/>
 <wire x1="144.78" y1="149.86" x2="144.78" y2="152.4" width="0.1524" layer="91"/>
 </segment>
@@ -5744,12 +5744,12 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <pinref part="P+10" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="U$29" gate="G$1" pin="B"/>
+<pinref part="POLYFUSE" gate="G$1" pin="B"/>
 <wire x1="139.7" y1="172.72" x2="144.78" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="170.18" x2="144.78" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
 <wire x1="144.78" y1="172.72" x2="154.94" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="U$59" gate="G$1" pin="P$2"/>
+<pinref part="ZENER" gate="G$1" pin="P$2"/>
 <junction x="144.78" y="172.72"/>
 </segment>
 </net>
@@ -5964,7 +5964,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <segment>
 <pinref part="J2" gate="A" pin="PWR"/>
 <wire x1="104.14" y1="172.72" x2="119.38" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="U$29" gate="G$1" pin="A"/>
+<pinref part="POLYFUSE" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>
