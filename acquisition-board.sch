@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5912,7 +5912,14 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <junction x="220.98" y="175.26"/>
 </segment>
 </net>
-<net name="3V5A" class="0">
+<net name="N$25" class="0">
+<segment>
+<pinref part="J2" gate="A" pin="PWR"/>
+<wire x1="104.14" y1="172.72" x2="119.38" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="POLYFUSE" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="+3V5A" class="1">
 <segment>
 <pinref part="C6" gate="C" pin="1"/>
 <wire x1="86.36" y1="22.86" x2="86.36" y2="25.4" width="0.1524" layer="91"/>
@@ -5924,7 +5931,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <label x="63.5" y="63.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="3V5B" class="0">
+<net name="+3V5B" class="1">
 <segment>
 <pinref part="C7" gate="C" pin="1"/>
 <wire x1="99.06" y1="22.86" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
@@ -5936,7 +5943,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <label x="119.38" y="63.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="3V5C" class="0">
+<net name="+3V5C" class="1">
 <segment>
 <pinref part="C8" gate="C" pin="1"/>
 <wire x1="111.76" y1="22.86" x2="111.76" y2="25.4" width="0.1524" layer="91"/>
@@ -5948,7 +5955,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <label x="175.26" y="63.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="3V5D" class="0">
+<net name="+3V5D" class="1">
 <segment>
 <pinref part="C9" gate="C" pin="1"/>
 <wire x1="124.46" y1="22.86" x2="124.46" y2="25.4" width="0.1524" layer="91"/>
@@ -5958,13 +5965,6 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <pinref part="D" gate="A" pin="VDD"/>
 <wire x1="231.14" y1="60.96" x2="231.14" y2="55.88" width="0.1524" layer="91"/>
 <label x="231.14" y="66.04" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="J2" gate="A" pin="PWR"/>
-<wire x1="104.14" y1="172.72" x2="119.38" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="POLYFUSE" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>
@@ -10243,6 +10243,13 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <wire x1="335.28" y1="60.96" x2="335.28" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="LED13" gate="G$1" pin="DI"/>
 <wire x1="335.28" y1="170.18" x2="353.06" y2="170.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_DAT_OUT" class="0">
+<segment>
+<pinref part="LED8" gate="G$1" pin="DO"/>
+<wire x1="114.3" y1="66.04" x2="127" y2="66.04" width="0.1524" layer="91"/>
+<label x="119.38" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
