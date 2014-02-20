@@ -9,7 +9,7 @@
 <grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Power" color="10" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Power" color="10" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Ground" color="7" fill="1" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -3200,7 +3200,7 @@ design rules under a new name.</description>
 <element name="C58" library="RHD2000_eval_board" package="1206" value="22u" x="70.358" y="57.785" smashed="yes">
 <attribute name="NAME" x="67.818" y="59.309" size="1.016" layer="25" font="vector"/>
 </element>
-<element name="R74" library="RHD2000_eval_board" package="0603" value="25.5k" x="71.4756" y="51.816" smashed="yes">
+<element name="R74" library="RHD2000_eval_board" package="0603" value="27.4k" x="71.4756" y="51.816" smashed="yes">
 <attribute name="NAME" x="70.4596" y="49.911" size="0.762" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="R75" library="RHD2000_eval_board" package="0603" value="95.3k" x="70.866" y="54.737" smashed="yes" rot="R90">
