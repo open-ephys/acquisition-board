@@ -5854,16 +5854,6 @@ design rules under a new name.</description>
 <wire x1="155.194" y1="36.322" x2="158.496" y2="33.02" width="0.6096" layer="1"/>
 <wire x1="158.496" y1="33.02" x2="158.496" y2="29.464" width="0.6096" layer="1"/>
 <wire x1="158.496" y1="29.464" x2="155.702" y2="26.67" width="0.6096" layer="1"/>
-<wire x1="155.702" y1="26.67" x2="156.21" y2="26.67" width="0" layer="19" extent="1-16"/>
-<wire x1="156.21" y1="26.67" x2="158.496" y2="24.384" width="0" layer="19" extent="1-16"/>
-<wire x1="158.496" y1="24.384" x2="158.496" y2="6.858" width="0" layer="19" extent="1-16"/>
-<wire x1="158.496" y1="6.858" x2="153.162" y2="1.524" width="0" layer="19" extent="1-16"/>
-<wire x1="153.162" y1="1.524" x2="153.162" y2="-1.778" width="0" layer="19" extent="1-16"/>
-<wire x1="153.162" y1="-1.778" x2="151.384" y2="-3.556" width="0" layer="19" extent="1-16"/>
-<wire x1="153.162" y1="-1.778" x2="152.654" y2="-1.778" width="0" layer="19" extent="1-16"/>
-<wire x1="152.654" y1="-1.778" x2="152.654" y2="-1.778" width="0" layer="19" extent="1-16"/>
-<wire x1="152.654" y1="-1.778" x2="152.654" y2="-2.032" width="0" layer="19" extent="1-16"/>
-<wire x1="152.654" y1="-2.032" x2="154.178" y2="-3.556" width="0" layer="19" extent="1-16"/>
 <contactref element="LED7" pad="VDD"/>
 <contactref element="LED7" pad="LEDVDD"/>
 <wire x1="51.386" y1="47.166" x2="51.386" y2="42.64" width="0.3048" layer="1"/>
