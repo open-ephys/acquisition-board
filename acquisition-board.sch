@@ -5111,51 +5111,6 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <part name="C101" library="RHD2000_eval_board" deviceset="C" device="_0603" value="15p"/>
 <part name="GND194" library="supply1" deviceset="GND" device=""/>
 <part name="U$5" library="open-ephys" deviceset="+5V_TRANSCEIVER" device=""/>
-<part name="GND195" library="supply1" deviceset="GND" device=""/>
-<part name="C102" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
-<part name="GND196" library="supply1" deviceset="GND" device=""/>
-<part name="LED9" library="adafruit" deviceset="WS2812" device=""/>
-<part name="LED10" library="adafruit" deviceset="WS2812" device=""/>
-<part name="LED11" library="adafruit" deviceset="WS2812" device=""/>
-<part name="LED12" library="adafruit" deviceset="WS2812" device=""/>
-<part name="LED13" library="adafruit" deviceset="WS2812" device=""/>
-<part name="LED14" library="adafruit" deviceset="WS2812" device=""/>
-<part name="LED15" library="adafruit" deviceset="WS2812" device=""/>
-<part name="LED16" library="adafruit" deviceset="WS2812" device=""/>
-<part name="GND197" library="supply1" deviceset="GND" device=""/>
-<part name="GND198" library="supply1" deviceset="GND" device=""/>
-<part name="GND199" library="supply1" deviceset="GND" device=""/>
-<part name="GND200" library="supply1" deviceset="GND" device=""/>
-<part name="GND201" library="supply1" deviceset="GND" device=""/>
-<part name="GND202" library="supply1" deviceset="GND" device=""/>
-<part name="GND203" library="supply1" deviceset="GND" device=""/>
-<part name="R89" library="RHD2000_eval_board" deviceset="R" device="_0603" value="100"/>
-<part name="C103" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
-<part name="GND204" library="supply1" deviceset="GND" device=""/>
-<part name="C104" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
-<part name="GND205" library="supply1" deviceset="GND" device=""/>
-<part name="C105" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
-<part name="GND206" library="supply1" deviceset="GND" device=""/>
-<part name="C106" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
-<part name="GND207" library="supply1" deviceset="GND" device=""/>
-<part name="C107" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
-<part name="GND208" library="supply1" deviceset="GND" device=""/>
-<part name="C108" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
-<part name="GND209" library="supply1" deviceset="GND" device=""/>
-<part name="C109" library="RHD2000_eval_board" deviceset="C" device="_0603" value="100n"/>
-<part name="GND210" library="supply1" deviceset="GND" device=""/>
-<part name="GND211" library="supply1" deviceset="GND" device=""/>
-<part name="GND212" library="supply1" deviceset="GND" device=""/>
-<part name="C110" library="RHD2000_eval_board" deviceset="C" device="_1206" value="22u"/>
-<part name="C111" library="RHD2000_eval_board" deviceset="C" device="_1206" value="22u"/>
-<part name="JP_LEDS" library="jumper" deviceset="JP2E" device=""/>
-<part name="JP_LEDS1" library="jumper" deviceset="JP2E" device=""/>
-<part name="GND213" library="supply1" deviceset="GND" device=""/>
-<part name="GND214" library="supply1" deviceset="GND" device=""/>
-<part name="JP_LEDS2" library="jumper" deviceset="JP2E" device=""/>
-<part name="JP_LEDS3" library="jumper" deviceset="JP2E" device=""/>
-<part name="GND215" library="supply1" deviceset="GND" device=""/>
-<part name="GND216" library="supply1" deviceset="GND" device=""/>
 <part name="POLYFUSE" library="open-ephys" deviceset="0ZCC_FUSE" device=""/>
 <part name="ZENER" library="open-ephys" deviceset="TPD1E10B06" device=""/>
 <part name="GND217" library="supply1" deviceset="GND" device=""/>
@@ -9489,9 +9444,6 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <text x="228.6" y="116.84" size="1.778" layer="91">DIR to GND for B &gt; A transmission</text>
 <text x="187.96" y="99.06" size="1.778" layer="91">LOGIC LEVEL SHIFTER (LEDs)</text>
 <text x="157.48" y="149.86" size="1.778" layer="91">impedance matching res.</text>
-<text x="302.26" y="175.26" size="3.81" layer="91">indicator LEDs  off board for testing</text>
-<text x="274.32" y="203.2" size="1.778" layer="91">impedance matching res.</text>
-<text x="251.46" y="190.5" size="1.778" layer="91">remove to select on/off board</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
@@ -9542,51 +9494,6 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <instance part="GND179" gate="1" x="165.1" y="96.52"/>
 <instance part="C89" gate="C" x="149.86" y="106.68"/>
 <instance part="C90" gate="C" x="165.1" y="106.68"/>
-<instance part="GND195" gate="1" x="292.1" y="157.48" rot="R270"/>
-<instance part="C102" gate="C" x="309.88" y="40.64"/>
-<instance part="GND196" gate="1" x="309.88" y="30.48"/>
-<instance part="LED9" gate="G$1" x="309.88" y="157.48" rot="R270"/>
-<instance part="LED10" gate="G$1" x="309.88" y="129.54" rot="R270"/>
-<instance part="LED11" gate="G$1" x="309.88" y="101.6" rot="R270"/>
-<instance part="LED12" gate="G$1" x="309.88" y="73.66" rot="R270"/>
-<instance part="LED13" gate="G$1" x="355.6" y="157.48" rot="R270"/>
-<instance part="LED14" gate="G$1" x="355.6" y="129.54" rot="R270"/>
-<instance part="LED15" gate="G$1" x="355.6" y="101.6" rot="R270"/>
-<instance part="LED16" gate="G$1" x="355.6" y="73.66" rot="R270"/>
-<instance part="GND197" gate="1" x="292.1" y="129.54" rot="R270"/>
-<instance part="GND198" gate="1" x="292.1" y="101.6" rot="R270"/>
-<instance part="GND199" gate="1" x="294.64" y="73.66" rot="R270"/>
-<instance part="GND200" gate="1" x="340.36" y="73.66" rot="R270"/>
-<instance part="GND201" gate="1" x="340.36" y="101.6" rot="R270"/>
-<instance part="GND202" gate="1" x="340.36" y="129.54" rot="R270"/>
-<instance part="GND203" gate="1" x="340.36" y="157.48" rot="R270"/>
-<instance part="R89" gate="R" x="276.86" y="198.12" rot="R180"/>
-<instance part="C103" gate="C" x="320.04" y="43.18"/>
-<instance part="GND204" gate="1" x="320.04" y="33.02"/>
-<instance part="C104" gate="C" x="327.66" y="40.64"/>
-<instance part="GND205" gate="1" x="327.66" y="30.48"/>
-<instance part="C105" gate="C" x="337.82" y="43.18"/>
-<instance part="GND206" gate="1" x="337.82" y="33.02"/>
-<instance part="C106" gate="C" x="345.44" y="40.64"/>
-<instance part="GND207" gate="1" x="345.44" y="30.48"/>
-<instance part="C107" gate="C" x="355.6" y="43.18"/>
-<instance part="GND208" gate="1" x="355.6" y="33.02"/>
-<instance part="C108" gate="C" x="363.22" y="40.64"/>
-<instance part="GND209" gate="1" x="363.22" y="30.48"/>
-<instance part="C109" gate="C" x="373.38" y="43.18"/>
-<instance part="GND210" gate="1" x="373.38" y="33.02"/>
-<instance part="GND211" gate="1" x="388.62" y="91.44"/>
-<instance part="GND212" gate="1" x="403.86" y="91.44"/>
-<instance part="C110" gate="C" x="388.62" y="101.6"/>
-<instance part="C111" gate="C" x="403.86" y="101.6"/>
-<instance part="JP_LEDS" gate="1" x="205.74" y="172.72"/>
-<instance part="JP_LEDS1" gate="1" x="274.32" y="172.72"/>
-<instance part="GND213" gate="1" x="205.74" y="165.1"/>
-<instance part="GND214" gate="1" x="274.32" y="162.56"/>
-<instance part="JP_LEDS2" gate="1" x="210.82" y="63.5"/>
-<instance part="JP_LEDS3" gate="1" x="266.7" y="60.96"/>
-<instance part="GND215" gate="1" x="210.82" y="53.34"/>
-<instance part="GND216" gate="1" x="266.7" y="50.8"/>
 </instances>
 <busses>
 </busses>
@@ -9710,133 +9617,6 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <pinref part="C90" gate="C" pin="2"/>
 <junction x="165.1" y="101.6"/>
 <wire x1="165.1" y1="101.6" x2="165.1" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND195" gate="1" pin="GND"/>
-<wire x1="294.64" y1="157.48" x2="299.72" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="LED9" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C102" gate="C" pin="2"/>
-<pinref part="GND196" gate="1" pin="GND"/>
-<wire x1="309.88" y1="35.56" x2="309.88" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LED10" gate="G$1" pin="GND"/>
-<pinref part="GND197" gate="1" pin="GND"/>
-<wire x1="294.64" y1="129.54" x2="299.72" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LED11" gate="G$1" pin="GND"/>
-<pinref part="GND198" gate="1" pin="GND"/>
-<wire x1="294.64" y1="101.6" x2="299.72" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LED12" gate="G$1" pin="GND"/>
-<pinref part="GND199" gate="1" pin="GND"/>
-<wire x1="297.18" y1="73.66" x2="299.72" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LED13" gate="G$1" pin="GND"/>
-<pinref part="GND203" gate="1" pin="GND"/>
-<wire x1="345.44" y1="157.48" x2="342.9" y2="157.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LED14" gate="G$1" pin="GND"/>
-<pinref part="GND202" gate="1" pin="GND"/>
-<wire x1="342.9" y1="129.54" x2="345.44" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LED15" gate="G$1" pin="GND"/>
-<pinref part="GND201" gate="1" pin="GND"/>
-<wire x1="342.9" y1="101.6" x2="345.44" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LED16" gate="G$1" pin="GND"/>
-<pinref part="GND200" gate="1" pin="GND"/>
-<wire x1="342.9" y1="73.66" x2="345.44" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C103" gate="C" pin="2"/>
-<pinref part="GND204" gate="1" pin="GND"/>
-<wire x1="320.04" y1="38.1" x2="320.04" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C104" gate="C" pin="2"/>
-<pinref part="GND205" gate="1" pin="GND"/>
-<wire x1="327.66" y1="35.56" x2="327.66" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C105" gate="C" pin="2"/>
-<pinref part="GND206" gate="1" pin="GND"/>
-<wire x1="337.82" y1="38.1" x2="337.82" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C106" gate="C" pin="2"/>
-<pinref part="GND207" gate="1" pin="GND"/>
-<wire x1="345.44" y1="35.56" x2="345.44" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C107" gate="C" pin="2"/>
-<pinref part="GND208" gate="1" pin="GND"/>
-<wire x1="355.6" y1="38.1" x2="355.6" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C108" gate="C" pin="2"/>
-<pinref part="GND209" gate="1" pin="GND"/>
-<wire x1="363.22" y1="35.56" x2="363.22" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C109" gate="C" pin="2"/>
-<pinref part="GND210" gate="1" pin="GND"/>
-<wire x1="373.38" y1="38.1" x2="373.38" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND211" gate="1" pin="GND"/>
-<pinref part="C110" gate="C" pin="2"/>
-<wire x1="388.62" y1="96.52" x2="388.62" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND212" gate="1" pin="GND"/>
-<pinref part="C111" gate="C" pin="2"/>
-<junction x="403.86" y="96.52"/>
-<wire x1="403.86" y1="96.52" x2="403.86" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP_LEDS" gate="1" pin="2"/>
-<wire x1="205.74" y1="170.18" x2="205.74" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="GND213" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="JP_LEDS1" gate="1" pin="2"/>
-<wire x1="274.32" y1="170.18" x2="274.32" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="GND214" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="JP_LEDS2" gate="1" pin="1"/>
-<wire x1="208.28" y1="60.96" x2="208.28" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="JP_LEDS2" gate="1" pin="3"/>
-<wire x1="208.28" y1="58.42" x2="210.82" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="58.42" x2="213.36" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="58.42" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="JP_LEDS2" gate="1" pin="2"/>
-<wire x1="210.82" y1="60.96" x2="210.82" y2="58.42" width="0.1524" layer="91"/>
-<junction x="210.82" y="58.42"/>
-<pinref part="GND215" gate="1" pin="GND"/>
-<wire x1="210.82" y1="58.42" x2="210.82" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP_LEDS3" gate="1" pin="1"/>
-<wire x1="264.16" y1="58.42" x2="264.16" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="55.88" x2="266.7" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="JP_LEDS3" gate="1" pin="3"/>
-<wire x1="266.7" y1="55.88" x2="264.16" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="55.88" x2="269.24" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="JP_LEDS3" gate="1" pin="2"/>
-<wire x1="266.7" y1="58.42" x2="266.7" y2="55.88" width="0.1524" layer="91"/>
-<junction x="266.7" y="55.88"/>
-<pinref part="GND216" gate="1" pin="GND"/>
-<wire x1="266.7" y1="55.88" x2="266.7" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5VD" class="0">
@@ -10042,214 +9822,19 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <pinref part="LED7" gate="G$1" pin="LEDVDD"/>
 <wire x1="134.62" y1="109.22" x2="132.08" y2="109.22" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<wire x1="309.88" y1="45.72" x2="309.88" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="C102" gate="C" pin="1"/>
-<label x="309.88" y="45.72" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="320.04" y1="48.26" x2="320.04" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="C103" gate="C" pin="1"/>
-<label x="320.04" y="50.8" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<wire x1="327.66" y1="45.72" x2="327.66" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="C104" gate="C" pin="1"/>
-<label x="327.66" y="48.26" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<wire x1="337.82" y1="48.26" x2="337.82" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="C105" gate="C" pin="1"/>
-<label x="337.82" y="48.26" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<wire x1="345.44" y1="45.72" x2="345.44" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="C106" gate="C" pin="1"/>
-<label x="345.44" y="48.26" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<wire x1="355.6" y1="48.26" x2="355.6" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="C107" gate="C" pin="1"/>
-<label x="355.6" y="50.8" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<wire x1="363.22" y1="45.72" x2="363.22" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="C108" gate="C" pin="1"/>
-<label x="363.22" y="48.26" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="C109" gate="C" pin="1"/>
-<label x="373.38" y="50.8" size="1.778" layer="95" rot="R90"/>
-<wire x1="373.38" y1="48.26" x2="373.38" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="388.62" y1="106.68" x2="388.62" y2="104.14" width="0.1524" layer="91"/>
-<label x="388.62" y="109.22" size="1.778" layer="95" rot="R90"/>
-<wire x1="403.86" y1="106.68" x2="403.86" y2="104.14" width="0.1524" layer="91"/>
-<label x="403.86" y="109.22" size="1.778" layer="95" rot="R90"/>
-<pinref part="C110" gate="C" pin="1"/>
-<pinref part="C111" gate="C" pin="1"/>
-</segment>
-<segment>
-<pinref part="LED12" gate="G$1" pin="LEDVDD"/>
-<wire x1="327.66" y1="76.2" x2="325.12" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="LED12" gate="G$1" pin="VDD"/>
-<wire x1="327.66" y1="68.58" x2="325.12" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="76.2" x2="327.66" y2="68.58" width="0.1524" layer="91"/>
-<label x="330.2" y="71.12" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="LED16" gate="G$1" pin="LEDVDD"/>
-<wire x1="373.38" y1="76.2" x2="370.84" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="LED16" gate="G$1" pin="VDD"/>
-<wire x1="373.38" y1="68.58" x2="370.84" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="76.2" x2="373.38" y2="68.58" width="0.1524" layer="91"/>
-<label x="375.92" y="68.58" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="LED9" gate="G$1" pin="LEDVDD"/>
-<wire x1="327.66" y1="160.02" x2="325.12" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="LED9" gate="G$1" pin="VDD"/>
-<wire x1="327.66" y1="152.4" x2="325.12" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="160.02" x2="327.66" y2="152.4" width="0.1524" layer="91"/>
-<label x="330.2" y="154.94" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<wire x1="373.38" y1="160.02" x2="370.84" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="LED13" gate="G$1" pin="LEDVDD"/>
-<junction x="370.84" y="160.02"/>
-<wire x1="373.38" y1="152.4" x2="370.84" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="LED13" gate="G$1" pin="VDD"/>
-<wire x1="373.38" y1="160.02" x2="373.38" y2="152.4" width="0.1524" layer="91"/>
-<label x="375.92" y="152.4" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="LED14" gate="G$1" pin="LEDVDD"/>
-<wire x1="373.38" y1="132.08" x2="370.84" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="LED14" gate="G$1" pin="VDD"/>
-<wire x1="373.38" y1="124.46" x2="370.84" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="132.08" x2="373.38" y2="124.46" width="0.1524" layer="91"/>
-<label x="375.92" y="124.46" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="LED10" gate="G$1" pin="LEDVDD"/>
-<wire x1="327.66" y1="132.08" x2="325.12" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="LED10" gate="G$1" pin="VDD"/>
-<wire x1="327.66" y1="124.46" x2="325.12" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="132.08" x2="327.66" y2="124.46" width="0.1524" layer="91"/>
-<label x="330.2" y="127" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="LED11" gate="G$1" pin="LEDVDD"/>
-<wire x1="327.66" y1="104.14" x2="325.12" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="LED11" gate="G$1" pin="VDD"/>
-<wire x1="327.66" y1="96.52" x2="325.12" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="104.14" x2="327.66" y2="96.52" width="0.1524" layer="91"/>
-<label x="330.2" y="96.52" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="LED15" gate="G$1" pin="LEDVDD"/>
-<wire x1="373.38" y1="104.14" x2="370.84" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="LED15" gate="G$1" pin="VDD"/>
-<wire x1="373.38" y1="96.52" x2="370.84" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="104.14" x2="373.38" y2="96.52" width="0.1524" layer="91"/>
-<label x="375.92" y="96.52" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="JP_LEDS" gate="1" pin="3"/>
-<wire x1="208.28" y1="170.18" x2="215.9" y2="170.18" width="0.1524" layer="91"/>
-<label x="215.9" y="170.18" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP_LEDS1" gate="1" pin="3"/>
-<wire x1="276.86" y1="170.18" x2="281.94" y2="170.18" width="0.1524" layer="91"/>
-<label x="281.94" y="170.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="LED9" gate="G$1" pin="DO"/>
-<pinref part="LED10" gate="G$1" pin="DI"/>
-<wire x1="307.34" y1="142.24" x2="307.34" y2="144.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="LED10" gate="G$1" pin="DO"/>
-<pinref part="LED11" gate="G$1" pin="DI"/>
-<wire x1="307.34" y1="114.3" x2="307.34" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="LED13" gate="G$1" pin="DO"/>
-<pinref part="LED14" gate="G$1" pin="DI"/>
-<wire x1="353.06" y1="144.78" x2="353.06" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="LED14" gate="G$1" pin="DO"/>
-<pinref part="LED15" gate="G$1" pin="DI"/>
-<wire x1="353.06" y1="114.3" x2="353.06" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="LED15" gate="G$1" pin="DO"/>
-<pinref part="LED16" gate="G$1" pin="DI"/>
-<wire x1="353.06" y1="86.36" x2="353.06" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="R89" gate="R" pin="2"/>
-<pinref part="LS_LED" gate="G$1" pin="A1"/>
-<pinref part="R67" gate="R" pin="2"/>
-<wire x1="185.42" y1="154.94" x2="190.5" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="154.94" x2="193.04" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="198.12" x2="264.16" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="198.12" x2="190.5" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="198.12" x2="190.5" y2="170.18" width="0.1524" layer="91"/>
-<junction x="190.5" y="154.94"/>
-<pinref part="JP_LEDS" gate="1" pin="1"/>
-<wire x1="190.5" y1="170.18" x2="190.5" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="170.18" x2="190.5" y2="170.18" width="0.1524" layer="91"/>
-<junction x="190.5" y="170.18"/>
-<wire x1="264.16" y1="170.18" x2="264.16" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="JP_LEDS1" gate="1" pin="1"/>
-<wire x1="264.16" y1="170.18" x2="271.78" y2="170.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="LED9" gate="G$1" pin="DI"/>
-<wire x1="307.34" y1="170.18" x2="307.34" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="R89" gate="R" pin="1"/>
-<wire x1="307.34" y1="172.72" x2="289.56" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="172.72" x2="289.56" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="198.12" x2="281.94" y2="198.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="LED11" gate="G$1" pin="DO"/>
-<pinref part="LED12" gate="G$1" pin="DI"/>
-<wire x1="307.34" y1="88.9" x2="307.34" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="LED12" gate="G$1" pin="DO"/>
-<wire x1="307.34" y1="60.96" x2="335.28" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="60.96" x2="335.28" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="LED13" gate="G$1" pin="DI"/>
-<wire x1="335.28" y1="170.18" x2="353.06" y2="170.18" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="LED_DAT_OUT" class="0">
 <segment>
 <pinref part="LED8" gate="G$1" pin="DO"/>
 <wire x1="114.3" y1="66.04" x2="127" y2="66.04" width="0.1524" layer="91"/>
 <label x="119.38" y="66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$86" class="0">
+<segment>
+<pinref part="LS_LED" gate="G$1" pin="A1"/>
+<pinref part="R67" gate="R" pin="2"/>
+<wire x1="185.42" y1="154.94" x2="193.04" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
