@@ -1,7 +1,7 @@
 Screaming Circuits SMD component position file.
 Created by Centroid_ScreamingCircuits_smd.ulp 1.2.0.
 
-Centroid Data for pc board: "acquisition-board.brd" as of: 1/30/14 1:06 AM
+Centroid Data for pc board: "acquisition-board.brd" as of: 2/27/14 2:14 PM
 Measurements are in inches. Comma delimited
 Only surface mount components included
 
@@ -129,16 +129,6 @@ C98,Top,5.970,1.080,90
 C99,Top,5.650,0.770,270
 C100,Top,5.840,0.930,0
 C101,Top,5.790,1.040,0
-C102,Top,3.975,-0.160,180
-C103,Top,4.970,-0.180,90
-C104,Top,0.820,-0.270,270
-C105,Top,4.640,-0.195,90
-C106,Top,2.995,-0.155,180
-C107,Top,1.855,-0.160,180
-C108,Top,5.610,-0.155,90
-C109,Top,5.290,-0.160,90
-C110,Top,6.015,-0.145,0
-C111,Top,4.480,-0.165,0
 D,Top,5.775,0.100,180
 D1,Top,2.605,1.905,0
 DAC1,Top,1.781,2.339,90
@@ -163,14 +153,6 @@ LED5,Top,4.200,1.600,90
 LED6,Top,3.130,1.600,90
 LED7,Top,2.090,1.600,90
 LED8,Top,1.040,1.600,90
-LED9,Top,5.770,-0.230,0
-LED10,Top,5.450,-0.230,0
-LED11,Top,5.130,-0.230,0
-LED12,Top,4.810,-0.230,0
-LED13,Top,4.180,-0.230,0
-LED14,Top,3.210,-0.230,0
-LED15,Top,2.070,-0.220,0
-LED16,Top,1.000,-0.230,0
 LS_ADC,Top,4.710,3.537,180
 LS_CLK,Top,2.345,2.703,0
 LS_DAC,Top,2.341,2.303,0
@@ -271,7 +253,6 @@ R85,Top,5.500,1.100,180
 R86,Top,5.600,1.070,270
 R87,Top,5.790,1.110,180
 R88,Top,5.890,1.080,270
-R89,Top,6.035,-0.235,0
 TTL_IN,Top,4.175,0.172,0
 TTL_OUT,Top,3.225,0.172,0
 ZENER,Top,5.730,5.310,0
@@ -285,7 +266,5 @@ JP_AIN_5,Top,2.065,0.79,90
 JP_AIN_6,Top,1.865,0.79,90
 JP_AIN_7,Top,1.165,0.79,90
 JP_AIN_8,Top,1.465,0.79,90
-JP_LEDS3,Top,0.125,1.57,90
-JP_LEDS1,Top,6.21,1.565,90
 5V_FAN,Top,6.1289,1.0493,90
 GND_CONN,Top,0.245,2.865,270
