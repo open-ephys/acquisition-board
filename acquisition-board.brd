@@ -4845,16 +4845,16 @@ design rules under a new name.</description>
 <contactref element="DAC7" pad="P8"/>
 <contactref element="DAC8" pad="P8"/>
 <polygon width="0.4064" layer="3">
-<vertex x="-2.286" y="156.591"/>
-<vertex x="-2.286" y="6.604"/>
+<vertex x="0.508" y="154.813"/>
+<vertex x="0.508" y="6.35"/>
 <vertex x="5.842" y="0.508"/>
 <vertex x="119.507" y="0.508"/>
 <vertex x="120.015" y="120.015"/>
 <vertex x="128.778" y="129.286"/>
-<vertex x="163.957" y="129.032"/>
-<vertex x="163.703" y="156.337"/>
-<vertex x="154.432" y="165.608"/>
-<vertex x="6.731" y="165.608"/>
+<vertex x="160.655" y="129.032"/>
+<vertex x="160.655" y="155.067"/>
+<vertex x="155.448" y="160.528"/>
+<vertex x="6.223" y="160.528"/>
 </polygon>
 <wire x1="73.533" y1="67.437" x2="73.533" y2="66.167" width="0.4064" layer="1"/>
 <via x="73.533" y="66.167" extent="1-16" drill="0.381"/>
@@ -5192,11 +5192,10 @@ design rules under a new name.</description>
 <via x="30.5435" y="39.4335" extent="1-16" drill="0.381"/>
 <polygon width="0.3048" layer="2">
 <vertex x="128.016" y="131.064"/>
-<vertex x="148.082" y="130.81"/>
-<vertex x="159.004" y="116.586"/>
-<vertex x="159.004" y="6.096"/>
-<vertex x="154.178" y="1.524"/>
-<vertex x="118.618" y="1.524"/>
+<vertex x="160.528" y="130.81"/>
+<vertex x="160.528" y="6.096"/>
+<vertex x="154.94" y="0.508"/>
+<vertex x="118.618" y="0.508"/>
 <vertex x="118.618" y="121.666"/>
 </polygon>
 <via x="128.524" y="130.048" extent="1-16" drill="0.381"/>
@@ -5215,14 +5214,14 @@ design rules under a new name.</description>
 <via x="119.38" y="40.64" extent="1-16" drill="0.381"/>
 <polygon width="0.254" layer="16">
 <vertex x="152.908" y="0.635"/>
-<vertex x="177.038" y="4.064"/>
-<vertex x="165.354" y="6.35"/>
-<vertex x="162.814" y="154.686"/>
-<vertex x="155.956" y="161.544"/>
-<vertex x="5.334" y="161.544"/>
-<vertex x="-0.762" y="155.448"/>
-<vertex x="-0.762" y="6.35"/>
-<vertex x="7.112" y="0.889"/>
+<vertex x="155.448" y="0.762"/>
+<vertex x="160.528" y="6.096"/>
+<vertex x="160.528" y="154.94"/>
+<vertex x="154.94" y="160.528"/>
+<vertex x="6.35" y="160.528"/>
+<vertex x="0.762" y="154.94"/>
+<vertex x="0.508" y="6.35"/>
+<vertex x="6.35" y="0.635"/>
 </polygon>
 <wire x1="101.854" y1="92.9005" x2="102.6795" y2="92.9005" width="0.381" layer="1"/>
 <wire x1="102.6795" y1="92.9005" x2="102.87" y2="92.71" width="0.381" layer="1"/>
