@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -256,6 +256,7 @@
 <wire x1="119.38" y1="-1.27" x2="117.602" y2="0.508" width="0.254" layer="20"/>
 <wire x1="117.602" y1="0.508" x2="6.35" y2="0.508" width="0.2032" layer="20"/>
 <text x="120.7215" y="73.3475" size="1.016" layer="25" font="vector" ratio="10">+gnd</text>
+<wire x1="146.812" y1="135.382" x2="146.812" y2="134.366" width="0.4064" layer="21"/>
 </plain>
 <libraries>
 <library name="RHD2000_eval_board">
