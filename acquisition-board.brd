@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Power" color="10" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Ground" color="7" fill="1" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="9" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="12" fill="1" visible="yes" active="yes"/>
@@ -277,6 +277,8 @@
 <text x="12.954" y="21.463" size="2.54" layer="26" font="vector" rot="MR0">audio</text>
 <text x="71.12" y="158.877" size="2.54" layer="26" font="vector" rot="MR180">clk/GND</text>
 <text x="139.192" y="151.765" size="2.54" layer="26" font="vector" rot="MR0">5VDC ONLY</text>
+<text x="92.71" y="5.207" size="1.016" layer="26" font="vector" ratio="10" rot="MR0">i2c_data</text>
+<text x="92.71" y="3.937" size="1.016" layer="26" font="vector" ratio="10" rot="MR0">i2c_clock</text>
 </plain>
 <libraries>
 <library name="RHD2000_eval_board">
@@ -2637,7 +2639,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <class number="1" name="power" width="0.381" drill="0">
 </class>
 </classes>
-<designrules>
+<designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -2723,6 +2725,9 @@ design rules under a new name.</description>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -6836,7 +6841,10 @@ design rules under a new name.</description>
 <via x="79.1718" y="3.5814" extent="1-16" drill="0.381"/>
 <wire x1="79.1718" y1="3.5814" x2="79.248" y2="3.5814" width="0.3048" layer="16"/>
 <wire x1="79.248" y1="3.5814" x2="79.248" y2="4.445" width="0.3048" layer="16"/>
-<wire x1="79.248" y1="4.445" x2="103.1494" y2="4.4704" width="0.3048" layer="16"/>
+<wire x1="79.248" y1="4.445" x2="93.472" y2="4.445" width="0.3048" layer="16"/>
+<wire x1="93.472" y1="4.445" x2="94.107" y2="5.08" width="0.3048" layer="16"/>
+<wire x1="94.107" y1="5.08" x2="94.7166" y2="4.4704" width="0.3048" layer="16"/>
+<wire x1="94.7166" y1="4.4704" x2="103.1494" y2="4.4704" width="0.3048" layer="16"/>
 <via x="103.1494" y="4.4704" extent="1-16" drill="0.381"/>
 <wire x1="103.1494" y1="4.4704" x2="103.2891" y2="4.6736" width="0.2032" layer="1"/>
 <wire x1="103.2891" y1="4.6736" x2="103.2891" y2="8.2584" width="0.2032" layer="1"/>
@@ -6882,6 +6890,7 @@ design rules under a new name.</description>
 <wire x1="102.997" y1="127.508" x2="101.092" y2="125.603" width="0.2032" layer="16"/>
 <wire x1="23.241" y1="8.255" x2="23.241" y2="8.272" width="0.2032" layer="1"/>
 <wire x1="23.241" y1="8.272" x2="23.285" y2="8.316" width="0.2032" layer="1"/>
+<via x="94.107" y="5.08" extent="1-16" drill="1.016"/>
 <wire x1="79.248" y1="3.556" x2="79.248" y2="3.5814" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="I2C_CLOCK">
@@ -6896,7 +6905,10 @@ design rules under a new name.</description>
 <via x="104.3686" y="3.4544" extent="1-16" drill="0.381" diameter="0.3048"/>
 <wire x1="104.3686" y1="3.4544" x2="100.3046" y2="3.4544" width="0.3048" layer="16"/>
 <wire x1="100.3046" y1="3.4544" x2="99.8982" y2="3.8608" width="0.3048" layer="16"/>
-<wire x1="99.8982" y1="3.8608" x2="80.7974" y2="3.8608" width="0.3048" layer="16"/>
+<wire x1="99.8982" y1="3.8608" x2="95.1738" y2="3.8608" width="0.3048" layer="16"/>
+<wire x1="95.1738" y1="3.8608" x2="94.107" y2="2.54" width="0.3048" layer="16"/>
+<wire x1="94.107" y1="2.54" x2="93.091" y2="3.81" width="0.3048" layer="16"/>
+<wire x1="93.091" y1="3.81" x2="80.7974" y2="3.8608" width="0.3048" layer="16"/>
 <wire x1="80.7974" y1="3.8608" x2="80.391" y2="3.4544" width="0.2032" layer="16"/>
 <via x="80.391" y="3.4544" extent="1-16" drill="0.381" diameter="0.3048"/>
 <wire x1="80.391" y1="3.4544" x2="80.391" y2="5.6896" width="0.2032" layer="1"/>
@@ -6960,6 +6972,7 @@ design rules under a new name.</description>
 <wire x1="23.785" y1="8.291" x2="23.78075" y2="8.28675" width="0.2032" layer="1"/>
 <wire x1="108.777" y1="124.662" x2="108.764" y2="124.789" width="0.2032" layer="1"/>
 <wire x1="108.764" y1="124.789" x2="108.7755" y2="124.7775" width="0.2032" layer="1"/>
+<via x="94.107" y="2.54" extent="1-16" drill="1.016"/>
 <wire x1="80.391" y1="3.429" x2="80.391" y2="3.4544" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$95">
@@ -11784,6 +11797,12 @@ design rules under a new name.</description>
 <wire x1="133.858" y1="46.482" x2="133.096" y2="45.72" width="0.254" layer="1"/>
 <wire x1="133.096" y1="45.72" x2="133.096" y2="45.3136" width="0.254" layer="1"/>
 <wire x1="133.096" y1="45.3136" x2="132.9944" y2="45.212" width="0.254" layer="1"/>
+</signal>
+<signal name="N$16">
+<via x="94.107" y="7.62" extent="1-16" drill="1.016"/>
+</signal>
+<signal name="N$17">
+<via x="94.107" y="10.16" extent="1-16" drill="1.016"/>
 </signal>
 </signals>
 </board>
