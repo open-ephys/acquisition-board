@@ -3,6 +3,12 @@ acquisition-board-extension-board
 
 this is not a finished or tested design yet!
 
+2do: 
+- check if the cmos to lvds lines will work - make sure impedances are matched, do some calculations and see if the lines aren't too long.
+- check spacing on top of existing board, especially with hdmi ports and fpga bord
+- double check schematic make sure the lvds pinouts are correct
+
+
 Description
 ----------------
 The Open Ephys acquisition extension-board is designed to plug into an existing acquisition board in order to provide
