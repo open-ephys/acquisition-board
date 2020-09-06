@@ -33,9 +33,21 @@ File types
 - .png = image files
 - BOM.txt = contains link to Bill of Materials in a Google Doc
 - BOM.csv = text file containing all the necessary parts; can be viewed in Excel or any text editor
-- .md = Markdown files; most likely a README file; can be viewed with any text edtior
+- .md = Markdown files; most likely a README file; can be viewed with any text editor
 - "gerber" files (.top, .bsk, .oln, etc.) = contain machine-readable instructions for creating the printed circuit board; these are sent to a fab house (such as Sunstone Circuits) for PCB production
 - .SLDPRT files = SolidWorks part files; contain CAD models of 3D components
 - .STL files = stereolithography files; can be sent to a rapid prototyping service (such as Shapeways) to create 3D objects
 - .eps files = specify design of acrylic top for laser cutting
 
+
+Licensing
+-----------------------------
+
+The designs, documentation, and photos available in this repository are free: you can redistribute it and/or modify it under the terms of the used license.
+Check file named LICENSE.
+
+Copyright Open Ephys 2012-2020
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/igo/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/igo/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/igo/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO License</a>.
+
+If your are interested in obtaining a license to sell this device, please contact us via the Open Ephys [contact](http://open-ephys.com/contact/) page
