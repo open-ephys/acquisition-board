@@ -50,6 +50,6 @@ The designs, documentation, and photos available in this repository are free: yo
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/igo/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/igo/88x31.png" /></a><br />
 
-Copyright Open Ephys 2012-2020
-
 If you are interested selling this device, please get in touch with us via the Open Ephys [contact page](http://open-ephys.com/contact/).
+
+© Open Ephys 2012-2020
